@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "components/Layout";
+import Layout from "components/lp-layout";
 
 const IndexPage = (): JSX.Element => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout>
     <h1>チャンネル登録者4.7万人のエンジニアYouTuberがおくるITモノづくりサロン「IT KINGDOM 」</h1>
     <p>ババーンとかっこいい感じ</p>
     <button>入国手続きを行う</button>
