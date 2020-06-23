@@ -9,7 +9,8 @@ const IndexPage = (): JSX.Element => (
 
     <hr />
 
-    <h1>紹介VIDEO</h1>
+    <h1>プロモーション映像（VIDEO）</h1>
+    <p>なんかそれっぽいの作ります</p>
     <iframe
       width="560"
       height="315"
@@ -21,7 +22,7 @@ const IndexPage = (): JSX.Element => (
 
     <hr />
 
-    <h1>WHY（このWHYとかHOWとかの文言は変わる可能性大）</h1>
+    <h1>信念（WHY）</h1>
     <h2>最高のプロダクトを生み出す最強のコミュニティをつくりたい</h2>
     <p>
       私はこのサロンが、最先端で、優れたプロダクトを生み出すための最高の形だと信じています。
@@ -41,7 +42,7 @@ const IndexPage = (): JSX.Element => (
     <small>※ プログラミング学習の予定はなく、プロジェクトの動きや中の様子を見たいだけの方も入っていただけます。</small>
     <hr />
 
-    <h1>HOW</h1>
+    <h1>手法（HOW）</h1>
     <h2>・みんなでプロダクト開発</h2>
     <p>
       私や周りの現役エンジニアが実際に新規事業のプロジェクトをたてます。
@@ -98,7 +99,7 @@ const IndexPage = (): JSX.Element => (
 
     <hr />
 
-    <h1>STEP UP</h1>
+    <h1>訓練（STEP UP）</h1>
     <h2>1. 学習したての方（隊員〜什長）</h2>
     <p>
       プロジェクトにすぐ参加するのは難しいと思うので、まずはプログラミングの基礎知識を身につけましょう。
@@ -127,7 +128,7 @@ const IndexPage = (): JSX.Element => (
 
     <hr />
 
-    <h1>WHO</h1>
+    <h1>紹介（WHO）</h1>
     <h2>しまぶー（国王）</h2>
     <p>
       神戸大学経営学部卒。文系から独学でプログラミングを勉強し、新卒でヤフー株式会社に入社。
@@ -137,14 +138,14 @@ const IndexPage = (): JSX.Element => (
 
     <h3>まっつん（相国）</h3>
     <p>
-      新卒でヤフーに入社し、決済の部署でインフラ・バックエンドを担当。現在は私と一緒に起業。
+      新卒でヤフーに入社し、決済の部署でインフラ・バックエンドを担当。現在はしまぶーと一緒に起業。
       当コミュニティではバックエンドの取りまとめを行う。
     </p>
 
     <h3>いっぽん（左丞相）</h3>
     <p>
-      新卒でクックパッドに入社し、現在はITベンチャーで転職して勤務中。
-      アプリ開発やフロントエンド・デザインに秀でており、当コミュニティでもその分野を担当。
+      新卒でクックパッドに入社し、現在はITベンチャーに転職して勤務中。
+      アプリ開発・フロントエンド・デザインに秀でており、当コミュニティでもその分野を担当。
     </p>
 
     <h3>やす（右丞相）</h3>
@@ -154,11 +155,11 @@ const IndexPage = (): JSX.Element => (
     </p>
 
     <h3>and more...</h3>
-    <p>今後、六大将軍・三大天・魏火龍七師とか決めていきたい（キングダム好きすぎ）</p>
+    <p>今後、六大将軍とか決めていきたい（キングダム好きすぎ）</p>
 
     <hr />
 
-    <h1>MESSAGE</h1>
+    <h1>国王からの通達（MESSAGE）</h1>
 
     <p>
       このサロンはただのプログラミングを教えるだけのサロンではありません。
@@ -183,7 +184,22 @@ const IndexPage = (): JSX.Element => (
 
     <hr />
 
-    <h1>入国方法</h1>
+    <h1>料金（PRICE）</h1>
+
+    <h2>2,980円/月</h2>
+    <p>
+      Qastなどの外部サービス利用料は含まれております。
+      オフラインの勉強会を開催する場合は会場費・飲食費・講師代など、別途費用がかかる可能性があります。
+      ※現在β期間のため、値段が変動する可能性あり。
+    </p>
+
+    <p>
+      現在テスト期間のため、100名限定で受け付けております。国内の整備が拡充されたら（準備が整い次第）再度募集を行います。
+    </p>
+
+    <hr />
+
+    <h1>入国方法（ENTRY）</h1>
     <h2>1. ログインを行う</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at
@@ -213,6 +229,8 @@ const IndexPage = (): JSX.Element => (
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at
       voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
     </p>
+
+    <button>入国手続きを行う</button>
 
     <style jsx>{`
       h1 {
