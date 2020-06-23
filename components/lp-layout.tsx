@@ -5,7 +5,7 @@ import Head from "next/head";
 const HEADER_NAVS = [
   { href: "/", label: "トップページ" },
   { href: "/faq", label: "よくある質問" },
-  { href: "/qin", label: "ログイン" },
+  { href: "/qin/use", label: "ログイン" },
 ];
 
 const FOOTER_NAVS = [
