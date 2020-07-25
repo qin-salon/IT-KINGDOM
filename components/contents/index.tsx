@@ -45,7 +45,7 @@ export function Contents(): JSX.Element {
       <h1>CONTENTS</h1>
       <ul>
         {ITEMS.map(({ src, title, body, notes }, index) => (
-          <li key={title}>
+          <li key={title} style={(index + 1) % 2 === 0 ? undefined : { backgroundImage: `url("./img/ink.png")` }}>
             <img src={src} />
             <h2>
               <span>{String(index + 1).padStart(2, "0")}. </span>

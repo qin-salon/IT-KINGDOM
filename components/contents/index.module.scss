@@ -11,9 +11,7 @@
       display: grid;
       &:nth-child(odd) {
         background-color: #1f1f1f;
-        background-image: url("http://localhost:3000/img/ink.png");
         background-position: center center;
-
         grid-template:
           "... ... ... ..... ..." 40px
           "... img ... title ..."
