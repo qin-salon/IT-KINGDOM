@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 export function Vision(): JSX.Element {
   return (
     <section className={styles.container}>
-      <img src="/img/weapon.png" />
+      <img src="/img/weapon.png" alt="Vision section's icon" loading="lazy" />
 
       <h1>
         <strong>最高</strong>の<span>プロダクト</span>を生み出す
@@ -25,8 +25,8 @@ export function Vision(): JSX.Element {
         <p className="sansSerif">
           メンバーの戦闘力の強化。最高のプロダクトを作るコミュニティにできるよう最善を尽くします。
         </p>
-        <img className={styles.goldPowder} src="/img/gold-powder.png" />
-        <img className={styles.knight} src="/img/knight.png" />
+        <img className={styles.goldPowder} src="/img/gold-powder.png" alt="Background image of frame" loading="lazy" />
+        <img className={styles.knight} src="/img/knight.png" alt="Salon owner image" loading="lazy" />
       </div>
       <div>
         <h2>
@@ -39,8 +39,8 @@ export function Vision(): JSX.Element {
           <br />
           また学んだことは積極的にアウトプットを行い、コミュニティ全体をパワーアップさせてください。
         </p>
-        <img className={styles.goldPowder} src="/img/gold-powder.png" />
-        <img className={styles.soldiers} src="/img/soldiers.png" />
+        <img className={styles.goldPowder} src="/img/gold-powder.png" alt="Background image of frame" loading="lazy" />
+        <img className={styles.soldiers} src="/img/soldiers.png" alt="Salon members image" loading="lazy" />
       </div>
 
       <small className="sansSerif">

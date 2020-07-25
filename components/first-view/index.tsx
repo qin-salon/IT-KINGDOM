@@ -15,10 +15,10 @@ export function FirstView(): JSX.Element {
           </div>
           <div>ITモノづくりサロン</div>
         </h1>
-        <img src="/img/logo.png" />
+        <img src="/img/logo.png" alt="Logo image of 'IT KINGDOM'" />
         <Link href="/">
           <a>
-            <img src="/img/entry-btn.png" />
+            <img src="/img/entry-btn.png" alt="Entry button" />
           </a>
         </Link>
       </div>

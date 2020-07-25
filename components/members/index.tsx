@@ -40,7 +40,7 @@ export function Members(): JSX.Element {
       <ul>
         {MEMBERS.map((member) => (
           <li key={member.name}>
-            <img src={member.src} />
+            <img src={member.src} alt={`${member.name}'s photograph`} loading="lazy" />
             <h1>{member.name}</h1>
             <h2>{member.rank}</h2>
             <p className="sansSerif">{member.introduction}</p>

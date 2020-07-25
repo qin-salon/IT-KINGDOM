@@ -51,7 +51,7 @@ export function Entry(): JSX.Element {
 
       <Link href="/">
         <a>
-          <img src="/img/entry-btn.png" />
+          <img src="/img/entry-btn.png" alt="Entry button" loading="lazy" />
         </a>
       </Link>
     </section>

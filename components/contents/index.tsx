@@ -46,7 +46,7 @@ export function Contents(): JSX.Element {
       <ul>
         {ITEMS.map(({ src, title, body, notes }, index) => (
           <li key={title} style={(index + 1) % 2 === 0 ? undefined : { backgroundImage: `url("./img/ink.png")` }}>
-            <img src={src} />
+            <img src={src} alt={`Image of "${title}"`} loading="lazy" />
             <h2>
               <span>{String(index + 1).padStart(2, "0")}. </span>
               {title}

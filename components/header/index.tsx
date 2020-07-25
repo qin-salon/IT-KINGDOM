@@ -6,7 +6,7 @@ export function Header(): JSX.Element {
   return (
     <header className={styles.container}>
       <h1>
-        <img src="/img/logo.png" />
+        <img src="/img/logo.png" alt="Logo image of 'IT KINGDOM'" />
       </h1>
       <nav className="sansSerif">
         <ul>
