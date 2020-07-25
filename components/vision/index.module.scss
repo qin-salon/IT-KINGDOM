@@ -1,0 +1,119 @@
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px 0 100px;
+  position: relative;
+  > img {
+    display: block;
+    width: 60px;
+    margin: 0 auto 20px;
+  }
+  > h1,
+  > p {
+    z-index: 1;
+    position: relative;
+  }
+  > h1 {
+    color: #b3ac8a;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    > strong {
+      color: #fff;
+      font-size: 1.3em;
+      background: linear-gradient(transparent 60%, #b3ac8a7a 60%);
+      padding: 0 0 3px 2px;
+      margin-right: 3px;
+    }
+    > span {
+      font-size: 1.1em;
+    }
+  }
+  > p {
+    text-align: center;
+    margin: 48px auto 60px;
+    font-size: 0.9rem;
+    line-height: 2.2;
+  }
+  > div {
+    padding: 40px 24px 44px;
+    border: 1px solid #b3ac8a;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    > h2 {
+      color: #b3ac8a;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+      > strong {
+        color: #fff;
+        font-size: 1.4em;
+      }
+    }
+    > p {
+      margin-top: 28px;
+      font-size: 0.9rem;
+      line-height: 2.2;
+    }
+    > h2,
+    > p {
+      z-index: 1;
+      position: relative;
+    }
+  }
+  > div + div {
+    margin-top: 12px;
+  }
+  > div:nth-of-type(1) {
+    > img.goldPowder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 160px;
+      height: 80%;
+    }
+    > img.knight {
+      position: absolute;
+      bottom: 0;
+      width: 160px;
+      right: 12px;
+    }
+  }
+  > div:nth-of-type(2) {
+    > img.goldPowder {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 160px;
+      height: 80%;
+    }
+    > img.soldiers {
+      position: absolute;
+      bottom: 0;
+      left: 0px;
+      height: 100%;
+    }
+  }
+  > small {
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+  }
+  > span {
+    position: absolute;
+    color: #29261d;
+    font-size: 12rem;
+    &.sai {
+      top: 60px;
+      left: -20px;
+    }
+    &.kou {
+      top: -40px;
+      left: 128px;
+    }
+    &.kyou {
+      top: 172px;
+      left: 132px;
+    }
+  }
+}

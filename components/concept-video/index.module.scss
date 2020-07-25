@@ -1,0 +1,13 @@
+.container {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  text-align: center;
+  > h1 {
+    color: #b3ac8a;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+  }
+}

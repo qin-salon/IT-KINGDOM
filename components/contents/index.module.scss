@@ -1,0 +1,82 @@
+.container {
+  > h1 {
+    color: #b3ac8a;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  > ul {
+    > li {
+      display: grid;
+      &:nth-child(odd) {
+        background-color: #1f1f1f;
+        background-image: url("http://localhost:3000/img/ink.png");
+        background-position: center center;
+
+        grid-template:
+          "... ... ... ..... ..." 40px
+          "... img ... title ..."
+          "... img ... ..... ..." 24px
+          "... img ... body  ..." 1fr
+          "... img ... ..... ..." 4px
+          "... img ... notes ..."
+          "... ... ... ..... ..." 40px
+          / calc((100% - 940px) / 2) 220px 40px 1fr calc((100% - 940px) / 2);
+      }
+      &:nth-child(even) {
+        grid-template:
+          "... ..... ... ... ..." 40px
+          "... title ... img ..."
+          "... ..... ... img ..." 24px
+          "... body  ... img ..." 1fr
+          "... ..... ... img ..." 4px
+          "... notes ... img ..."
+          "... ..... ... ... ..." 40px
+          / calc((100% - 940px) / 2) 1fr 40px 220px calc((100% - 940px) / 2);
+      }
+      > img {
+        grid-area: img;
+        width: 100%;
+      }
+      > h2 {
+        grid-area: title;
+        color: #b3ac8a;
+        line-height: 1;
+        font-size: 1.8rem;
+        font-weight: 400;
+        > span {
+          font-size: 1.6em;
+        }
+      }
+      > p {
+        grid-area: body;
+        font-size: 0.9rem;
+        line-height: 2;
+        white-space: pre-line;
+      }
+      > ul {
+        grid-area: notes;
+        > li {
+          font-size: 0.8rem;
+          line-height: 2.2;
+        }
+      }
+    }
+  }
+  > div {
+    width: 940px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+    border-bottom: 1px solid #29261d;
+    text-align: center;
+    > .headline {
+      margin-bottom: 32px;
+    }
+    > p {
+      font-size: 0.9rem;
+      line-height: 2;
+      white-space: pre-line;
+    }
+  }
+}

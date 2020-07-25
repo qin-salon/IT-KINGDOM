@@ -1,0 +1,54 @@
+.container {
+  height: 780px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  > div {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > h1 {
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      text-align: center;
+      > div {
+        > strong {
+          color: #caa72a;
+          background: -webkit-linear-gradient(270deg, #fff, #caa72a);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 2.1em;
+          margin: 0 2px;
+        }
+        > span {
+          font-size: 1.05em;
+          letter-spacing: 2px;
+        }
+      }
+      > div:nth-of-type(1) {
+        font-size: 0.85em;
+        margin-bottom: 2px;
+      }
+      > div:nth-of-type(2) {
+        margin-bottom: 6px;
+      }
+    }
+    > img {
+      width: 860px;
+      margin-top: 52px;
+    }
+    > a {
+      display: block;
+      width: 440px;
+      font-size: 1.6rem;
+      margin: 64px auto 0;
+      > img {
+        width: 100%;
+      }
+    }
+  }
+}

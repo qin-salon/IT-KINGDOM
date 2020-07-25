@@ -1,0 +1,20 @@
+.container {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 60px 0 200px;
+  > .headline {
+    margin-bottom: 32px;
+  }
+  > p {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2;
+    white-space: pre-line;
+  }
+  > p + p {
+    margin-top: 32px;
+  }
+}

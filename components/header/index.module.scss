@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 28px 32px 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  > h1 {
+    display: flex;
+    align-items: center;
+    > img {
+      width: 152px;
+    }
+  }
+  > nav {
+    margin-left: auto;
+    > ul {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 24px;
+      > li {
+        > a {
+          font-size: 0.9rem;
+          color: #fff;
+          text-decoration: none;
+        }
+        &:last-of-type {
+          > a {
+            border: 1px solid #fff;
+            border-radius: 100px;
+            padding: 12px 32px;
+          }
+        }
+      }
+    }
+  }
+}
