@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./index.module.scss";
+import clsx from "clsx";
 
 type Props = {
   title: string;
@@ -21,10 +22,8 @@ export function Headline({
   return React.createElement(
     type,
     {
-      style: { fontSize: baseFontSize },
-      className: coloredTitle
-        ? `${className} ${styles.container} ${styles.coloredTitle}`
-        : `${className} ${styles.container}`,
+      // style: { fontSize: baseFontSize },
+      className: clsx(className, styles.container, { [styles.coloredTitle]: coloredTitle }),
     },
     <>
       <span>{label}</span>

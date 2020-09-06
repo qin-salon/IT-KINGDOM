@@ -45,7 +45,11 @@ export function Contents(): JSX.Element {
       <h1>CONTENTS</h1>
       <ul>
         {ITEMS.map(({ src, title, body, notes }, index) => (
-          <li key={title} style={(index + 1) % 2 === 0 ? undefined : { backgroundImage: `url("./img/ink.png")` }}>
+          <li
+            key={title}
+            className={styles.content}
+            style={(index + 1) % 2 === 0 ? undefined : { backgroundImage: `url("./img/ink.png")` }}
+          >
             <img src={src} alt={`Image of "${title}"`} loading="lazy" />
             <h2>
               <span>{String(index + 1).padStart(2, "0")}. </span>
@@ -62,7 +66,7 @@ export function Contents(): JSX.Element {
           </li>
         ))}
       </ul>
-      <div>
+      <div className={styles.more}>
         <Headline
           title="他にも企画中"
           label="AND MORE"

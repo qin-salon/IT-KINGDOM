@@ -1,109 +1,141 @@
 .container {
-  width: 940px;
+  // width: 100%;
   margin: 0 auto;
   padding: 80px 0 60px;
-  display: flex;
+  // display: flex;
+}
 
-  > h1 {
-    writing-mode: vertical-rl;
-    font-size: 3.2rem;
-    font-weight: 400;
-    line-height: 1;
-    > span {
-      &:nth-of-type(1) {
-        color: #b3ac8a;
-        font-size: 1.2em;
-        letter-spacing: 10px;
-        margin-bottom: 20px;
-      }
-      &:nth-of-type(2) {
-        color: #58564b;
-        font-size: 0.7em;
-        letter-spacing: 6px;
-        font-weight: 100;
-      }
+.title {
+  font-size: clamp(1.1rem, 5vw, 1.8rem);
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: 400;
+  line-height: 1;
+  > span {
+    &:nth-of-type(1) {
+      color: #b3ac8a;
+      font-size: 1.2em;
+      letter-spacing: 10px;
+      margin-bottom: 20px;
+    }
+    &:nth-of-type(2) {
+      color: #58564b;
+      font-size: 0.7em;
+      letter-spacing: 6px;
+      font-weight: 100;
     }
   }
-  div.step {
-    width: 340px;
-    height: 600px;
-    margin: 0 40px;
-    background-size: cover;
-    > ul {
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      > li {
-        height: calc(600px / 4);
+}
+
+.step {
+  width: clamp(320px, 60vw, 500px);
+  height: 600px;
+  margin: 0 auto 32px;
+  background-size: cover;
+  > ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    > li {
+      height: calc(600px / 4);
+      > p {
+        position: absolute;
+        white-space: pre-line;
+      }
+      > span {
+        position: absolute;
+        writing-mode: vertical-rl;
+        font-size: 1.5rem;
+      }
+      &:nth-of-type(1) {
         > p {
-          position: absolute;
-          white-space: pre-line;
+          top: 58px;
+          left: 0;
+          right: 0;
+          text-align: center;
         }
         > span {
-          position: absolute;
-          writing-mode: vertical-rl;
-          font-size: 1.5rem;
+          top: 20px;
+          left: 50px;
         }
-        &:nth-of-type(1) {
-          > p {
-            top: 58px;
-            left: 0;
-            right: 0;
-            text-align: center;
-          }
-          > span {
-            top: 20px;
-            left: 60px;
-          }
+      }
+      &:nth-of-type(2) {
+        > p {
+          top: 206px;
+          left: 68px;
         }
-        &:nth-of-type(2) {
-          > p {
-            top: 206px;
-            left: 68px;
-          }
-          > span {
-            top: 110px;
-            right: 52px;
-          }
+        > span {
+          top: 110px;
+          right: 42px;
         }
-        &:nth-of-type(3) {
-          > p {
-            top: 340px;
-            right: 60px;
-          }
-          > span:nth-of-type(1) {
-            top: 276px;
-            left: 68px;
-          }
-          > span:nth-of-type(2) {
-            top: 324px;
-            left: 36px;
-          }
+      }
+      &:nth-of-type(3) {
+        > p {
+          top: 340px;
+          right: 60px;
         }
-        &:nth-of-type(4) {
-          > p {
-            top: 480px;
-            left: 68px;
-          }
-          > span:nth-of-type(1) {
-            top: 468px;
-            right: 40px;
-            font-size: 1.8rem;
-          }
-          > span:nth-of-type(2) {
-            top: 492px;
-            right: 76px;
-            font-size: 1.9rem;
-          }
+        > span:nth-of-type(1) {
+          top: 276px;
+          left: 58px;
+        }
+        > span:nth-of-type(2) {
+          top: 324px;
+          left: 26px;
+        }
+      }
+      &:nth-of-type(4) {
+        > p {
+          top: 480px;
+          left: 68px;
+        }
+        > span:nth-of-type(1) {
+          top: 468px;
+          right: 30px;
+          font-size: 1.8rem;
+        }
+        > span:nth-of-type(2) {
+          top: 492px;
+          right: 66px;
+          font-size: 1.9rem;
         }
       }
     }
   }
-  div.text {
-    flex: 1;
+}
+
+.text {
+  flex: 1;
+  padding: 0 4%;
+  > p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  > p + p {
+    margin-top: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 0 60px;
+    display: flex;
+  }
+
+  .title {
+    writing-mode: vertical-rl;
+    text-align: left;
+    font-size: 3.2rem;
+  }
+
+  .step {
+    width: 340px;
+    margin: 0 40px;
+  }
+
+  .text {
     > p {
-      font-size: 0.9rem;
-      line-height: 1.6;
       &:nth-of-type(1) {
         color: #9f9f9f;
       }
@@ -116,9 +148,6 @@
       &:nth-of-type(4) {
         color: #ffffff;
       }
-    }
-    > p + p {
-      margin-top: 36px;
     }
   }
 }

@@ -8,7 +8,7 @@ export function Price(): JSX.Element {
       <Headline title="料金" label="PRICE" className={styles.headline} baseFontSize="1rem" />
       <div>
         <div>
-          <span className="sansSerif">月額</span>
+          <span className="sansSerif">月額 (税抜)</span>
           <h2>
             2,980
             <span>円</span>
@@ -17,9 +17,8 @@ export function Price(): JSX.Element {
         <div className="sansSerif">
           <p>
             {`Qastなどの外部サービス利用料は含まれております。
-            オフラインの勉強会を開催する場合は会場費・飲食費・講師代など、
-            別途費用がかかる可能性があります。
-            ※現在β期間のため、値段が変動する可能性あり。`}
+            オフラインの勉強会を開催する場合は会場費・飲食費など、
+            別途費用がかかる可能性があります。`}
           </p>
           <br />
           <b>現在テスト期間のため、100名限定で受け付けております。</b>

@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 export function StepUp(): JSX.Element {
   return (
     <section className={styles.container}>
-      <h1>
+      <h1 className={styles.title}>
         <span>訓練</span>
         <span>STEP UP</span>
       </h1>

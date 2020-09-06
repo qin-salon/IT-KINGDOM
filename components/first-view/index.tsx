@@ -13,7 +13,7 @@ export function FirstView(): JSX.Element {
           <div>
             エンジニア<span>YouTuber</span>がおくる
           </div>
-          <div>ITモノづくりサロン</div>
+          <div>オンラインサロン</div>
         </h1>
         <img src="/img/logo.png" alt="Logo image of 'IT KINGDOM'" />
         <Link href="/">

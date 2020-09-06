@@ -1,24 +1,28 @@
 import React from "react";
+import clsx from "clsx";
 import styles from "./index.module.scss";
 
 export function Vision(): JSX.Element {
   return (
     <section className={styles.container}>
-      <img src="/img/weapon.png" alt="Vision section's icon" loading="lazy" />
+      <img
+        className={clsx(styles.icon, styles.front)}
+        src="/img/weapon.png"
+        alt="Vision section's icon"
+        loading="lazy"
+      />
 
-      <h1>
+      <h1 className={clsx(styles.title, styles.front)}>
         <strong>最高</strong>の<span>プロダクト</span>を生み出す
         <br />
         <strong>最強</strong>の<span>コミュニティ</span>をつくりたい
       </h1>
 
-      <p className="sansSerif">
-        私はこのサロンが、最先端で、優れたプロダクトを生み出すための最高の形だと信じています。
-        <br />
-        みんなで最高のプロダクトを作ろう。
+      <p className={clsx("sansSerif", styles.paragraph, styles.front)}>
+        {`私はこのサロンが、最先端で、優れたプロダクトを生み出すための最高の形だと信じています。\nみんなで最高のプロダクトを作ろう。`}
       </p>
 
-      <div>
+      <div className={styles.frame}>
         <h2>
           そのために<strong>私</strong>がやること
         </h2>
@@ -28,7 +32,7 @@ export function Vision(): JSX.Element {
         <img className={styles.goldPowder} src="/img/gold-powder.png" alt="Background image of frame" loading="lazy" />
         <img className={styles.knight} src="/img/knight.png" alt="Salon owner image" loading="lazy" />
       </div>
-      <div>
+      <div className={styles.frame}>
         <h2>
           <strong>みんな</strong>にやってもらうこと
         </h2>
@@ -43,13 +47,13 @@ export function Vision(): JSX.Element {
         <img className={styles.soldiers} src="/img/soldiers.png" alt="Salon members image" loading="lazy" />
       </div>
 
-      <small className="sansSerif">
+      <small className={clsx("sansSerif", styles.note)}>
         ※ プログラミング学習の予定はなく、プロジェクトの動きや中の様子を見たいだけの方もご加入いただけます。
       </small>
 
-      <span className={styles.sai}>最</span>
-      <span className={styles.kou}>高</span>
-      <span className={styles.kyou}>強</span>
+      <span className={clsx(styles.backgroundText, styles.sai)}>最</span>
+      <span className={clsx(styles.backgroundText, styles.kou)}>高</span>
+      <span className={clsx(styles.backgroundText, styles.kyou)}>強</span>
     </section>
   );
 }

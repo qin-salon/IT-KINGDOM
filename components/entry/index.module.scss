@@ -1,10 +1,9 @@
 .container {
-  padding: 40px 0 100px;
+  padding: 40px 4% 100px;
   > .headline {
     margin-bottom: 40px;
   }
   > ul {
-    width: 940px;
     margin: 0 auto;
     background-color: #fff;
     background-size: cover;
@@ -69,6 +68,14 @@
     margin: 40px auto 0;
     > img {
       width: 100%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    > ul {
+      width: 940px;
     }
   }
 }
