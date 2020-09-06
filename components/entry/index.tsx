@@ -34,7 +34,7 @@ const STEPS = [
 export function Entry(): JSX.Element {
   return (
     <section className={styles.container}>
-      <Headline title="入国方法" label="HOW TO ENTRY" className={styles.headline} baseFontSize="1rem" />
+      <Headline title="入国方法" label="HOW TO ENTRY" className={styles.headline} />
 
       <ul style={{ backgroundImage: `url("./img/ink.png")` }}>
         {STEPS.map((step, index) => (

@@ -5,7 +5,7 @@ import styles from "./index.module.scss";
 export function Price(): JSX.Element {
   return (
     <section className={styles.container}>
-      <Headline title="料金" label="PRICE" className={styles.headline} baseFontSize="1rem" />
+      <Headline title="料金" label="PRICE" className={styles.headline} />
       <div>
         <div>
           <span className="sansSerif">月額 (税抜)</span>

@@ -7,7 +7,7 @@ type Props = {
   label: string;
   type?: keyof React.ReactHTML;
   coloredTitle?: boolean;
-  baseFontSize?: React.CSSProperties["fontSize"];
+  // baseFontSize?: React.CSSProperties["fontSize"];
   className?: string;
 };
 
@@ -16,7 +16,7 @@ export function Headline({
   label,
   type = "h1",
   coloredTitle = false,
-  baseFontSize = "1.2rem",
+  // baseFontSize = "1.2rem",
   className,
 }: Props): JSX.Element {
   return React.createElement(

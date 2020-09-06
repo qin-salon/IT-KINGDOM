@@ -5,7 +5,7 @@ import styles from "./index.module.scss";
 export function Message(): JSX.Element {
   return (
     <section className={styles.container} style={{ backgroundImage: `url("./img/castle-interior.jpg")` }}>
-      <Headline title="国王からの通達" label="MESSAGE" baseFontSize="1.3rem" className={styles.headline} coloredTitle />
+      <Headline title="国王からの通達" label="MESSAGE" className={styles.headline} coloredTitle />
       <p className="sansSerif">
         {`このサロンはただのプログラミングを教えるだけのサロンではありません。
         「最高のプロダクトを生み出す最強のコミュニティをつくりたい」という思いからできています。

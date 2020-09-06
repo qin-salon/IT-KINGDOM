@@ -36,7 +36,7 @@ const MEMBERS = [
 export function Members(): JSX.Element {
   return (
     <section className={styles.container}>
-      <Headline title="陣営" label="MEMBERS" className={styles.headline} baseFontSize="1rem" />
+      <Headline title="陣営" label="MEMBERS" className={styles.headline} />
       <ul>
         {MEMBERS.map((member) => (
           <li key={member.name}>

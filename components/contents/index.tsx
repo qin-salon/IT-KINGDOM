@@ -67,14 +67,7 @@ export function Contents(): JSX.Element {
         ))}
       </ul>
       <div className={styles.more}>
-        <Headline
-          title="他にも企画中"
-          label="AND MORE"
-          type="h2"
-          baseFontSize="1.1rem"
-          className={styles.headline}
-          coloredTitle
-        />
+        <Headline title="他にも企画中" label="AND MORE" type="h2" className={styles.headline} coloredTitle />
         <p className="sansSerif">
           {`ただプログラミングを学ぶだけのサロンではありません。
           最高のプロダクトを生み出すために、日々模索、そして進化していく必要があります。
