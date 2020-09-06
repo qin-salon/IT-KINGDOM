@@ -19,6 +19,6 @@
     "target": "esnext",
     "baseUrl": "."
   },
-  "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "exclude": ["node_modules", ".next", "out"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"]
 }
