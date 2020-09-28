@@ -10,22 +10,17 @@ const STEPS = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
   },
   {
-    title: "PayPal登録を行う",
+    title: "お支払いを行う",
     body:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
   },
   {
-    title: "PayPalでお支払いを行う",
+    title: "プロフィールを登録しましょう",
     body:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
   },
   {
-    title: "プロフィール登録を行いましょう",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
-  },
-  {
-    title: "しまぶーから連絡が来ます。",
+    title: "各種サービスの招待がきます",
     body:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
   },

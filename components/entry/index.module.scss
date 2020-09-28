@@ -12,11 +12,11 @@
       display: grid;
       grid-template-rows: auto auto;
       grid-template-columns: auto 1fr;
-      grid-gap: 16px 20px;
+      grid-gap: 12px 16px;
       align-items: center;
       color: #000;
       background-color: #fffffff2;
-      padding: 44px 44px 40px;
+      padding: 8%;
       position: relative;
       &:not(:first-of-type) {
         border-top: 4px solid #000;
@@ -54,6 +54,9 @@
           }
         }
       }
+      > h2 {
+        font-size: clamp(1.1rem, 4vw, 1.8rem);
+      }
       > p {
         grid-column: span 2;
         font-size: 0.9rem;
@@ -76,6 +79,10 @@
   .container {
     > ul {
       width: 940px;
+      > li {
+        grid-gap: 16px 20px;
+        padding: 44px 44px 40px;
+      }
     }
   }
 }
