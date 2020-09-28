@@ -1,0 +1,720 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <header
+      class="container"
+    >
+      <h1>
+        <img
+          alt="Logo of 'IT KINGDOM'"
+          src="/img/logo.png"
+        />
+      </h1>
+      <nav
+        class="sansSerif"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+            >
+              トップページ
+            </a>
+          </li>
+          <li>
+            <a
+              href="/faq"
+            >
+              よくある質問
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://qin.salon"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              ログイン
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section
+      class="container"
+      style="background-image: url(./img/hero.jpg);"
+    >
+      <div>
+        <h1>
+          <div>
+            チャンネル登録者
+            <strong>
+              5.3万人
+            </strong>
+            の
+          </div>
+          <div>
+            エンジニア
+            <span>
+              YouTuber
+            </span>
+            がおくる
+          </div>
+          <div>
+            オンラインサロン
+          </div>
+        </h1>
+        <img
+          alt="Logo of 'IT KINGDOM'"
+          src="/img/logo.png"
+        />
+        <a
+          href="/"
+        >
+          <img
+            alt="Entry button"
+            src="/img/entry-btn.png"
+          />
+        </a>
+      </div>
+    </section>
+    <section
+      class="container"
+      style="background-image: url(./img/smoke.jpg);"
+    >
+      <h1>
+        CONCEPT MOVIE
+      </h1>
+      <div
+        class="responsiveVideo"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          frameborder="0"
+          height="405"
+          src="https://www.youtube.com/embed/9XVuUr4DbNU"
+          title="Concept movie"
+          width="720"
+        />
+      </div>
+    </section>
+    <section
+      class="container"
+    >
+      <img
+        alt="Vision section's icon"
+        class="icon front"
+        loading="lazy"
+        src="/img/weapon.png"
+      />
+      <h1
+        class="title front"
+      >
+        <strong>
+          最高
+        </strong>
+        の
+        <span>
+          プロダクト
+        </span>
+        を生み出す
+        <br />
+        <strong>
+          最強
+        </strong>
+        の
+        <span>
+          コミュニティ
+        </span>
+        をつくりたい
+      </h1>
+      <p
+        class="sansSerif paragraph front"
+      >
+        私はこのサロンが、最先端で、優れたプロダクトを生み出すための最高の形だと信じています。
+みんなで最高のプロダクトを作ろう。
+      </p>
+      <div
+        class="frame"
+      >
+        <h2>
+          そのために
+          <strong>
+            私
+          </strong>
+          がやること
+        </h2>
+        <p
+          class="sansSerif"
+        >
+          メンバーの戦闘力の強化。最高のプロダクトを作るコミュニティにできるよう最善を尽くします。
+        </p>
+        <img
+          alt="Background of frame"
+          class="goldPowder"
+          loading="lazy"
+          src="/img/gold-powder.png"
+        />
+        <img
+          alt="Salon owner"
+          class="knight"
+          loading="lazy"
+          src="/img/knight.png"
+        />
+      </div>
+      <div
+        class="frame"
+      >
+        <h2>
+          <strong>
+            みんな
+          </strong>
+          にやってもらうこと
+        </h2>
+        <p
+          class="sansSerif"
+        >
+          自分の戦闘力の強化。最高のプロダクトを作るために、日々研鑽していただきます。
+          <br />
+          実際にプロダクト開発に参加しながら学んでいただきます。
+          <br />
+          また学んだことは積極的にアウトプットを行い、コミュニティ全体をパワーアップさせてください。
+        </p>
+        <img
+          alt="Background of frame"
+          class="goldPowder"
+          loading="lazy"
+          src="/img/gold-powder.png"
+        />
+        <img
+          alt="Salon members"
+          class="soldiers"
+          loading="lazy"
+          src="/img/soldiers.png"
+        />
+      </div>
+      <small
+        class="sansSerif note"
+      >
+        ※ プログラミング学習の予定はなく、プロジェクトの動きや中の様子を見たいだけの方もご加入いただけます。
+      </small>
+      <span
+        class="backgroundText sai"
+      >
+        最
+      </span>
+      <span
+        class="backgroundText kou"
+      >
+        高
+      </span>
+      <span
+        class="backgroundText kyou"
+      >
+        強
+      </span>
+    </section>
+    <section
+      class="container"
+    >
+      <h1>
+        CONTENTS
+      </h1>
+      <ul>
+        <li
+          class="content"
+          style="background-image: url(./img/ink.png);"
+        >
+          <img
+            alt="みんなでプロダクト開発"
+            loading="lazy"
+            src="/img/qast.png"
+          />
+          <h2>
+            <span>
+              01. 
+            </span>
+            みんなでプロダクト開発
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            私や周りの現役エンジニアが実際に新規事業のプロジェクトをたてます。
+プロジェクトはみんなが開発に参加できるように、GitHubを用いてコミュニティ内部限定のオープンソースで行います。 みなさんには私や現役エンジニアと一緒にプロダクトの改善をしていっていってもらいます。 コードを読んで勉強したり、実際に開発に参加してもらうことで実戦経験にもなります。 プロダクトが完成したら実際にリリースして、世の中のユーザーに使ってもらいましょう。
+          </p>
+        </li>
+        <li
+          class="content"
+        >
+          <img
+            alt="匿名で質問"
+            loading="lazy"
+            src="/img/qast.png"
+          />
+          <h2>
+            <span>
+              02. 
+            </span>
+            匿名で質問
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            Qastというサービスを使用します。Qastには匿名で質問を行う機能があります。 何度も質問をするのは気が引ける、初歩的すぎて聞くのが恥ずかしいという方にも使っていただけます。 また私だけではなく誰でも回答できます。回答することでポイントが溜まっていきます。 自分が学ぶだけでなく、みんなで教え合い、コミュニティのナレッジを蓄えていきましょう。
+          </p>
+        </li>
+        <li
+          class="content"
+          style="background-image: url(./img/ink.png);"
+        >
+          <img
+            alt="ブログの購読・執筆"
+            loading="lazy"
+            src="/img/qast.png"
+          />
+          <h2>
+            <span>
+              03. 
+            </span>
+            ブログの購読・執筆
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            Qastではブログを書くことも可能です。私のブログは当コミュニティ限定で読むことができます。 私以外にも有名企業出身のエンジニアも学びになるブログを執筆予定です。 フロントエンドだけではなくバックエンド・アプリエンジニア、後々は機械学習エンジニアも参加予定です。 また誰でもブログは書くことができるので、学んだことを積極的にアウトプットしていきましょう。 Qiitaだとたくさんの人に間違いを指摘されて怖いかもしれませんが、当コミュニティはみんなが優しく教えてくれます。
+          </p>
+        </li>
+        <li
+          class="content"
+        >
+          <img
+            alt="ニュース配信"
+            loading="lazy"
+            src="/img/qast.png"
+          />
+          <h2>
+            <span>
+              04. 
+            </span>
+            ニュース配信
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            私の信念は「最高のプロダクトを生み出すコミュニティをつくること」です。 優れたプロダクトを知るためには世の中の動向を知る必要があります。 私が重要だと思ったニュースをコミュニティ内でシェアしたり、時事ネタを解説します。 コメント欄で議論を行い、みんなでアイディアの精度を高めていきましょう。
+          </p>
+        </li>
+        <li
+          class="content"
+          style="background-image: url(./img/ink.png);"
+        >
+          <img
+            alt="コミュニティ限定の勉強会"
+            loading="lazy"
+            src="/img/qast.png"
+          />
+          <h2>
+            <span>
+              05. 
+            </span>
+            コミュニティ限定の勉強会
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            コミュニティのメンバーしか参加できないオフラインでの講座を考えています。 フロントエンド・バックエンド・アプリ開発など講座内容は適宜考えていきます。 プログラミング以外だと就活・転職活動講座も考えています。 またコミュニティ内での交流はモチベーションの向上に繋がると考えており、 プログラミングを一緒に勉強するもくもく会や、交流会も開催予定です。 東京だけでなく各都市でも定期的に行いたいと考えています。
+          </p>
+          <ul>
+            <li
+              class="sansSerif"
+            >
+              ※1 新型コロナウイルス感染症の影響が落ち着いてから計画いたします。
+            </li>
+            <li
+              class="sansSerif"
+            >
+              ※2 オフラインでの講座は別途、費用がかかります。
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div
+        class="more"
+      >
+        <h2
+          class="headline container coloredTitle"
+        >
+          <span>
+            AND MORE
+          </span>
+          <span>
+            他にも企画中
+          </span>
+        </h2>
+        <p
+          class="sansSerif"
+        >
+          ただプログラミングを学ぶだけのサロンではありません。
+          最高のプロダクトを生み出すために、日々模索、そして進化していく必要があります。
+          コミュニティのあり方をみんなと一緒に考え、みんなで成長させていくことが何よりも重要です。
+          ここに書いてある以外にもおもしろいことは積極的に開催しましょう。
+        </p>
+      </div>
+    </section>
+    <section
+      class="container"
+    >
+      <h1
+        class="title"
+      >
+        <span>
+          訓練
+        </span>
+        <span>
+          STEP UP
+        </span>
+      </h1>
+      <div
+        class="step"
+        style="background-image: url(./img/step.jpg);"
+      >
+        <ul>
+          <li>
+            <p>
+              学習したての方
+            </p>
+            <span>
+              隊員〜什長
+            </span>
+          </li>
+          <li>
+            <p>
+              基礎が分かってきた方
+            </p>
+            <span>
+              百人将〜千人将
+            </span>
+          </li>
+          <li>
+            <p>
+              開発ができる
+ようになってきた方
+            </p>
+            <span>
+              二千人将〜
+            </span>
+            <span>
+              五千人将
+            </span>
+          </li>
+          <li>
+            <p>
+              一通り経験して
+コミュニティを
+リードできる方
+            </p>
+            <span>
+              将軍、
+            </span>
+            <span>
+              大将軍
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="sansSerif text"
+      >
+        <p>
+          プロジェクトにすぐ参加するのは難しいと思うので、まずはプログラミングの基礎知識を身につけましょう。 （もちろんプロジェクトのコードはいつでも読むことはできます）。 初心者向けの記事やGitHubを用いたプログラミング教材も用意する予定です。 分からないところは過去にみんなが書いた記事からヒントを得たり、匿名で質問して助けてもらうことができます。
+        </p>
+        <p>
+          実際にプロジェクトの開発に参加しましょう。 最初はコードが読めなかったり、何しているか分からなかったりするかと思います。 ドキュメントはしっかり残す予定なので、ドキュメントを読みながら理解をしていって それでも分からない部分は質問して解決しましょう。 また定期的にコード解説の会を設ける予定です。
+        </p>
+        <p>
+          どんどんコードを書いて、プロジェクトをリードしていってください。 みんなが出すPR（プルリクエスト）をレビューしたり、コードをリファクタしたり、 より良いプロダクトに育て上げていってください。 一緒に仕様を決めたり、タスクの割り振りなどもやりましょう。
+        </p>
+        <p>
+          一緒にIT KINGDOMの運営をしましょう。個別に連絡させていただきます。
+        </p>
+      </div>
+    </section>
+    <section
+      class="container"
+    >
+      <h1
+        class="headline container"
+      >
+        <span>
+          MEMBERS
+        </span>
+        <span>
+          陣営
+        </span>
+      </h1>
+      <ul>
+        <li>
+          <img
+            alt="しまぶー's photograph"
+            loading="lazy"
+            src="/img/knight.png"
+          />
+          <h1>
+            しまぶー
+          </h1>
+          <h2>
+            国王
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            神戸大学経営学部卒。文系から独学でプログラミングを勉強し、新卒でヤフー株式会社に入社。新規事業部署でフロントエンドを担当した後に、知り合いづてで転職。フルリモートで働きながら様々な案件開発を行う。2019年に投資家から資金調達を行い起業。現在は新規のプロダクト開発に励んでいる。
+          </p>
+        </li>
+        <li>
+          <img
+            alt="一歩's photograph"
+            loading="lazy"
+            src="/img/knight.png"
+          />
+          <h1>
+            一歩
+          </h1>
+          <h2>
+            左丞相
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            新卒でクックパッドに入社し、現在はITベンチャーに転職して勤務中。アプリ開発・フロントエンド・デザインに秀でており、当コミュニティでもその分野を担当。
+          </p>
+        </li>
+        <li>
+          <img
+            alt="まっつん's photograph"
+            loading="lazy"
+            src="/img/knight.png"
+          />
+          <h1>
+            まっつん
+          </h1>
+          <h2>
+            相国
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            新卒でヤフーに入社し、決済の部署でインフラ・バックエンドを担当。現在はしまぶーと一緒に起業。当コミュニティではバックエンドの取りまとめを行う。
+          </p>
+        </li>
+        <li>
+          <img
+            alt="やっさん's photograph"
+            loading="lazy"
+            src="/img/knight.png"
+          />
+          <h1>
+            やっさん
+          </h1>
+          <h2>
+            右丞相
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            現役ヤフーエンジニア。幅広いエンジニアリング知識を持っている。聞けばだいたいの答えは返ってくるので、当コミュニティでは分野問わず幅広く担当する。
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section
+      class="container"
+      style="background-image: url(./img/castle-interior.jpg);"
+    >
+      <h1
+        class="headline container coloredTitle"
+      >
+        <span>
+          MESSAGE
+        </span>
+        <span>
+          国王からの通達
+        </span>
+      </h1>
+      <p
+        class="sansSerif"
+      >
+        このサロンはただのプログラミングを教えるだけのサロンではありません。
+        「最高のプロダクトを生み出す最強のコミュニティをつくりたい」という思いからできています。
+        あくまで根底にあるのはモノづくりです。学んで終わりではなく実際にプロダクトをリリースしていきます。
+        この思いに共感できる方、ワクワクする方に入っていただきたいと思います。
+      </p>
+      <p
+        class="sansSerif"
+      >
+        私はこの信念の実現に向けて最強のコミュニティづくりに注力します。
+        もちろんその中には「プログラミングスキルの向上」も最優先事項として含まれています。
+        エンジニアを目指す方も多いかと思いますが、それはこのサロンも願っていることです。
+        みなさんがIT企業に就職し、更にスキルアップして、より最高のプロダクトづくりができることを求めています。
+        そのためのサポートは惜しみなく行う予定です。
+      </p>
+      <p
+        class="sansSerif"
+      >
+        正直、このようなサロンは前例がないレベルの最先端な取り組みだと思っています。
+        私自身うまく立ち回れるか不安ですが、そういった不安も一緒に楽しめる方に入っていただけると嬉しいです。
+        個人の進化はもちろん、コミュニティの進化も目指して、一緒に最高のモノづくりをしましょう。
+      </p>
+    </section>
+    <section
+      class="container"
+    >
+      <h1
+        class="headline container"
+      >
+        <span>
+          PRICE
+        </span>
+        <span>
+          料金
+        </span>
+      </h1>
+      <div>
+        <div>
+          <span
+            class="sansSerif"
+          >
+            月額 (税抜)
+          </span>
+          <h2>
+            2,980
+            <span>
+              円
+            </span>
+          </h2>
+        </div>
+        <div
+          class="sansSerif"
+        >
+          <p>
+            Qastなどの外部サービス利用料は含まれております。
+            オフラインの勉強会を開催する場合は会場費・飲食費など、
+            別途費用がかかる可能性があります。
+          </p>
+          <br />
+          <b>
+            現在テスト期間のため、100名限定で受け付けております。
+          </b>
+          <span>
+            テストが終わり次第、再度募集を行います。
+          </span>
+        </div>
+      </div>
+    </section>
+    <section
+      class="container"
+    >
+      <h1
+        class="headline container"
+      >
+        <span>
+          HOW TO ENTRY
+        </span>
+        <span>
+          入国方法
+        </span>
+      </h1>
+      <ul
+        style="background-image: url(./img/ink.png);"
+      >
+        <li>
+          <div>
+            <span>
+              STEP
+            </span>
+            <span>
+              1
+            </span>
+          </div>
+          <h2>
+            ログインを行う
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
+          </p>
+        </li>
+        <li>
+          <div>
+            <span>
+              STEP
+            </span>
+            <span>
+              2
+            </span>
+          </div>
+          <h2>
+            お支払いを行う
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
+          </p>
+        </li>
+        <li>
+          <div>
+            <span>
+              STEP
+            </span>
+            <span>
+              3
+            </span>
+          </div>
+          <h2>
+            プロフィールを登録しましょう
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
+          </p>
+        </li>
+        <li>
+          <div>
+            <span>
+              STEP
+            </span>
+            <span>
+              4
+            </span>
+          </div>
+          <h2>
+            各種サービスの招待がきます
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
+          </p>
+        </li>
+      </ul>
+      <a
+        href="/"
+      >
+        <img
+          alt="Entry button"
+          loading="lazy"
+          src="/img/entry-btn.png"
+        />
+      </a>
+    </section>
+  </div>
+</DocumentFragment>
+`;
