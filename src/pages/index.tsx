@@ -1,4 +1,5 @@
 import type { GetStaticProps } from "next";
+import Head from "next/head";
 import { ConceptVideo } from "src/components/concept-video";
 import { Contents } from "src/components/contents";
 import { FirstView } from "src/components/first-view";
@@ -14,17 +15,26 @@ type Props = { subscriberCount: number };
 
 export default function IndexPage(props: Props): JSX.Element {
   return (
-    <Global>
-      <Header />
-      <FirstView subscriberCount={props.subscriberCount} />
-      <ConceptVideo />
-      <Vision />
-      <Contents />
-      <StepUp />
-      <Members />
-      <MessagePriceEntry />
-      <Footer />
-    </Global>
+    <>
+      <Head>
+        <title>IT KINGDOM - プログラミング × オンラインサロン</title>
+        <meta
+          name="description"
+          content={`チャンネル登録者${props.subscriberCount}人のプログラミングYouTuberによるオンラインサロン。ヤフーやクックパッドなど国内大手IT企業出身の現役ITエンジニアが運営。`}
+        />
+      </Head>
+      <Global>
+        <Header />
+        <FirstView subscriberCount={props.subscriberCount} />
+        <ConceptVideo />
+        <Vision />
+        <Contents />
+        <StepUp />
+        <Members />
+        <MessagePriceEntry />
+        <Footer />
+      </Global>
+    </>
   );
 }
 
