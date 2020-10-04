@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 20px 0 100px;
+  padding: 40px 0 100px;
   position: relative;
   overflow: hidden;
 }
@@ -126,15 +126,15 @@
   color: rgb(41 38 29 / 80%);
   font-size: 6rem;
   &.sai {
-    top: 60px;
+    top: 80px;
     left: 0;
   }
   &.kou {
-    top: 10px;
+    top: 30px;
     left: 76px;
   }
   &.kyou {
-    top: 116px;
+    top: 136px;
     left: 76px;
   }
 }
@@ -158,15 +158,15 @@
   .backgroundText {
     font-size: 8rem;
     &.sai {
-      top: 60px;
+      top: 80px;
       left: 0;
     }
     &.kou {
-      top: 8px;
+      top: 28px;
       left: 104px;
     }
     &.kyou {
-      top: 136px;
+      top: 156px;
       left: 104px;
     }
   }
@@ -183,15 +183,15 @@
     color: rgb(41 38 29 / 100%);
     font-size: 12rem;
     &.sai {
-      top: 60px;
+      top: 80px;
       left: -20px;
     }
     &.kou {
-      top: -40px;
+      top: -20px;
       left: 128px;
     }
     &.kyou {
-      top: 172px;
+      top: 192px;
       left: 132px;
     }
   }

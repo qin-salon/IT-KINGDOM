@@ -47,3 +47,9 @@
     }
   }
 }
+
+@media (min-width: 2000px) {
+  .container {
+    padding: calc(4vw + 4vh) 0;
+  }
+}
