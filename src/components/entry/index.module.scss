@@ -81,5 +81,8 @@
     &:not(:first-of-type) {
       border-top: 5px solid #000;
     }
+    > h2 {
+      font-weight: 400;
+    }
   }
 }

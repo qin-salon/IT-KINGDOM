@@ -18,7 +18,7 @@ export function Vision(): JSX.Element {
       </h1>
 
       <p className={clsx("sansSerif", styles.paragraph, styles.front)}>
-        {`私はこのサロンから世界中で使われるような最高のプロダクトを生み出したいと思っています。\nみんなでスキルアップして良いプロダクトを作りましょう。`}
+        {`私はこのサロンから世界中で使われる最高のプロダクトを生み出したいと思っています。\nみんなでスキルアップして良いプロダクトを作りましょう。`}
       </p>
 
       <div className={styles.frame}>
