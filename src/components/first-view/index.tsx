@@ -2,7 +2,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import styles from "src/components/first-view/index.module.scss";
 
-const NUMBER = 6.7;
+const NUMBER = 6.8;
 
 export function FirstView(): JSX.Element {
   return (

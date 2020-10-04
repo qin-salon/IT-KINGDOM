@@ -39,6 +39,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   text-shadow: $-shadow;
   &::before {
     position: absolute;
+    width: max-content;
     color: rgba(0, 0, 0, 0);
     background: -webkit-linear-gradient(270deg, #fff, #caa72a);
     background-clip: text;

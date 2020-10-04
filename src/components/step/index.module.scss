@@ -6,6 +6,7 @@
 
 .title_step {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
   margin-bottom: 52px;
 }
@@ -33,14 +34,14 @@
 
 .step {
   margin: calc(-7vw - 2vh) 0 0 4%;
-  width: 70%;
-  flex: 1;
+  width: 80%;
   max-width: 400px;
   height: auto;
 }
 
 .text {
   font-size: 0.9rem;
+  flex: 1;
   > li {
     > h2 {
       margin-bottom: 12px;
@@ -100,6 +101,6 @@
   }
   .step {
     margin: -40px min(3%, 40px);
-    width: min(40vw, 400px);
+    width: min(40vw, 340px);
   }
 }
