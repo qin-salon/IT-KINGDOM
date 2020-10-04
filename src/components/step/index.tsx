@@ -32,7 +32,9 @@ export function StepUp(): JSX.Element {
       <ul className={styles.text}>
         {STEPS.map(({ label, body }, index) => (
           <li key={label}>
-            <h2>{`Lv.${index + 1} ${label}`}</h2>
+            <h2>
+              {`Lv.${index + 1}`}&ensp;&thinsp;{label}
+            </h2>
             <p className="sansSerif">{body}</p>
           </li>
         ))}
