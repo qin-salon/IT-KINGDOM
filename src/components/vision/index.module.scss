@@ -40,7 +40,7 @@
   margin: 48px auto 60px;
   padding: 0 4%;
   font-size: 0.9rem;
-  line-height: 2.2;
+  line-height: 2;
 }
 
 .frame {
@@ -99,7 +99,7 @@
   > p {
     margin-top: 28px;
     font-size: 0.9rem;
-    line-height: 2.2;
+    line-height: 2;
     > br {
       display: none;
     }
@@ -122,7 +122,7 @@
 .backgroundText {
   display: block;
   position: absolute;
-  color: rgb(41 38 29 / 70%);
+  color: rgb(41 38 29 / 80%);
   font-size: 6rem;
   &.sai {
     top: 60px;
@@ -155,7 +155,6 @@
     }
   }
   .backgroundText {
-    color: rgb(41 38 29 / 80%);
     font-size: 8rem;
     &.sai {
       top: 60px;

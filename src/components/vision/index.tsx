@@ -26,9 +26,9 @@ export function Vision(): JSX.Element {
           そのために<strong>私</strong>がやること
         </h2>
         <p className="sansSerif">
-          プロダクトを作るために必要なプログラミングやデザインのスキルを伝授します。
+          プロダクトを作るために必要なプログラミングスキルを伝授します。
           <br />
-          必要に応じて経営企画・マーケティング・プレゼンテーション・マインドセットの講座も行います。
+          必要に応じてデザイン・マーケティング・プレゼンテーション・経営企画などの講座も行います。
         </p>
         <img className={styles.goldTopLeft} src="/img/vision/gold-top-left.png" alt="Background" loading="lazy" />
         <img className={styles.shimabu_udegumi} src="/img/vision/shimabu_udegumi.png" alt="Shimabu" loading="lazy" />
