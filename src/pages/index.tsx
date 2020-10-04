@@ -1,13 +1,12 @@
 import type { GetStaticProps } from "next";
 import { ConceptVideo } from "src/components/concept-video";
 import { Contents } from "src/components/contents";
-import { Entry } from "src/components/entry";
 import { FirstView } from "src/components/first-view";
 import { Footer } from "src/components/footer";
 import { Global } from "src/components/global";
 import { Header } from "src/components/header";
 import { Members } from "src/components/members";
-import { MessagePrice } from "src/components/message-price";
+import { MessagePriceEntry } from "src/components/message-price-entry";
 import { StepUp } from "src/components/step";
 import { Vision } from "src/components/vision";
 
@@ -23,8 +22,7 @@ export default function IndexPage(props: Props): JSX.Element {
       <Contents />
       <StepUp />
       <Members />
-      <MessagePrice />
-      <Entry />
+      <MessagePriceEntry />
       <Footer />
     </Global>
   );
