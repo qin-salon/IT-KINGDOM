@@ -34,10 +34,7 @@ const ITEMS = [
     title: "楽しめるコミュニティ",
     body:
       "ただ学ぶだけではなく楽しめるようなサロンにします。Workplaceというサービスを用いて交流の場を設けます。一緒に勉強するもくもく会、オンライン飲み会、オフラインでの講座などを予定しています。関東だけでなく各都市でも定期的に行いたいと考えています。",
-    notes: [
-      "オフラインイベントは新型コロナウイルス感染症の影響が落ち着いてから計画いたします。",
-      "オフラインでの講座は別途、費用がかかります。",
-    ],
+    notes: ["オフラインイベントは新型コロナウイルス感染症の影響が落ち着いてから計画いたします。"],
   },
 ];
 
@@ -56,9 +53,11 @@ export function Contents(): JSX.Element {
             <p className="sansSerif">{body}</p>
             {notes && (
               <ul>
-                {notes.map((note, index) => (
-                  <li key={note} className="sansSerif">{`※${index + 1} ${note}`}</li>
-                ))}
+                {notes.length === 1 ? (
+                  <li className="sansSerif">{`※ ${notes[0]}`}</li>
+                ) : (
+                  notes.map((note, index) => <li key={note} className="sansSerif">{`※${index + 1} ${note}`}</li>)
+                )}
               </ul>
             )}
           </li>
