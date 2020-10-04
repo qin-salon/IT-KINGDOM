@@ -68,8 +68,8 @@ export function Contents(): JSX.Element {
         <Headline title="他にも企画中" label="AND MORE" type="h2" className={styles.headline} coloredTitle />
         <p className="sansSerif">
           {`当サロンは最高のプロダクトを生み出すために常に進化していく必要があります。
-          サロンのあり方をみんなと一緒に考え、みんなで成長させていくことが重要です。
-          ここに書いてあること以外にもおもしろいことは積極的に開催しましょう。`}
+          サロンのあり方を一緒に考えみんなで成長させていくことが重要です。
+          ここに書いてあること以外にもおもしろいことは積極的にやりましょう。`}
         </p>
       </div>
     </section>
