@@ -33,7 +33,7 @@ export function Entry(): JSX.Element {
 
       <ul style={{ backgroundImage: `url("./img/ink.png")` }}>
         {STEPS.map((step, index) => (
-          <li key={step.title}>
+          <li key={step.title} className={styles.step}>
             <div>
               <span>STEP</span>
               <span>{index + 1}</span>
@@ -45,7 +45,7 @@ export function Entry(): JSX.Element {
       </ul>
 
       <Link href="/">
-        <a>
+        <a className={styles.button}>
           <img src="/img/entry-btn.png" alt="Entry button" loading="lazy" />
         </a>
       </Link>

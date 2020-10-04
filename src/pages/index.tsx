@@ -5,9 +5,8 @@ import { FirstView } from "src/components/first-view";
 import { Global } from "src/components/global";
 import { Header } from "src/components/header";
 import { Members } from "src/components/members";
-import { Message } from "src/components/message";
-import { Price } from "src/components/price";
-import { StepUp } from "src/components/step-up";
+import { MessagePrice } from "src/components/message-price";
+import { StepUp } from "src/components/step";
 import { Vision } from "src/components/vision";
 
 export default function IndexPage(): JSX.Element {
@@ -20,8 +19,7 @@ export default function IndexPage(): JSX.Element {
       <Contents />
       <StepUp />
       <Members />
-      <Message />
-      <Price />
+      <MessagePrice />
       <Entry />
     </Global>
   );

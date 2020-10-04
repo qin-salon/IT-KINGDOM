@@ -1,21 +1,27 @@
 .container {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  position: relative;
   padding: 60px 0;
   text-align: center;
   > h1 {
     color: #b3ac8a;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 3vw, 1.3rem);
     letter-spacing: 5px;
-    margin-bottom: 40px;
+    margin-bottom: calc(1.5vh + 1.5vw);
+    position: relative;
+    z-index: 1;
   }
+}
+
+.smoke {
+  position: absolute;
+  bottom: -15vw;
 }
 
 .responsiveVideo {
   position: relative;
+  z-index: 1;
   overflow: hidden;
-  width: 92%;
+  width: 88%;
   padding-top: calc(9 / 16 * 92%);
   margin: 0 auto;
   > iframe {
@@ -36,6 +42,8 @@
       all: unset;
       width: 720px;
       height: 405px;
+      position: relative;
+      z-index: 1;
     }
   }
 }

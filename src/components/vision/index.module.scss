@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 20px 0 100px;
   position: relative;
+  overflow: hidden;
 }
 
 .icon {
@@ -19,7 +20,8 @@
 .title {
   color: #b3ac8a;
   text-align: center;
-  font-size: clamp(0.9rem, 5vw, 1.8rem);
+  font-size: clamp(1rem, 4vw, 1.8rem);
+  line-height: 1.6;
   letter-spacing: 1px;
   > strong {
     color: #fff;
@@ -42,47 +44,53 @@
 }
 
 .frame {
-  width: 96%;
+  width: 92%;
   margin: 0 auto;
-  padding: 40px 24px 44px;
   border: 1px solid #b3ac8a;
-  text-align: center;
   position: relative;
   z-index: 1;
+  > img.goldTopLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  > img.goldBottomRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+  }
   &:nth-of-type(1) {
-    > img.goldPowder {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 160px;
-      height: 80%;
-    }
-    > img.knight {
+    padding: 32px 16px;
+    > img.shimabu_udegumi {
       position: absolute;
       bottom: 0;
-      width: 160px;
-      right: 12px;
+      width: 220px;
+      right: -40px;
+    }
+    > p {
+      padding-right: 88px;
     }
   }
   &:nth-of-type(2) {
-    margin-top: 12px;
-    > img.goldPowder {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      width: 160px;
-      height: 80%;
-    }
+    margin-top: calc(1vh + 1vw);
+    padding: 32px 16px 50vw;
     > img.soldiers {
       position: absolute;
       bottom: 0;
-      left: 0px;
-      height: 100%;
+      left: -10px;
+      width: 100%;
+    }
+    > img.goldBottomRight {
+      display: none;
     }
   }
   > h2 {
     color: #b3ac8a;
-    font-size: clamp(0.9rem, 4vw, 1.6rem);
+    font-weight: bold;
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
     letter-spacing: 2px;
     > strong {
       color: #fff;
@@ -93,33 +101,87 @@
     margin-top: 28px;
     font-size: 0.9rem;
     line-height: 2.2;
+    > br {
+      display: none;
+    }
   }
   > h2,
   > p {
-    z-index: 1;
     position: relative;
+    z-index: 2;
   }
 }
 
 .note {
   display: block;
   text-align: center;
-  margin-top: 24px;
+  font-size: 0.9rem;
+  margin-top: calc(1.5vh + 1.5vw);
   padding: 0 4%;
 }
 
 .backgroundText {
-  display: none;
+  display: block;
+  position: absolute;
+  color: rgb(41 38 29 / 70%);
+  font-size: 6rem;
+  &.sai {
+    top: 60px;
+    left: 0;
+  }
+  &.kou {
+    top: 10px;
+    left: 76px;
+  }
+  &.kyou {
+    top: 116px;
+    left: 76px;
+  }
+}
+
+@media (min-width: 480px) {
+  .frame {
+    > img.goldTopLeft {
+      height: 100%;
+      width: auto;
+    }
+    &:nth-of-type(2) {
+      padding: 32px 16px 32px 28vw;
+      > img.soldiers {
+        position: absolute;
+        bottom: 0;
+        left: -32px;
+        width: 44vw;
+      }
+    }
+  }
+  .backgroundText {
+    color: rgb(41 38 29 / 80%);
+    font-size: 8rem;
+    &.sai {
+      top: 60px;
+      left: 0;
+    }
+    &.kou {
+      top: 8px;
+      left: 104px;
+    }
+    &.kyou {
+      top: 136px;
+      left: 104px;
+    }
+  }
 }
 
 @media (min-width: 768px) {
+  .container {
+    overflow: visible;
+  }
   .paragraph {
     white-space: pre-line;
   }
   .backgroundText {
-    display: block;
-    position: absolute;
-    color: #29261d;
+    color: rgb(41 38 29 / 100%);
     font-size: 12rem;
     &.sai {
       top: 60px;
@@ -134,6 +196,36 @@
       left: 132px;
     }
   }
+  .frame {
+    text-align: center;
+    &:nth-of-type(1) {
+      > img.shimabu_udegumi {
+        right: 8px;
+      }
+      > p {
+        padding-right: 0;
+      }
+    }
+    &:nth-of-type(2) {
+      padding: 40px 24px 44px;
+      > img.goldTopLeft {
+        display: none;
+      }
+      > img.goldBottomRight {
+        display: block;
+      }
+      > img.soldiers {
+        left: -44px;
+        height: 115%;
+        width: auto;
+      }
+    }
+    > p {
+      > br {
+        display: block;
+      }
+    }
+  }
 }
 
 @media (min-width: 1024px) {
@@ -142,5 +234,6 @@
   }
   .frame {
     width: 940px;
+    padding: 40px 24px 44px;
   }
 }

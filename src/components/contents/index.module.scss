@@ -13,20 +13,31 @@
   padding: 0 4%;
   justify-items: center;
   grid-template:
-    "... ..... ..." 40px
+    "... ..... ..." 3vh
+    "... img   ..."
+    "... ..... ..." 2vh
     "... title ..."
-    "... ..... ..." 24px
+    "... ..... ..." 2vh
     "... body  ..." 1fr
     "... ..... ..." 4px
     "... notes ..."
-    "... ..... ..." 24px
-    "... img   ..."
-    "... ..... ..." 40px
+    "... ..... ..." 3vh
     / auto 1fr auto;
 
   &:nth-child(odd) {
     background-color: #1f1f1f;
-    background-position: center center;
+  }
+  &:nth-child(1) {
+    background-size: cover;
+    background-position: 160px center;
+  }
+  &:nth-child(3) {
+    background-size: cover;
+    background-position: 160px center;
+  }
+  &:nth-child(5) {
+    background-size: cover;
+    background-position: 160px center;
   }
   > img {
     grid-area: img;
@@ -59,7 +70,7 @@
 }
 
 .more {
-  width: 92%;
+  width: min(92%, 940px);
   margin: 0 auto;
   padding: 60px 0 80px;
   border-bottom: 1px solid #29261d;
@@ -98,12 +109,23 @@
         "... ..... ... ... ..." 40px
         / calc((100% - 940px) / 2) 1fr 40px 220px calc((100% - 940px) / 2);
     }
+    &:nth-child(1) {
+      background-size: auto 100%;
+      background-position: 80% center;
+    }
+    &:nth-child(3) {
+      background-size: auto 140%;
+      background-position: 34% center;
+    }
+    &:nth-child(5) {
+      background-size: auto 140%;
+      background-position: 80% bottom;
+    }
     > img {
       width: 100%;
     }
   }
   .more {
-    width: 720px;
     > p {
       white-space: pre-line;
     }

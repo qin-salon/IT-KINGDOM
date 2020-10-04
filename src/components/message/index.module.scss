@@ -1,28 +1,52 @@
 .container {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  padding: 60px 0 200px;
-  > .headline {
-    margin-bottom: 32px;
+  overflow: hidden;
+  padding: 0px 0 120px;
+}
+
+.backgroundText {
+  position: relative;
+  z-index: 1;
+  background: rgb(100 100 100 / 40%);
+  width: 92%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.headline {
+  margin-bottom: 32px;
+  > span:last-child {
+    text-shadow: #1c1c1c 0 0 24px, #1c1c1c 0 0 24px, #1c1c1c 0 0 24px, #1c1c1c 0 0 24px, #1c1c1c 0 0 24px,
+      #1c1c1c 0 0 24px;
   }
+}
+
+.text {
   > p {
     padding: 0 4%;
-    text-align: center;
     font-size: 0.9rem;
     line-height: 2;
   }
   > p + p {
-    margin-top: 32px;
+    margin-top: calc(1vh + 1vw);
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .container {
+    padding: 60px 0 180px;
+  }
+  .backgroundText {
+    background-color: transparent;
+  }
+  .headline {
+    > span:last-child {
+      text-shadow: none;
+    }
+  }
+  .text {
     > p {
-      width: 940px;
-      margin: 0 auto;
       white-space: pre-line;
+      text-align: center;
     }
   }
 }

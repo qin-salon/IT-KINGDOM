@@ -4,26 +4,27 @@ import styles from "./index.module.scss";
 
 export function Message(): JSX.Element {
   return (
-    <section className={styles.container} style={{ backgroundImage: `url("./img/castle-interior.jpg")` }}>
-      <Headline title="国王からの通達" label="MESSAGE" className={styles.headline} coloredTitle />
-      <p className="sansSerif">
-        {`このサロンはただのプログラミングを教えるだけのサロンではありません。
-        「最高のプロダクトを生み出す最強のコミュニティをつくりたい」という思いからできています。
-        あくまで根底にあるのはモノづくりです。学んで終わりではなく実際にプロダクトをリリースしていきます。
-        この思いに共感できる方、ワクワクする方に入っていただきたいと思います。`}
-      </p>
-      <p className="sansSerif">
-        {`私はこの信念の実現に向けて最強のコミュニティづくりに注力します。
-        もちろんその中には「プログラミングスキルの向上」も最優先事項として含まれています。
-        エンジニアを目指す方も多いかと思いますが、それはこのサロンも願っていることです。
-        みなさんがIT企業に就職し、更にスキルアップして、より最高のプロダクトづくりができることを求めています。
-        そのためのサポートは惜しみなく行う予定です。`}
-      </p>
-      <p className="sansSerif">
-        {`正直、このようなサロンは前例がないレベルの最先端な取り組みだと思っています。
-        私自身うまく立ち回れるか不安ですが、そういった不安も一緒に楽しめる方に入っていただけると嬉しいです。
-        個人の進化はもちろん、コミュニティの進化も目指して、一緒に最高のモノづくりをしましょう。`}
-      </p>
+    <section className={styles.container}>
+      <div className={styles.backgroundText}>
+        <Headline title="国王のメッセージ" label="MESSAGE" className={styles.headline} coloredTitle />
+        <div className={styles.text}>
+          <p className="sansSerif">
+            {`IT KINGDOMはただプログラミングを教えるだけのサロンではありません。
+              学んで終わりではなくプロダクトをリリースし、実際にビジネスとして展開していきます。
+              そこで得た収益をサロンに還元する、それが私が目指す世界です。`}
+          </p>
+          <p className="sansSerif">
+            {`私はその実現に向けてサロンメンバーのIT力向上に注力します。
+              ITエンジニアを目指す方も多いと思われますが、サロンではそのサポートもいたします。
+              みなさんがIT企業に就職し、更にスキルアップして、また一緒に開発できることを願っています。`}
+          </p>
+          <p className="sansSerif">
+            {`このような形で実際にビジネスを行うのは前例の殆どない最先端な取り組みです。
+              私も不安ではありますが、そういった不安も一緒に楽しめる方に入っていただけると嬉しいです。
+              個々の進化はもちろん、コミュニティの進化も目指して、一緒に最高のモノづくりをしましょう。`}
+          </p>
+        </div>
+      </div>
     </section>
   );
 }

@@ -1,6 +1,5 @@
 import clsx from "clsx";
-
-import styles from "./index.module.scss";
+import styles from "src/components/vision/index.module.scss";
 
 export function Vision(): JSX.Element {
   return (
@@ -19,7 +18,7 @@ export function Vision(): JSX.Element {
       </h1>
 
       <p className={clsx("sansSerif", styles.paragraph, styles.front)}>
-        {`私はこのサロンが、最先端で、優れたプロダクトを生み出すための最高の形だと信じています。\nみんなで最高のプロダクトを作ろう。`}
+        {`私はこのサロンから世界中で使われるような最高のプロダクトを生み出したいと思っています。\nみんなでスキルアップして良いプロダクトを作りましょう。`}
       </p>
 
       <div className={styles.frame}>
@@ -27,28 +26,29 @@ export function Vision(): JSX.Element {
           そのために<strong>私</strong>がやること
         </h2>
         <p className="sansSerif">
-          メンバーの戦闘力の強化。最高のプロダクトを作るコミュニティにできるよう最善を尽くします。
+          プロダクトを作るために必要なプログラミングやデザインのスキルを伝授します。
+          <br />
+          必要に応じて経営企画・マーケティング・プレゼンテーション・マインドセットの講座も行います。
         </p>
-        <img className={styles.goldPowder} src="/img/gold-powder.png" alt="Background of frame" loading="lazy" />
-        <img className={styles.knight} src="/img/knight.png" alt="Salon owner" loading="lazy" />
+        <img className={styles.goldTopLeft} src="/img/gold-top-left.png" alt="Background" loading="lazy" />
+        <img className={styles.shimabu_udegumi} src="/img/shimabu_udegumi.png" alt="Shimabu" loading="lazy" />
       </div>
       <div className={styles.frame}>
         <h2>
           <strong>みんな</strong>にやってもらうこと
         </h2>
         <p className="sansSerif">
-          自分の戦闘力の強化。最高のプロダクトを作るために、日々研鑽していただきます。
+          最高のプロダクトが作れるように、各々スキルアップに励む必要があります。
           <br />
-          実際にプロダクト開発に参加しながら学んでいただきます。
-          <br />
-          また学んだことは積極的にアウトプットを行い、コミュニティ全体をパワーアップさせてください。
+          また学んだことは積極的にアウトプットを行い、国力の向上に努めてください。
         </p>
-        <img className={styles.goldPowder} src="/img/gold-powder.png" alt="Background of frame" loading="lazy" />
+        <img className={styles.goldBottomRight} src="/img/gold-bottom-right.png" alt="Background" loading="lazy" />
+        <img className={styles.goldTopLeft} src="/img/gold-top-left.png" alt="Background" loading="lazy" />
         <img className={styles.soldiers} src="/img/soldiers.png" alt="Salon members" loading="lazy" />
       </div>
 
       <small className={clsx("sansSerif", styles.note)}>
-        ※ プログラミング学習の予定はなく、プロジェクトの動きや中の様子を見たいだけの方もご加入いただけます。
+        ※ プロジェクトの動きや中の様子を見たいだけの方もご参加いただけます。
       </small>
 
       <span className={clsx(styles.backgroundText, styles.sai)}>最</span>

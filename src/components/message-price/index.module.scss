@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  position: absolute;
+  width: 1024px;
+  right: calc(-160px + 10vw);
+  top: -47px;
+}
+
+@media (min-width: 768px) {
+  .img {
+    width: 1320px;
+    top: 0;
+  }
+}
+
+@media (min-width: 1320px) {
+  .img {
+    width: 100%;
+    right: 0;
+  }
+}

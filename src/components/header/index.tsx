@@ -1,22 +1,21 @@
+import clsx from "clsx";
 import Link from "next/link";
-
-import styles from "./index.module.scss";
+import styles from "src/components/header/index.module.scss";
 
 export function Header(): JSX.Element {
   return (
     <header className={styles.container}>
       <h1>
-        <img src="/img/logo.png" alt="Logo of 'IT KINGDOM'" />
+        <Link href="/">
+          <a>
+            <img src="/img/logo.png" alt="Logo of 'IT KINGDOM'" />
+          </a>
+        </Link>
       </h1>
-      <nav className="sansSerif">
+      <nav className={clsx("sansSerif", styles.nav)}>
         <ul>
           <li>
-            <Link href="/" as="/">
-              <a>トップページ</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/faq" as="/faq">
+            <Link href="/faq">
               <a>よくある質問</a>
             </Link>
           </li>

@@ -2,35 +2,38 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 28px 32px 0;
+  padding: min(3vw, 28px) min(3vw, 32px) 0;
   position: fixed;
   z-index: 2;
   top: 0;
   > h1 {
     display: flex;
     align-items: center;
-    > img {
-      width: 152px;
-    }
+    width: min(36%, 180px);
   }
-  > nav {
-    margin-left: auto;
-    > ul {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      grid-gap: 24px;
-      > li {
+}
+
+.nav {
+  margin-left: auto;
+  > ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: min(4vw, 24px);
+    > li {
+      display: contents;
+      > a {
+        font-size: clamp(11px, 3vw, 0.9rem);
+        color: #ffffff;
+        text-shadow: 1px 1px 1px #000000;
+        text-decoration: none;
+      }
+      &:last-of-type {
         > a {
-          font-size: 0.9rem;
-          color: #fff;
-          text-decoration: none;
-        }
-        &:last-of-type {
-          > a {
-            border: 1px solid #fff;
-            border-radius: 100px;
-            padding: 12px 32px;
-          }
+          border: 1px solid #ffffff;
+          box-shadow: 0px 0px 1px 0px #000000;
+          border-radius: 100px;
+          padding: min(1.4vw, 12px) min(4vw, 32px);
         }
       }
     }

@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import { createElement } from "react";
-
-import styles from "./index.module.scss";
+import styles from "src/components/headline/index.module.scss";
 
 type Props = {
   title: string;

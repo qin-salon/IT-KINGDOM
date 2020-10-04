@@ -1,68 +1,88 @@
 .container {
+  position: relative;
+  z-index: 1;
   margin: -80px auto 40px;
   padding: 48px 0 60px;
-  background-color: #ffffff2b;
+  background-color: rgba(128, 127, 127, 0.17);
   > div {
     padding: 0 4%;
-    text-align: center;
-    > div:nth-of-type(1) {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 32px 0 40px;
-      > span {
-        border: 1px solid #fff;
-        border-radius: 100px;
-        padding: 6px 32px;
-        margin-bottom: 16px;
-        font-size: 0.9rem;
-      }
-      > h2 {
-        color: #b3ac8a;
-        font-size: 4.5rem;
-        font-weight: 100;
-        line-height: 1;
-        margin-left: 16px;
-        > span {
-          font-size: 0.4em;
-          margin-left: 4px;
-        }
-      }
-    }
-    > div:nth-of-type(2) {
-      flex: 1;
-      font-size: 0.9rem;
-      line-height: 2;
-      > b {
-        display: block;
-        color: crimson;
-      }
+  }
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0 40px;
+  > span {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    padding: 6px 32px;
+    margin-bottom: 16px;
+    font-size: 0.9rem;
+  }
+  > h2 {
+    color: #b3ac8a;
+    font-size: 4.5rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-left: 16px;
+    > span {
+      font-size: 0.4em;
+      margin-left: 4px;
     }
   }
 }
 
-@media (min-width: 1024px) {
+.note {
+  font-size: 0.9rem;
+  line-height: 2;
+  white-space: pre-line;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media (min-width: 520px) {
+  .price {
+    flex-direction: row;
+    justify-content: center;
+    > span {
+      margin: 0;
+      padding: 6px 20px;
+    }
+  }
+  .note {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
   .container {
-    width: 940px;
+    width: min(92%, 940px);
     margin: -100px auto 40px;
-    > .headline {
-      margin-bottom: 60px;
-    }
     > div {
+      width: fit-content;
+      margin: 0 auto;
       padding: 0;
-      text-align: left;
       display: flex;
-      > div:nth-of-type(1) {
-        width: 380px;
-        padding: 32px 0 20px;
-        border-right: 2px solid #b3ac8a7a;
-      }
-      > div:nth-of-type(2) {
-        padding-left: 60px;
-        > p {
-          white-space: pre-line;
-        }
-      }
+      align-items: center;
     }
+  }
+  .headline {
+    margin-bottom: 60px;
+  }
+  .price {
+    flex-direction: column;
+    padding: 20px min(6vw, 80px) 20px 0;
+    border-right: 2px solid #b3ac8a7a;
+    > span {
+      padding: 6px 32px;
+      margin-bottom: 16px;
+    }
+  }
+  .note {
+    padding-left: 48px;
+    text-align: left;
+    margin: 0;
   }
 }

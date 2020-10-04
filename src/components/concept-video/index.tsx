@@ -1,8 +1,8 @@
-import styles from "./index.module.scss";
+import styles from "src/components/concept-video/index.module.scss";
 
 export function ConceptVideo(): JSX.Element {
   return (
-    <section className={styles.container} style={{ backgroundImage: `url("./img/smoke.jpg")` }}>
+    <section className={styles.container}>
       <h1>CONCEPT MOVIE</h1>
       <div className={styles.responsiveVideo}>
         <iframe
@@ -15,6 +15,7 @@ export function ConceptVideo(): JSX.Element {
           allowFullScreen
         ></iframe>
       </div>
+      <img className={styles.smoke} src="./img/smoke.png" alt="Background smoke" />
     </section>
   );
 }
