@@ -116,7 +116,7 @@
   text-align: center;
   font-size: 0.9rem;
   line-height: 2;
-  margin-top: calc(1.5vh + 1.5vw);
+  margin-top: calc(2vh + 1vw);
   padding: 0 4%;
 }
 
@@ -199,7 +199,7 @@
     text-align: center;
     &:nth-of-type(1) {
       > img.shimabu_udegumi {
-        right: 8px;
+        right: 0;
       }
       > p {
         padding-right: 0;
