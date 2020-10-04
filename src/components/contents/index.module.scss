@@ -110,16 +110,16 @@
         / calc((100% - 940px) / 2) 1fr 40px 220px calc((100% - 940px) / 2);
     }
     &:nth-child(1) {
-      background-size: auto 100%;
-      background-position: 80% center;
+      background-size: 600px 100%;
+      background-position: 60vw center;
     }
     &:nth-child(3) {
-      background-size: auto 140%;
-      background-position: 34% center;
+      background-size: 700px 600px;
+      background-position: calc(100% - 48vw) bottom;
     }
     &:nth-child(5) {
-      background-size: auto 140%;
-      background-position: 80% bottom;
+      background-size: auto 160%;
+      background-position: 50vw bottom;
     }
     > img {
       width: 100%;

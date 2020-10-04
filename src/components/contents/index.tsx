@@ -4,7 +4,7 @@ import { Headline } from "src/components/headline";
 const ITEMS = [
   {
     src: "/img/contents/programming.png",
-    bgSrc: "/img/contents/cloud1.png",
+    bgSrc: "/img/ink.png",
     title: "プロダクト開発",
     body:
       "私含め現役エンジニアが新規事業のプロジェクトをたてます。プロジェクトのコードはみんなが読めるようにGitHubのチーム機能を使用し、適宜コードの解説も行います。また開発ができるメンバーには実際にコードを書いていただく予定で、チーム開発の実戦経験にもなります。",
@@ -17,7 +17,7 @@ const ITEMS = [
   },
   {
     src: "/img/contents/blog.png",
-    bgSrc: "/img/contents/cloud2.png",
+    bgSrc: "/img/ink.png",
     title: "ブログ & アウトプット",
     body:
       "Qastにはブログ機能も備わっています。誰でもブログを書くことができるので積極的に学びをアウトプットしましょう。外部だと間違いを指摘されて少し怖いですが当サロンはみんなが優しく教えてくれます。また私含め現役エンジニアもブログを執筆予定です。",
@@ -30,7 +30,7 @@ const ITEMS = [
   },
   {
     src: "/img/contents/community.png",
-    bgSrc: "/img/contents/cloud3.png",
+    bgSrc: "/img/ink.png",
     title: "楽しめるコミュニティ",
     body:
       "ただ学ぶだけではなく楽しめるようなサロンにします。Workplaceというサービスを用いて交流の場を設けます。一緒に勉強するもくもく会、オンライン飲み会、オフラインでの講座などを予定しています。関東だけでなく各都市でも定期的に行いたいと考えています。",
