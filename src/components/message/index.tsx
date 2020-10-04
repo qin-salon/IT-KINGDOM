@@ -1,6 +1,5 @@
 import { Headline } from "src/components/headline";
-
-import styles from "./index.module.scss";
+import styles from "src/components/message/index.module.scss";
 
 export function Message(): JSX.Element {
   return (

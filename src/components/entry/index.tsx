@@ -1,7 +1,6 @@
 import Link from "next/link";
+import styles from "src/components/entry/index.module.scss";
 import { Headline } from "src/components/headline";
-
-import styles from "./index.module.scss";
 
 const STEPS = [
   {
