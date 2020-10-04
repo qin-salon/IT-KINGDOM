@@ -22,7 +22,6 @@ export default function IndexPage(props: Props): JSX.Element {
           name="description"
           content={`チャンネル登録者${props.subscriberCount}人のプログラミングYouTuberによるオンラインサロン。ヤフーやクックパッドなど国内大手IT企業出身の現役ITエンジニアが運営。`}
         />
-        <meta name="robots" content="noindex" />
       </Head>
       <Global>
         <Header />

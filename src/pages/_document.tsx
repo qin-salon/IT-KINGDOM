@@ -8,7 +8,10 @@ export default class MyDocument extends Document {
   render(): JSX.Element {
     return (
       <Html lang="ja">
-        <Head />
+        <Head>
+          <meta name="robots" content="noindex" />
+          <meta name="theme-color" content="#000000" key="themeColor" />
+        </Head>
         <body>
           <Main />
           <NextScript />
