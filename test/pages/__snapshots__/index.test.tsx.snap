@@ -9,22 +9,19 @@ exports[`Index page matches snapshot 1`] = `
       class="container"
     >
       <h1>
-        <img
-          alt="Logo of 'IT KINGDOM'"
-          src="/img/logo.png"
-        />
+        <a
+          href="/"
+        >
+          <img
+            alt="Logo of 'IT KINGDOM'"
+            src="/img/logo.png"
+          />
+        </a>
       </h1>
       <nav
-        class="sansSerif"
+        class="sansSerif nav"
       >
         <ul>
-          <li>
-            <a
-              href="/"
-            >
-              トップページ
-            </a>
-          </li>
           <li>
             <a
               href="/faq"
@@ -45,49 +42,93 @@ exports[`Index page matches snapshot 1`] = `
       </nav>
     </header>
     <section
-      class="container"
-      style="background-image: url(./img/hero.jpg);"
+      class="jsx-3651463820 container"
+      style="background-image: url(./img/hero.png);"
     >
-      <div>
-        <h1>
-          <div>
-            チャンネル登録者
-            <strong>
-              5.3万人
-            </strong>
-            の
+      <div
+        class="jsx-3651463820"
+      >
+        <h1
+          class="jsx-3651463820 text"
+        >
+          <div
+            class="jsx-3651463820 line"
+          >
+            <span
+              class="jsx-3651463820"
+            >
+              チャンネル登録者
+            </span>
+            <span
+              class="jsx-3651463820 number number"
+            >
+              7万人
+            </span>
+            <span
+              class="jsx-3651463820"
+            >
+              の
+            </span>
           </div>
-          <div>
-            エンジニア
-            <span>
+          <div
+            class="jsx-3651463820 line"
+          >
+            <span
+              class="jsx-3651463820"
+            >
+              エンジニア
+            </span>
+            <span
+              class="jsx-3651463820 strong"
+            >
               YouTuber
             </span>
-            がおくる
+            <span
+              class="jsx-3651463820"
+            >
+              がおくる
+            </span>
           </div>
-          <div>
-            オンラインサロン
+          <div
+            class="jsx-3651463820 line"
+          >
+            <span
+              class="jsx-3651463820 strong"
+            >
+              オンラインサロン
+            </span>
           </div>
         </h1>
-        <img
-          alt="Logo of 'IT KINGDOM'"
-          src="/img/logo.png"
-        />
-        <a
-          href="/"
+        <div
+          class="jsx-3651463820 itk_button"
         >
           <img
-            alt="Entry button"
-            src="/img/entry-btn.png"
+            alt="Logo of 'IT KINGDOM'"
+            class="jsx-3651463820 itk"
+            src="/img/it-kingdom.png"
           />
-        </a>
+          <div
+            class="jsx-3651463820 button"
+          >
+            <a
+              class="jsx-3651463820"
+              href="/"
+            >
+              <img
+                alt="Entry button"
+                class="jsx-3651463820"
+                src="/img/entry-btn.png"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
     <section
       class="container"
-      style="background-image: url(./img/smoke.jpg);"
     >
       <h1>
-        CONCEPT MOVIE
+        CONCEPT VIDEO
       </h1>
       <div
         class="responsiveVideo"
@@ -98,10 +139,15 @@ exports[`Index page matches snapshot 1`] = `
           frameborder="0"
           height="405"
           src="https://www.youtube.com/embed/9XVuUr4DbNU"
-          title="Concept movie"
+          title="Concept video"
           width="720"
         />
       </div>
+      <img
+        alt="Background smoke"
+        class="smoke"
+        src="./img/smoke.png"
+      />
     </section>
     <section
       class="container"
@@ -110,7 +156,7 @@ exports[`Index page matches snapshot 1`] = `
         alt="Vision section's icon"
         class="icon front"
         loading="lazy"
-        src="/img/weapon.png"
+        src="/img/vision/weapon.png"
       />
       <h1
         class="title front"
@@ -136,8 +182,8 @@ exports[`Index page matches snapshot 1`] = `
       <p
         class="sansSerif paragraph front"
       >
-        私はこのサロンが、最先端で、優れたプロダクトを生み出すための最高の形だと信じています。
-みんなで最高のプロダクトを作ろう。
+        私はこのサロンから世界中で使われる最高のプロダクトを生み出したいと思っています。
+みんなでスキルアップして良いプロダクトを作りましょう。
       </p>
       <div
         class="frame"
@@ -152,19 +198,21 @@ exports[`Index page matches snapshot 1`] = `
         <p
           class="sansSerif"
         >
-          メンバーの戦闘力の強化。最高のプロダクトを作るコミュニティにできるよう最善を尽くします。
+          プロダクトを作るために必要なプログラミングスキルを伝授します。
+          <br />
+          必要に応じてデザイン・マーケティング・プレゼンテーション・経営企画などの講座も行います。
         </p>
         <img
-          alt="Background of frame"
-          class="goldPowder"
+          alt="Background"
+          class="goldTopLeft"
           loading="lazy"
-          src="/img/gold-powder.png"
+          src="/img/vision/gold-top-left.png"
         />
         <img
-          alt="Salon owner"
-          class="knight"
+          alt="Shimabu"
+          class="shimabu_udegumi"
           loading="lazy"
-          src="/img/knight.png"
+          src="/img/vision/shimabu_udegumi.png"
         />
       </div>
       <div
@@ -179,29 +227,33 @@ exports[`Index page matches snapshot 1`] = `
         <p
           class="sansSerif"
         >
-          自分の戦闘力の強化。最高のプロダクトを作るために、日々研鑽していただきます。
+          最高のプロダクトが作れるように、各々スキルアップに励む必要があります。
           <br />
-          実際にプロダクト開発に参加しながら学んでいただきます。
-          <br />
-          また学んだことは積極的にアウトプットを行い、コミュニティ全体をパワーアップさせてください。
+          また学んだことは積極的にアウトプットを行い、国力の向上に努めてください。
         </p>
         <img
-          alt="Background of frame"
-          class="goldPowder"
+          alt="Background"
+          class="goldBottomRight"
           loading="lazy"
-          src="/img/gold-powder.png"
+          src="/img/vision/gold-bottom-right.png"
+        />
+        <img
+          alt="Background"
+          class="goldTopLeft"
+          loading="lazy"
+          src="/img/vision/gold-top-left.png"
         />
         <img
           alt="Salon members"
           class="soldiers"
           loading="lazy"
-          src="/img/soldiers.png"
+          src="/img/vision/soldiers.png"
         />
       </div>
       <small
         class="sansSerif note"
       >
-        ※ プログラミング学習の予定はなく、プロジェクトの動きや中の様子を見たいだけの方もご加入いただけます。
+        ※ プロジェクトの動きや中の様子を見たいだけの方もご参加いただけます。
       </small>
       <span
         class="backgroundText sai"
@@ -228,117 +280,111 @@ exports[`Index page matches snapshot 1`] = `
       <ul>
         <li
           class="content"
-          style="background-image: url(./img/ink.png);"
+          style="background-image: url(/img/contents/cloud1.png);"
         >
           <img
-            alt="みんなでプロダクト開発"
+            alt="プロダクト開発"
             loading="lazy"
-            src="/img/qast.png"
+            src="/img/contents/programming.png"
           />
           <h2>
             <span>
               01. 
             </span>
-            みんなでプロダクト開発
+            プロダクト開発
           </h2>
           <p
             class="sansSerif"
           >
-            私や周りの現役エンジニアが実際に新規事業のプロジェクトをたてます。
-プロジェクトはみんなが開発に参加できるように、GitHubを用いてコミュニティ内部限定のオープンソースで行います。 みなさんには私や現役エンジニアと一緒にプロダクトの改善をしていっていってもらいます。 コードを読んで勉強したり、実際に開発に参加してもらうことで実戦経験にもなります。 プロダクトが完成したら実際にリリースして、世の中のユーザーに使ってもらいましょう。
+            私含め現役エンジニアが新規事業のプロジェクトをたてます。プロジェクトのコードはみんなが読めるようにGitHubのチーム機能を使用し、適宜コードの解説も行います。また開発ができるメンバーには実際にコードを書いていただく予定で、チーム開発の実戦経験にもなります。
           </p>
         </li>
         <li
           class="content"
         >
           <img
-            alt="匿名で質問"
+            alt="気軽に質問"
             loading="lazy"
-            src="/img/qast.png"
+            src="/img/contents/qast.png"
           />
           <h2>
             <span>
               02. 
             </span>
-            匿名で質問
+            気軽に質問
           </h2>
           <p
             class="sansSerif"
           >
-            Qastというサービスを使用します。Qastには匿名で質問を行う機能があります。 何度も質問をするのは気が引ける、初歩的すぎて聞くのが恥ずかしいという方にも使っていただけます。 また私だけではなく誰でも回答できます。回答することでポイントが溜まっていきます。 自分が学ぶだけでなく、みんなで教え合い、コミュニティのナレッジを蓄えていきましょう。
+            Qastというサービスを使用します。Qastには匿名で質問を行う機能があり「何度も質問するのは気が引ける」「初歩的すぎて聞くのが恥ずかしい」という心配も不要です。また誰でも回答でき、回答していくことでポイントが溜まる仕組みがあります。国力向上のため、みんなで教え合いましょう。
           </p>
         </li>
         <li
           class="content"
-          style="background-image: url(./img/ink.png);"
+          style="background-image: url(/img/contents/cloud2.png);"
         >
           <img
-            alt="ブログの購読・執筆"
+            alt="ブログ & アウトプット"
             loading="lazy"
-            src="/img/qast.png"
+            src="/img/contents/blog.png"
           />
           <h2>
             <span>
               03. 
             </span>
-            ブログの購読・執筆
+            ブログ & アウトプット
           </h2>
           <p
             class="sansSerif"
           >
-            Qastではブログを書くことも可能です。私のブログは当コミュニティ限定で読むことができます。 私以外にも有名企業出身のエンジニアも学びになるブログを執筆予定です。 フロントエンドだけではなくバックエンド・アプリエンジニア、後々は機械学習エンジニアも参加予定です。 また誰でもブログは書くことができるので、学んだことを積極的にアウトプットしていきましょう。 Qiitaだとたくさんの人に間違いを指摘されて怖いかもしれませんが、当コミュニティはみんなが優しく教えてくれます。
+            Qastにはブログ機能も備わっています。誰でもブログを書くことができるので積極的に学びをアウトプットしましょう。外部だと間違いを指摘されて少し怖いですが当サロンはみんなが優しく教えてくれます。また私含め現役エンジニアもブログを執筆予定です。
           </p>
         </li>
         <li
           class="content"
         >
           <img
-            alt="ニュース配信"
+            alt="IT業界研究"
             loading="lazy"
-            src="/img/qast.png"
+            src="/img/contents/news.png"
           />
           <h2>
             <span>
               04. 
             </span>
-            ニュース配信
+            IT業界研究
           </h2>
           <p
             class="sansSerif"
           >
-            私の信念は「最高のプロダクトを生み出すコミュニティをつくること」です。 優れたプロダクトを知るためには世の中の動向を知る必要があります。 私が重要だと思ったニュースをコミュニティ内でシェアしたり、時事ネタを解説します。 コメント欄で議論を行い、みんなでアイディアの精度を高めていきましょう。
+            優れたプロダクトを作るためにはIT業界のトレンドを知る必要があります。私がニュースをサロン内でシェアしたり時事ネタを解説します。また就職に必要なIT企業の研究や情報共有も行います。
           </p>
         </li>
         <li
           class="content"
-          style="background-image: url(./img/ink.png);"
+          style="background-image: url(/img/contents/cloud3.png);"
         >
           <img
-            alt="コミュニティ限定の勉強会"
+            alt="楽しめるコミュニティ"
             loading="lazy"
-            src="/img/qast.png"
+            src="/img/contents/community.png"
           />
           <h2>
             <span>
               05. 
             </span>
-            コミュニティ限定の勉強会
+            楽しめるコミュニティ
           </h2>
           <p
             class="sansSerif"
           >
-            コミュニティのメンバーしか参加できないオフラインでの講座を考えています。 フロントエンド・バックエンド・アプリ開発など講座内容は適宜考えていきます。 プログラミング以外だと就活・転職活動講座も考えています。 またコミュニティ内での交流はモチベーションの向上に繋がると考えており、 プログラミングを一緒に勉強するもくもく会や、交流会も開催予定です。 東京だけでなく各都市でも定期的に行いたいと考えています。
+            ただ学ぶだけではなく楽しめるようなサロンにします。Workplaceというサービスを用いて交流の場を設けます。一緒に勉強するもくもく会、オンライン飲み会、オフラインでの講座などを予定しています。関東だけでなく各都市でも定期的に行いたいと考えています。
           </p>
           <ul>
             <li
               class="sansSerif"
             >
-              ※1 新型コロナウイルス感染症の影響が落ち着いてから計画いたします。
-            </li>
-            <li
-              class="sansSerif"
-            >
-              ※2 オフラインでの講座は別途、費用がかかります。
+              ※ オフラインイベントは新型コロナウイルス感染症の影響が落ち着いてから計画いたします。
             </li>
           </ul>
         </li>
@@ -359,90 +405,78 @@ exports[`Index page matches snapshot 1`] = `
         <p
           class="sansSerif"
         >
-          ただプログラミングを学ぶだけのサロンではありません。
-          最高のプロダクトを生み出すために、日々模索、そして進化していく必要があります。
-          コミュニティのあり方をみんなと一緒に考え、みんなで成長させていくことが何よりも重要です。
-          ここに書いてある以外にもおもしろいことは積極的に開催しましょう。
+          当サロンは最高のプロダクトを生み出すために常に進化していく必要があります。
+          サロンのあり方を一緒に考えみんなで成長させていくことが重要です。
+          ここに書いてあること以外にもおもしろいことは積極的にやりましょう。
         </p>
       </div>
     </section>
     <section
       class="container"
     >
-      <h1
-        class="title"
-      >
-        <span>
-          訓練
-        </span>
-        <span>
-          STEP UP
-        </span>
-      </h1>
       <div
-        class="step"
-        style="background-image: url(./img/step.jpg);"
+        class="title_step"
       >
-        <ul>
-          <li>
-            <p>
-              学習したての方
-            </p>
-            <span>
-              隊員〜什長
-            </span>
-          </li>
-          <li>
-            <p>
-              基礎が分かってきた方
-            </p>
-            <span>
-              百人将〜千人将
-            </span>
-          </li>
-          <li>
-            <p>
-              開発ができる
-ようになってきた方
-            </p>
-            <span>
-              二千人将〜
-            </span>
-            <span>
-              五千人将
-            </span>
-          </li>
-          <li>
-            <p>
-              一通り経験して
-コミュニティを
-リードできる方
-            </p>
-            <span>
-              将軍、
-            </span>
-            <span>
-              大将軍
-            </span>
-          </li>
-        </ul>
+        <h1
+          class="title"
+        >
+          <span>
+            訓練
+          </span>
+          <span>
+            STEP UP
+          </span>
+        </h1>
+        <img
+          alt="Curriculum"
+          class="step"
+          src="img/step.png"
+        />
       </div>
-      <div
-        class="sansSerif text"
+      <ul
+        class="text"
       >
-        <p>
-          プロジェクトにすぐ参加するのは難しいと思うので、まずはプログラミングの基礎知識を身につけましょう。 （もちろんプロジェクトのコードはいつでも読むことはできます）。 初心者向けの記事やGitHubを用いたプログラミング教材も用意する予定です。 分からないところは過去にみんなが書いた記事からヒントを得たり、匿名で質問して助けてもらうことができます。
-        </p>
-        <p>
-          実際にプロジェクトの開発に参加しましょう。 最初はコードが読めなかったり、何しているか分からなかったりするかと思います。 ドキュメントはしっかり残す予定なので、ドキュメントを読みながら理解をしていって それでも分からない部分は質問して解決しましょう。 また定期的にコード解説の会を設ける予定です。
-        </p>
-        <p>
-          どんどんコードを書いて、プロジェクトをリードしていってください。 みんなが出すPR（プルリクエスト）をレビューしたり、コードをリファクタしたり、 より良いプロダクトに育て上げていってください。 一緒に仕様を決めたり、タスクの割り振りなどもやりましょう。
-        </p>
-        <p>
-          一緒にIT KINGDOMの運営をしましょう。個別に連絡させていただきます。
-        </p>
-      </div>
+        <li>
+          <h2>
+            Lv.1  隊員〜什長
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            まずはプログラミングの基礎知識を身につけよう。常に質問できる環境に加え、ライブ講座や簡単な課題も用意します。
+          </p>
+        </li>
+        <li>
+          <h2>
+            Lv.2  百人将〜千人将
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            プロダクト開発に参加しよう。コード解説も行い、まずはコードを読めるようにします。その後、実際にコードを書いてみましょう。
+          </p>
+        </li>
+        <li>
+          <h2>
+            Lv.3  二千人将〜五千人将
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            プロジェクトをリードしていこう。新機能追加、コードレビュー、リファクタリングなどプロダクトを改善させてみましょう。
+          </p>
+        </li>
+        <li>
+          <h2>
+            Lv.4  将軍、大将軍
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            一緒にIT KINGDOMの運営をしましょう。個別に連絡させていただきます。
+          </p>
+        </li>
+      </ul>
     </section>
     <section
       class="container"
@@ -454,15 +488,17 @@ exports[`Index page matches snapshot 1`] = `
           MEMBERS
         </span>
         <span>
-          陣営
+          運営
         </span>
       </h1>
-      <ul>
+      <ul
+        class="members"
+      >
         <li>
           <img
-            alt="しまぶー's photograph"
+            alt="しまぶー"
             loading="lazy"
-            src="/img/knight.png"
+            src="/img/members/shimabu.png"
           />
           <h1>
             しまぶー
@@ -473,32 +509,14 @@ exports[`Index page matches snapshot 1`] = `
           <p
             class="sansSerif"
           >
-            神戸大学経営学部卒。文系から独学でプログラミングを勉強し、新卒でヤフー株式会社に入社。新規事業部署でフロントエンドを担当した後に、知り合いづてで転職。フルリモートで働きながら様々な案件開発を行う。2019年に投資家から資金調達を行い起業。現在は新規のプロダクト開発に励んでいる。
+            ITエンジニアYouTuber。文系から独学でプログラミングを勉強し、新卒でヤフーに入社。2019年に資金調達を行い起業。
           </p>
         </li>
         <li>
           <img
-            alt="一歩's photograph"
+            alt="まっつん"
             loading="lazy"
-            src="/img/knight.png"
-          />
-          <h1>
-            一歩
-          </h1>
-          <h2>
-            左丞相
-          </h2>
-          <p
-            class="sansSerif"
-          >
-            新卒でクックパッドに入社し、現在はITベンチャーに転職して勤務中。アプリ開発・フロントエンド・デザインに秀でており、当コミュニティでもその分野を担当。
-          </p>
-        </li>
-        <li>
-          <img
-            alt="まっつん's photograph"
-            loading="lazy"
-            src="/img/knight.png"
+            src="/img/members/shimabu.png"
           />
           <h1>
             まっつん
@@ -509,14 +527,32 @@ exports[`Index page matches snapshot 1`] = `
           <p
             class="sansSerif"
           >
-            新卒でヤフーに入社し、決済の部署でインフラ・バックエンドを担当。現在はしまぶーと一緒に起業。当コミュニティではバックエンドの取りまとめを行う。
+            新卒でヤフーに入社し、決済部署でインフラ・バックエンドを担当。現在はしまぶーと一緒に起業。サロンではバックエンドを見る。
           </p>
         </li>
         <li>
           <img
-            alt="やっさん's photograph"
+            alt="いっぽ"
             loading="lazy"
-            src="/img/knight.png"
+            src="/img/members/ippo.png"
+          />
+          <h1>
+            いっぽ
+          </h1>
+          <h2>
+            左丞相
+          </h2>
+          <p
+            class="sansSerif"
+          >
+            新卒でクックパッドに入社し現在はITベンチャーに転職。アプリ・フロントエンド・デザインに秀でており、サロンでもその分野を担当。
+          </p>
+        </li>
+        <li>
+          <img
+            alt="やっさん"
+            loading="lazy"
+            src="/img/members/shimabu.png"
           />
           <h1>
             やっさん
@@ -527,95 +563,101 @@ exports[`Index page matches snapshot 1`] = `
           <p
             class="sansSerif"
           >
-            現役ヤフーエンジニア。幅広いエンジニアリング知識を持っている。聞けばだいたいの答えは返ってくるので、当コミュニティでは分野問わず幅広く担当する。
+            現役ヤフーエンジニア。幅広いエンジニアリングの知識を持っている。サロンでは分野を問わず幅広く担当する。
           </p>
         </li>
       </ul>
     </section>
-    <section
-      class="container"
-      style="background-image: url(./img/castle-interior.jpg);"
-    >
-      <h1
-        class="headline container coloredTitle"
-      >
-        <span>
-          MESSAGE
-        </span>
-        <span>
-          国王からの通達
-        </span>
-      </h1>
-      <p
-        class="sansSerif"
-      >
-        このサロンはただのプログラミングを教えるだけのサロンではありません。
-        「最高のプロダクトを生み出す最強のコミュニティをつくりたい」という思いからできています。
-        あくまで根底にあるのはモノづくりです。学んで終わりではなく実際にプロダクトをリリースしていきます。
-        この思いに共感できる方、ワクワクする方に入っていただきたいと思います。
-      </p>
-      <p
-        class="sansSerif"
-      >
-        私はこの信念の実現に向けて最強のコミュニティづくりに注力します。
-        もちろんその中には「プログラミングスキルの向上」も最優先事項として含まれています。
-        エンジニアを目指す方も多いかと思いますが、それはこのサロンも願っていることです。
-        みなさんがIT企業に就職し、更にスキルアップして、より最高のプロダクトづくりができることを求めています。
-        そのためのサポートは惜しみなく行う予定です。
-      </p>
-      <p
-        class="sansSerif"
-      >
-        正直、このようなサロンは前例がないレベルの最先端な取り組みだと思っています。
-        私自身うまく立ち回れるか不安ですが、そういった不安も一緒に楽しめる方に入っていただけると嬉しいです。
-        個人の進化はもちろん、コミュニティの進化も目指して、一緒に最高のモノづくりをしましょう。
-      </p>
-    </section>
-    <section
+    <div
       class="container"
     >
-      <h1
-        class="headline container"
+      <img
+        alt="Background"
+        class="img"
+        src="./img/message.png"
+      />
+      <section
+        class="container"
       >
-        <span>
-          PRICE
-        </span>
-        <span>
-          料金
-        </span>
-      </h1>
-      <div>
-        <div>
-          <span
-            class="sansSerif"
-          >
-            月額 (税抜)
-          </span>
-          <h2>
-            2,980
-            <span>
-              円
-            </span>
-          </h2>
-        </div>
         <div
-          class="sansSerif"
+          class="backgroundText"
         >
-          <p>
-            Qastなどの外部サービス利用料は含まれております。
-            オフラインの勉強会を開催する場合は会場費・飲食費など、
-            別途費用がかかる可能性があります。
-          </p>
-          <br />
-          <b>
-            現在テスト期間のため、100名限定で受け付けております。
-          </b>
-          <span>
-            テストが終わり次第、再度募集を行います。
-          </span>
+          <h1
+            class="headline container coloredTitle"
+          >
+            <span>
+              MESSAGE
+            </span>
+            <span>
+              国王のメッセージ
+            </span>
+          </h1>
+          <div
+            class="text"
+          >
+            <p
+              class="sansSerif"
+            >
+              IT KINGDOMはただプログラミングを教えるだけのサロンではありません。
+              学んで終わりではなくプロダクトをリリースし、実際にビジネスとして展開していきます。
+              そこで得た収益をサロンに還元する、それが私が目指す世界です。
+            </p>
+            <p
+              class="sansSerif"
+            >
+              私はその実現に向けてサロンメンバーのIT力向上に注力します。
+              ITエンジニアを目指す方も多いと思われますが、サロンではそのサポートもいたします。
+              みなさんがIT企業に就職し、更にスキルアップして、また一緒に開発できることを願っています。
+            </p>
+            <p
+              class="sansSerif"
+            >
+              このような形で実際にビジネスを行うのは前例の殆どない最先端な取り組みです。
+              私も不安ではありますが、そういった不安も一緒に楽しめる方に入っていただけると嬉しいです。
+              個々の進化はもちろん、コミュニティの進化も目指して、一緒に最高のモノづくりをしましょう。
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section
+        class="container"
+      >
+        <h1
+          class="headline container"
+        >
+          <span>
+            PRICE
+          </span>
+          <span>
+            料金
+          </span>
+        </h1>
+        <div>
+          <div
+            class="price"
+          >
+            <span
+              class="sansSerif"
+            >
+              月額 (税抜)
+            </span>
+            <h2>
+              2,980
+              <span>
+                円
+              </span>
+            </h2>
+          </div>
+          <p
+            class="sansSerif note"
+          >
+            Qastなどの外部サービス利用料は含まれています。
+            オフラインのイベントは別途費用がかかります。
+            新たなプランが追加される可能性がございます。
+          </p>
+        </div>
+      </section>
+    </div>
     <section
       class="container"
     >
@@ -632,7 +674,9 @@ exports[`Index page matches snapshot 1`] = `
       <ul
         style="background-image: url(./img/ink.png);"
       >
-        <li>
+        <li
+          class="step"
+        >
           <div>
             <span>
               STEP
@@ -650,7 +694,9 @@ exports[`Index page matches snapshot 1`] = `
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
           </p>
         </li>
-        <li>
+        <li
+          class="step"
+        >
           <div>
             <span>
               STEP
@@ -668,7 +714,9 @@ exports[`Index page matches snapshot 1`] = `
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
           </p>
         </li>
-        <li>
+        <li
+          class="step"
+        >
           <div>
             <span>
               STEP
@@ -686,7 +734,9 @@ exports[`Index page matches snapshot 1`] = `
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
           </p>
         </li>
-        <li>
+        <li
+          class="step"
+        >
           <div>
             <span>
               STEP
@@ -706,6 +756,7 @@ exports[`Index page matches snapshot 1`] = `
         </li>
       </ul>
       <a
+        class="button"
         href="/"
       >
         <img
