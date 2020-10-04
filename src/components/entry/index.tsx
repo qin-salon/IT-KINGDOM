@@ -4,24 +4,29 @@ import { Headline } from "src/components/headline";
 
 const STEPS = [
   {
-    title: "ログインを行う",
+    title: "入国手続きを行う",
     body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
+      "IT KINGDOMへ入国するには手続きが必要です。パスポートのようなものですね。ページ上部または下部にある「入国手続きを行う」から行えます。GitHubまたはGoogleのアカウント連携で会員登録が可能です。プログラミングを学びたい方はGitHub連携をオススメしています。",
   },
   {
-    title: "お支払いを行う",
+    title: "住民税を支払う",
     body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
+      "IT KINGDOMも国家ですから、そこに住むにはやはり住民税（上記の月額費用）がかかります。会員登録完了後に、お支払い手続きをお済ませください。お支払いはクレジットカードのみとなっております。",
   },
   {
-    title: "プロフィールを登録しましょう",
+    title: "プロフィールを登録する",
     body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
+      "続いてプロフィールをご記入ください。引越し後は転入届です。イベント企画をする際にこちらでご記入いただいたプロフィール情報を参考にさせていただきます。後からでも変更できます。",
   },
   {
-    title: "各種サービスの招待がきます",
+    title: "各種サービスへ招待します",
     body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?",
+      "当サロンでは「Qast」「Workplace」という2つのサービスを使用します。プロフィールを登録後、1日後を目安にメールアドレスへ招待が届きますので、そこからご登録ください。使い方はサロン内で解説いたします。",
+  },
+  {
+    title: "学ぼう、育てよう、楽しもう",
+    body:
+      "自身の目標実現のため鍛錬に励むも良し！ときには国力向上のためサロンに尽くすも良し！さぁ、楽しい IT KINGDOM ライフの始まりです！",
   },
 ];
 
