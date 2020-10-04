@@ -74,6 +74,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   > a {
     display: block;
     width: clamp(255px, 100%, 480px);
+    height: fit-content;
   }
 }
 
