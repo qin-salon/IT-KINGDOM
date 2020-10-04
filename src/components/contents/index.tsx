@@ -3,34 +3,34 @@ import { Headline } from "src/components/headline";
 
 const ITEMS = [
   {
-    src: "/img/contents_programming.png",
-    bgSrc: "/img/contents_cloud1.png",
+    src: "/img/contents/programming.png",
+    bgSrc: "/img/contents/cloud1.png",
     title: "プロダクト開発",
     body:
       "私含め現役エンジニアが新規事業のプロジェクトをたてます。プロジェクトのコードはみんなが読めるようにGitHubのチーム機能を使用し、適宜コードの解説も行います。また開発ができるメンバーには実際にコードを書いていただく予定で、チーム開発の実戦経験にもなります。",
   },
   {
-    src: "/img/contents_qast.png",
+    src: "/img/contents/qast.png",
     title: "気軽に質問",
     body:
       "Qastというサービスを使用します。Qastには匿名で質問を行う機能があるため「何度も質問するのは気が引ける」「初歩的すぎて聞くのが恥ずかしい」という心配も不要です。また誰でも回答でき、回答していくことでポイントが溜まる仕組みがあります。国力向上のため、みんなで教え合いサロンを強くしていきましょう。",
   },
   {
-    src: "/img/contents_blog.png",
-    bgSrc: "/img/contents_cloud2.png",
+    src: "/img/contents/blog.png",
+    bgSrc: "/img/contents/cloud2.png",
     title: "ブログ執筆・アウトプット",
     body:
       "Qastにはブログ機能も備わっています。誰でもブログを書くことができるので学んだことは積極的にアウトプットしていきましょう。外部だとたくさんの人に間違いを指摘されて怖いかもしれませんが当サロンは私含めみんなが優しく教えてくれます。また私含め現役エンジニアもブログを執筆予定です。",
   },
   {
-    src: "/img/contents_news.png",
+    src: "/img/contents/news.png",
     title: "IT業界研究",
     body:
       "実際の仕事はプログラミングだけができればOKではありません。優れたプロダクトを作るためにはIT業界のトレンドを知る必要があります。私がニュースをサロン内でシェアしたり時事ネタを解説します。コメント欄では議論を行い、みんなでビジネス力を高めていきましょう。",
   },
   {
-    src: "/img/contents_community.png",
-    bgSrc: "/img/contents_cloud3.png",
+    src: "/img/contents/community.png",
+    bgSrc: "/img/contents/cloud3.png",
     title: "楽しめるコミュニティ",
     body:
       "ただ学ぶだけではなく楽しめるようなサロンにします。Workplaceというサービスを用い交流できる会を頻繁に設けます。プログラミングを一緒に勉強するもくもく会、オンライン飲み会、オフラインでの講座などを予定しています。東京だけでなく各都市でも定期的に行いたいと考えています。",

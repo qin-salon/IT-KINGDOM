@@ -6,7 +6,7 @@ export function Vision(): JSX.Element {
     <section className={styles.container}>
       <img
         className={clsx(styles.icon, styles.front)}
-        src="/img/weapon.png"
+        src="/img/vision/weapon.png"
         alt="Vision section's icon"
         loading="lazy"
       />
@@ -30,8 +30,8 @@ export function Vision(): JSX.Element {
           <br />
           必要に応じて経営企画・マーケティング・プレゼンテーション・マインドセットの講座も行います。
         </p>
-        <img className={styles.goldTopLeft} src="/img/gold-top-left.png" alt="Background" loading="lazy" />
-        <img className={styles.shimabu_udegumi} src="/img/shimabu_udegumi.png" alt="Shimabu" loading="lazy" />
+        <img className={styles.goldTopLeft} src="/img/vision/gold-top-left.png" alt="Background" loading="lazy" />
+        <img className={styles.shimabu_udegumi} src="/img/vision/shimabu_udegumi.png" alt="Shimabu" loading="lazy" />
       </div>
       <div className={styles.frame}>
         <h2>
@@ -42,9 +42,14 @@ export function Vision(): JSX.Element {
           <br />
           また学んだことは積極的にアウトプットを行い、国力の向上に努めてください。
         </p>
-        <img className={styles.goldBottomRight} src="/img/gold-bottom-right.png" alt="Background" loading="lazy" />
-        <img className={styles.goldTopLeft} src="/img/gold-top-left.png" alt="Background" loading="lazy" />
-        <img className={styles.soldiers} src="/img/soldiers.png" alt="Salon members" loading="lazy" />
+        <img
+          className={styles.goldBottomRight}
+          src="/img/vision/gold-bottom-right.png"
+          alt="Background"
+          loading="lazy"
+        />
+        <img className={styles.goldTopLeft} src="/img/vision/gold-top-left.png" alt="Background" loading="lazy" />
+        <img className={styles.soldiers} src="/img/vision/soldiers.png" alt="Salon members" loading="lazy" />
       </div>
 
       <small className={clsx("sansSerif", styles.note)}>
