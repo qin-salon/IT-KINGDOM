@@ -35,7 +35,7 @@ export function Entry(): JSX.Element {
     <section className={styles.container}>
       <Headline title="入国方法" label="HOW TO ENTRY" className={styles.headline} />
 
-      <ul style={{ backgroundImage: `url("./img/ink.png")` }}>
+      <ul style={{ backgroundImage: `url("img/ink.png")` }}>
         {STEPS.map((step, index) => (
           <li key={step.title} className={styles.step}>
             <div>

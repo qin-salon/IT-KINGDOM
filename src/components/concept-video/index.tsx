@@ -15,7 +15,7 @@ export function ConceptVideo(): JSX.Element {
           allowFullScreen
         ></iframe>
       </div>
-      <img className={styles.smoke} src="./img/smoke.png" alt="Background smoke" />
+      <img className={styles.smoke} src="img/smoke.png" alt="Background smoke" />
     </section>
   );
 }

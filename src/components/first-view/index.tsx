@@ -8,7 +8,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
   const count = Math.round(subscriberCount * 0.001) / 10;
 
   return (
-    <section className={styles.container} style={{ backgroundImage: `url("./img/hero.png")` }}>
+    <section className={styles.container} style={{ backgroundImage: `url("img/hero.png")` }}>
       <div>
         <h1 className={styles.text}>
           <div className={styles.line}>

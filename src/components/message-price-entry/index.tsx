@@ -7,6 +7,7 @@ export function MessagePriceEntry(): JSX.Element {
   return (
     <div className={styles.container}>
       <img className={styles.img} src="./img/message.png" alt="Background" />
+      <img className={styles.img} src="img/message.png" alt="Background" />
       <Message />
       <Price />
       <Entry />
