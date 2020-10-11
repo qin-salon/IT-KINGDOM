@@ -30,7 +30,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
           <Img
             className={styles.itk}
             src={require("@img/it-kingdom.png")}
-            sizes={[520, 768, 1050]}
+            sizes={[320, 520, 768, 1050]}
             alt="Logo of 'IT KINGDOM"
           />
           <div className={styles.button}>

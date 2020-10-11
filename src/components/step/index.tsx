@@ -1,3 +1,4 @@
+import Img from "react-optimized-image";
 import styles from "src/components/step/index.module.scss";
 
 const STEPS = [
@@ -27,7 +28,14 @@ export function StepUp(): JSX.Element {
           <span>訓練</span>
           <span>STEP UP</span>
         </h1>
-        <img className={styles.step} src="img/step.png" alt="Curriculum" />
+        <Img
+          className={styles.step}
+          src={require(`@img/step.png`)}
+          alt="Curriculum"
+          sizes={[300, 400]}
+          breakpoints={[400]}
+          loading="lazy"
+        />
       </div>
       <ul className={styles.text}>
         {STEPS.map(({ label, body }, index) => (

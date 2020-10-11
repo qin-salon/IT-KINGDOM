@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Img from "react-optimized-image";
 import styles from "src/components/entry/index.module.scss";
 import { Headline } from "src/components/headline";
 
@@ -50,7 +51,7 @@ export function Entry(): JSX.Element {
 
       <Link href="/">
         <a className={styles.button}>
-          <img src="/img/entry-btn.png" alt="Entry button" loading="lazy" />
+          <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" loading="lazy" />
         </a>
       </Link>
     </section>

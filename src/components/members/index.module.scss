@@ -25,12 +25,15 @@
       "... ... ..... ... ..." 16px
       / auto 3% 1fr 3% auto;
 
-    > img {
-      grid-area: img;
-      max-height: 240px;
-      width: 100%;
-      object-fit: cover;
-      object-position: top center;
+    > picture {
+      display: contents;
+      > img {
+        grid-area: img;
+        max-height: 240px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top center;
+      }
     }
     > h1 {
       grid-area: name;
@@ -64,8 +67,11 @@
         "... img ... intro ..." 1fr
         "... ... ... ..... ..."
         / auto 180px calc(1vw + 1vh) 1fr auto;
-      > img {
-        height: 240px;
+
+      > picture {
+        > img {
+          height: 240px;
+        }
       }
     }
   }

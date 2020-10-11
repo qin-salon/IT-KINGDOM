@@ -39,9 +39,12 @@
     background-size: cover;
     background-position: 160px center;
   }
-  > img {
-    grid-area: img;
-    width: 40%;
+  > picture {
+    display: contents;
+    > img {
+      grid-area: img;
+      width: 40%;
+    }
   }
   > h2 {
     grid-area: title;
@@ -84,7 +87,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 680px) {
   .content {
     justify-items: flex-start;
     &:nth-child(odd) {
@@ -121,8 +124,10 @@
       background-size: auto 160%;
       background-position: 50vw bottom;
     }
-    > img {
-      width: 100%;
+    > picture {
+      > img {
+        width: 100%;
+      }
     }
     > h2 {
       letter-spacing: 0;
