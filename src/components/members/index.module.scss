@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 60px 0 0;
   position: relative;
 }
 
@@ -81,5 +81,6 @@
 @media (min-width: 1024px) {
   .container {
     width: 940px;
+    padding: 60px 0;
   }
 }
