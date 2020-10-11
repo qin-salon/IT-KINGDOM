@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
+import Img from "react-optimized-image";
 import styles from "src/components/first-view/index.module.scss";
 
 type Props = { subscriberCount: number };
@@ -26,11 +27,16 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
           </div>
         </h1>
         <div className={styles.itk_button}>
-          <img className={styles.itk} src="/img/it-kingdom.png" alt="Logo of 'IT KINGDOM'" />
+          <Img
+            className={styles.itk}
+            src={require("@img/it-kingdom.png")}
+            sizes={[520, 768, 1050]}
+            alt="Logo of 'IT KINGDOM"
+          />
           <div className={styles.button}>
             <Link href="/">
               <a>
-                <img src="/img/entry-btn.png" alt="Entry button" />
+                <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" />
               </a>
             </Link>
           </div>

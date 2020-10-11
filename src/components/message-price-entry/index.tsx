@@ -12,7 +12,7 @@ export function MessagePriceEntry(): JSX.Element {
         src={require("@img/message.png")}
         sizes={[520, 768, 980, 1200, 1680, 2560]}
         alt="Background"
-        webp
+        loading="lazy"
       />
       <Message />
       <Price />
