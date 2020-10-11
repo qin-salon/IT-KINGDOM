@@ -49,26 +49,30 @@
   border: 1px solid #b3ac8a;
   position: relative;
   z-index: 1;
-  > img.goldTopLeft {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  > img.goldBottomRight {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: auto;
+  > picture {
+    > img.goldTopLeft {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    > img.goldBottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+      width: auto;
+    }
   }
   &:nth-of-type(1) {
     padding: 32px 16px;
-    > img.shimabu_udegumi {
-      position: absolute;
-      bottom: 0;
-      width: 220px;
-      right: -40px;
+    > picture {
+      > img.shimabu_udegumi {
+        position: absolute;
+        bottom: 0;
+        width: 220px;
+        right: -40px;
+      }
     }
     > p {
       padding-right: 88px;
@@ -77,14 +81,16 @@
   &:nth-of-type(2) {
     margin-top: calc(1vh + 1vw);
     padding: 32px 16px 50vw;
-    > img.soldiers {
-      position: absolute;
-      bottom: 0;
-      left: -10px;
-      width: 100%;
-    }
-    > img.goldBottomRight {
-      display: none;
+    > picture {
+      > img.soldiers {
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+        width: 100%;
+      }
+      > img.goldBottomRight {
+        display: none;
+      }
     }
   }
   > h2 {
@@ -141,17 +147,21 @@
 
 @media (min-width: 480px) {
   .frame {
-    > img.goldTopLeft {
-      height: 100%;
-      width: auto;
+    > picture {
+      > img.goldTopLeft {
+        height: 100%;
+        width: auto;
+      }
     }
     &:nth-of-type(2) {
       padding: 32px 16px 32px 28vw;
-      > img.soldiers {
-        position: absolute;
-        bottom: 0;
-        left: -32px;
-        width: 44vw;
+      > picture {
+        > img.soldiers {
+          position: absolute;
+          bottom: 0;
+          left: -32px;
+          width: 44vw;
+        }
       }
     }
   }
@@ -198,8 +208,10 @@
   .frame {
     text-align: center;
     &:nth-of-type(1) {
-      > img.shimabu_udegumi {
-        right: 0;
+      > picture {
+        > img.shimabu_udegumi {
+          right: 0;
+        }
       }
       > p {
         padding-right: 0;
@@ -207,16 +219,18 @@
     }
     &:nth-of-type(2) {
       padding: 40px 24px 44px;
-      > img.goldTopLeft {
-        display: none;
-      }
-      > img.goldBottomRight {
-        display: block;
-      }
-      > img.soldiers {
-        left: -44px;
-        height: 115%;
-        width: auto;
+      > picture {
+        > img.goldTopLeft {
+          display: none;
+        }
+        > img.goldBottomRight {
+          display: block;
+        }
+        > img.soldiers {
+          left: -44px;
+          height: 115%;
+          width: auto;
+        }
       }
     }
     > p {
