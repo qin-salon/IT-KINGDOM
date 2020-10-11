@@ -1,3 +1,4 @@
+import Img from "react-optimized-image";
 import styles from "src/components/concept-video/index.module.scss";
 
 export function ConceptVideo(): JSX.Element {
@@ -15,7 +16,13 @@ export function ConceptVideo(): JSX.Element {
           allowFullScreen
         ></iframe>
       </div>
-      <img className={styles.smoke} src="img/smoke.png" alt="Background smoke" />
+      <Img
+        className={styles.smoke}
+        src={require("@img/smoke.png")}
+        alt="Background smoke"
+        sizes={[520, 768, 980, 1200, 1680, 2560]}
+        loading="lazy"
+      />
     </section>
   );
 }

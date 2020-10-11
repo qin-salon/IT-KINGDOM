@@ -1,13 +1,16 @@
 import clsx from "clsx";
+import Img from "react-optimized-image";
 import styles from "src/components/vision/index.module.scss";
 
 export function Vision(): JSX.Element {
   return (
     <section className={styles.container}>
-      <img
+      <Img
         className={clsx(styles.icon, styles.front)}
-        src="/img/vision/weapon.png"
+        src={require("@img/vision/weapon.png")}
         alt="Vision section's icon"
+        sizes={[40, 60]}
+        breakpoints={[520]}
         loading="lazy"
       />
 
@@ -30,8 +33,22 @@ export function Vision(): JSX.Element {
           <br />
           必要に応じてデザイン・マーケティング・プレゼンテーション・経営企画などの講座も行います。
         </p>
-        <img className={styles.goldTopLeft} src="/img/vision/gold-top-left.png" alt="Background" loading="lazy" />
-        <img className={styles.shimabu_udegumi} src="/img/vision/shimabu_udegumi.png" alt="Shimabu" loading="lazy" />
+        <Img
+          className={styles.goldTopLeft}
+          src={require("@img/vision/gold-top-left.png")}
+          alt="Background"
+          sizes={[340]}
+          breakpoints={[9999]}
+          loading="lazy"
+        />
+        <Img
+          className={styles.shimabu_udegumi}
+          src={require("@img/vision/shimabu_udegumi.png")}
+          alt="Shimabu"
+          sizes={[220]}
+          breakpoints={[9999]}
+          loading="lazy"
+        />
       </div>
       <div className={styles.frame}>
         <h2>
@@ -42,14 +59,30 @@ export function Vision(): JSX.Element {
           <br />
           また学んだことは積極的にアウトプットを行い、国力の向上に努めてください。
         </p>
-        <img
+        <Img
           className={styles.goldBottomRight}
-          src="/img/vision/gold-bottom-right.png"
+          src={require("@img/vision/gold-bottom-right.png")}
           alt="Background"
+          sizes={[340]}
+          breakpoints={[9999]}
           loading="lazy"
         />
-        <img className={styles.goldTopLeft} src="/img/vision/gold-top-left.png" alt="Background" loading="lazy" />
-        <img className={styles.soldiers} src="/img/vision/soldiers.png" alt="Salon members" loading="lazy" />
+        <Img
+          className={styles.goldTopLeft}
+          src={require("@img/vision/gold-top-left.png")}
+          alt="Background"
+          sizes={[340]}
+          breakpoints={[9999]}
+          loading="lazy"
+        />
+        <Img
+          className={styles.soldiers}
+          src={require("@img/vision/soldiers.png")}
+          alt="Salon members"
+          sizes={[430]}
+          breakpoints={[9999]}
+          loading="lazy"
+        />
       </div>
 
       <small className={clsx("sansSerif", styles.note)}>

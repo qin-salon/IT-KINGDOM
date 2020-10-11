@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
+import Img from "react-optimized-image";
 import styles from "src/components/header/index.module.scss";
 
 export function Header(): JSX.Element {
@@ -8,7 +9,7 @@ export function Header(): JSX.Element {
       <h1>
         <Link href="/">
           <a>
-            <img src="/img/logo.png" alt="Logo of 'IT KINGDOM'" />
+            <Img src={require("@img/logo.png")} sizes={[108, 180]} breakpoints={[320]} alt="Logo of 'IT KINGDOM" />
           </a>
         </Link>
       </h1>
