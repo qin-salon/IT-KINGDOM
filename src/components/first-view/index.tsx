@@ -9,13 +9,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
   const count = Math.round(subscriberCount * 0.001) / 10;
 
   return (
-    <section className={styles.container}>
-      {/* <Img
-        src={require(`@img/hero.png`)}
-        alt="King shimabu and soldiers"
-        sizes={[520, 768, 980, 1200, 1680, 2560]}
-        loading="lazy"
-      /> */}
+    <section className={clsx(styles.container, styles.bg)}>
       <div>
         <h1 className={styles.text}>
           <div className={styles.line}>
@@ -36,7 +30,8 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
           <Img
             className={styles.itk}
             src={require("@img/hero/it-kingdom.png")}
-            sizes={[320, 520, 768, 1050]}
+            sizes={[520, 768, 1050]}
+            breakpoints={[320, 520, 768]}
             alt="Logo of 'IT KINGDOM"
           />
           <div className={styles.button}>

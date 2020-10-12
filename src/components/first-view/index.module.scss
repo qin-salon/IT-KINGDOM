@@ -1,11 +1,34 @@
 $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 0px 8px, black 2px 2px 16px,
   black -2px 2px 16px, black 2px -2px 16px, black -2px -2px 16px;
 
+// webp対応の場合はwebp、また680px以上でPC画像に差し替え
+@supports not (background-image: url("../../../public/img/hero/sp.webp")) {
+  .bg {
+    background-image: url("../../../public/img/hero/sp.png");
+  }
+}
+@supports (background-image: url("../../../public/img/hero/sp.webp")) {
+  .bg {
+    background-image: url("../../../public/img/hero/sp.webp");
+  }
+}
+@media (min-width: 680px) {
+  @supports not (background-image: url("../../../public/img/hero/pc.webp")) {
+    .bg {
+      background-image: url("../../../public/img/hero/pc.png");
+    }
+  }
+  @supports (background-image: url("../../../public/img/hero/pc.webp")) {
+    .bg {
+      background-image: url("../../../public/img/hero/pc.webp");
+    }
+  }
+}
+
 .container {
   position: relative;
   z-index: 1;
   margin-top: calc(3vh + 3vw);
-  background-image: url("../../../public/img/hero/sp.png?webp");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -82,7 +105,6 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
 @media (min-width: 680px) {
   .container {
     margin-top: 0;
-    background-image: url("../../../public/img/hero/pc.png?webp");
   }
   .line + .line {
     display: inline-block;
