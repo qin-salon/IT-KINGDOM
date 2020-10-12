@@ -8,9 +8,10 @@ export function Video({ src }: Props): JSX.Element {
   useEffect(() => {
     if (!el.current) return;
     const target = el.current;
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting && !target.src) {
+    const observer = new IntersectionObserver((entries, ob) => {
+      if (entries[0].isIntersecting) {
         target.src = src;
+        ob.unobserve(target);
       }
     });
     observer.observe(target);
