@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Index page matches snapshot 1`] = `
+exports[`IndexPage matches snapshot 1`] = `
 <DocumentFragment>
   <div
     class="container"
@@ -226,7 +226,9 @@ exports[`Index page matches snapshot 1`] = `
           >
             <a
               class="jsx-3651463820"
-              href="/"
+              href="https://qin.salon"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <picture>
                 <source
@@ -1339,7 +1341,9 @@ exports[`Index page matches snapshot 1`] = `
         </ul>
         <a
           class="button"
-          href="/"
+          href="https://qin.salon"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <picture>
             <source
@@ -1381,7 +1385,7 @@ exports[`Index page matches snapshot 1`] = `
           class="link"
         >
           <a
-            href="/"
+            href="/support/terms"
           >
             利用規約
           </a>
@@ -1390,7 +1394,7 @@ exports[`Index page matches snapshot 1`] = `
           class="link"
         >
           <a
-            href="/"
+            href="/support/privacy-policy"
           >
             プライバシーポリシー
           </a>
@@ -1399,7 +1403,7 @@ exports[`Index page matches snapshot 1`] = `
           class="link"
         >
           <a
-            href="/"
+            href="/support/commerce"
           >
             特定商取引法に基づく表記
           </a>
@@ -1408,7 +1412,7 @@ exports[`Index page matches snapshot 1`] = `
           class="link"
         >
           <a
-            href="/"
+            href="mailto:dev@qin.salon"
           >
             お問い合わせ
           </a>
