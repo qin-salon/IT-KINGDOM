@@ -1,4 +1,5 @@
 import React from "react";
+import { MAIL_ADDRESS } from "src/constants";
 import { SupportLayout } from "src/layouts/support";
 
 export default function PrivacyPolicyPage(): JSX.Element {
@@ -122,7 +123,7 @@ export default function PrivacyPolicyPage(): JSX.Element {
       <p>
         開示等のお申出、ご意見、ご質問、苦情、その他個人情報の取り扱いに関するお問い合わせは、下記の窓口までお願いいたします。
       </p>
-      <p>Eメールアドレス：dev@qin.salon</p>
+      <p>Eメールアドレス: {MAIL_ADDRESS}</p>
 
       <time>2020年10月15日 制定</time>
     </SupportLayout>

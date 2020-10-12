@@ -1,12 +1,13 @@
 import clsx from "clsx";
 import Link from "next/link";
 import styles from "src/components/footer/index.module.scss";
+import { MAIL_ADDRESS } from "src/constants";
 
 const ITEMS = [
   { href: "/support/terms", label: "利用規約" },
   { href: "/support/privacy-policy", label: "プライバシーポリシー" },
   { href: "/support/commerce", label: "特定商取引法に基づく表記" },
-  { href: "", label: "お問い合わせ" },
+  { href: `mailto:${MAIL_ADDRESS}`, label: "お問い合わせ" },
 ];
 
 export function Footer(): JSX.Element {

@@ -1,4 +1,5 @@
 import React from "react";
+import { MAIL_ADDRESS } from "src/constants";
 import { SupportLayout } from "src/layouts/support";
 
 export default function CommercePage(): JSX.Element {
@@ -14,7 +15,7 @@ export default function CommercePage(): JSX.Element {
       <p>東京都</p>
 
       <h2>事業者の連絡先</h2>
-      <p>dev@qin.salon</p>
+      <p>{MAIL_ADDRESS}</p>
       <p>営業時間: 平日10:00〜19:00</p>
 
       <h2>販売価格について</h2>
