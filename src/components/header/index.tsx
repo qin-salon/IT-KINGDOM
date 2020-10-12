@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import Img from "react-optimized-image";
 import styles from "src/components/header/index.module.scss";
+import { QIN_URL } from "src/constants";
 
 export function Header(): JSX.Element {
   return (
@@ -21,7 +22,7 @@ export function Header(): JSX.Element {
             </Link>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://qin.salon">
+            <a target="_blank" rel="noopener noreferrer" href={QIN_URL}>
               ログイン
             </a>
           </li>

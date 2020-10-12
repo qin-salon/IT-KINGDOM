@@ -1,7 +1,7 @@
-import Link from "next/link";
 import Img from "react-optimized-image";
 import styles from "src/components/entry/index.module.scss";
 import { Headline } from "src/components/headline";
+import { QIN_URL } from "src/constants";
 
 const STEPS = [
   {
@@ -49,11 +49,9 @@ export function Entry(): JSX.Element {
         ))}
       </ul>
 
-      <Link href="/">
-        <a className={styles.button}>
-          <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" loading="lazy" />
-        </a>
-      </Link>
+      <a className={styles.button} target="_blank" rel="noopener noreferrer" href={QIN_URL}>
+        <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" loading="lazy" />
+      </a>
     </section>
   );
 }

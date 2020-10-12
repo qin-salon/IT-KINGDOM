@@ -1,7 +1,7 @@
 import clsx from "clsx";
-import Link from "next/link";
 import Img from "react-optimized-image";
 import styles from "src/components/first-view/index.module.scss";
+import { QIN_URL } from "src/constants";
 
 type Props = { subscriberCount: number };
 
@@ -78,11 +78,9 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
             alt="Logo of 'IT KINGDOM"
           />
           <div className={styles.button}>
-            <Link href="/">
-              <a>
-                <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" />
-              </a>
-            </Link>
+            <a target="_blank" rel="noopener noreferrer" href={QIN_URL}>
+              <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" />
+            </a>
           </div>
         </div>
       </div>
