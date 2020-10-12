@@ -5,6 +5,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   position: relative;
   z-index: 1;
   margin-top: calc(3vh + 3vw);
+  background-image: url("../../../public/img/hero/sp.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -78,7 +79,11 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 680px) {
+  .container {
+    margin-top: 0;
+    background-image: url("../../../public/img/hero/pc.png");
+  }
   .line + .line {
     display: inline-block;
   }
@@ -94,8 +99,21 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1480px) {
   .container {
-    margin-top: 0;
+    > div {
+      padding-top: calc(24vw);
+    }
   }
+  .text {
+    font-size: 2vw;
+  }
+  .itk {
+    width: 70vw;
+  }
+  // .button {
+  //   > a {
+  //     width: 40%;
+  //   }
+  // }
 }
