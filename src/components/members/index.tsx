@@ -11,7 +11,7 @@ const MEMBERS = [
       "ITエンジニアYouTuber。文系から独学でプログラミングを勉強し、新卒でヤフーに入社。2019年に資金調達を行い起業。",
   },
   {
-    src: "members/shimabu.png",
+    src: "members/matsu.png",
     name: "まっつん",
     rank: "相国",
     introduction:
