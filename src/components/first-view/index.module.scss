@@ -61,7 +61,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
 }
 
 .itk {
-  width: clamp(280px, 100vw, 1050px);
+  width: clamp(280px, 100vw, 1100px);
   margin-bottom: 16px;
 }
 
@@ -82,6 +82,9 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
 @media (min-width: 768px) {
   .container {
     margin-top: 0;
+    > div {
+      padding-top: 24vw;
+    }
   }
   .line + .line {
     display: inline-block;
@@ -95,19 +98,5 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   .button {
     top: 64%;
     margin-bottom: 0;
-  }
-}
-
-@media (min-width: 1480px) {
-  .container {
-    > div {
-      padding-top: calc(24vw);
-    }
-  }
-  .text {
-    font-size: 2vw;
-  }
-  .itk {
-    width: 70vw;
   }
 }
