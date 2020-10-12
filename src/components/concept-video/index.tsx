@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import Img from "react-optimized-image";
 import styles from "src/components/concept-video/index.module.scss";
 
-const Video = dynamic(() => import("./video"));
+const Video = dynamic(() => import("./video"), { loading: () => <p>Loading ...</p>, ssr: false });
 
 export function ConceptVideo(): JSX.Element {
   return (
