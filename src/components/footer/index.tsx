@@ -5,7 +5,7 @@ import styles from "src/components/footer/index.module.scss";
 const ITEMS = [
   { href: "/support/terms", label: "利用規約" },
   { href: "/support/privacy-policy", label: "プライバシーポリシー" },
-  { href: "", label: "特定商取引法に基づく表記" },
+  { href: "/support/commerce", label: "特定商取引法に基づく表記" },
   { href: "", label: "お問い合わせ" },
 ];
 
