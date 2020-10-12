@@ -12,15 +12,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
     <section className={styles.container}>
       <picture className={styles.img}>
         <source
-          media="(max-width:768px)"
-          srcSet="
-            img/hero/sp-400.png 400w,
-            img/hero/sp-500.png 500w,
-            img/hero/sp-600.png 600w,
-            img/hero/sp-768.png 768w,
-            img/hero/sp.png"
-        />
-        <source
+          type="image/webp"
           media="(max-width:768px)"
           srcSet="
             img/hero/sp-400.webp 400w,
@@ -30,15 +22,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
             img/hero/sp.webp"
         />
         <source
-          srcSet="
-            img/hero/pc-980.png 980w,
-            img/hero/pc-1200.png 1200w,
-            img/hero/pc-1680.png 1680w,
-            img/hero/pc-2000.png 2000w,
-            img/hero/pc-2560.png 2560w,
-            img/hero/pc.png"
-        />
-        <source
+          type="image/webp"
           srcSet="
             img/hero/pc-980.webp 980w,
             img/hero/pc-1200.webp 1200w,
@@ -46,6 +30,26 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
             img/hero/pc-2000.webp 2000w,
             img/hero/pc-2560.webp 2560w,
             img/hero/pc.webp"
+        />
+        <source
+          type="image/png"
+          media="(max-width:768px)"
+          srcSet="
+            img/hero/sp-400.png 400w,
+            img/hero/sp-500.png 500w,
+            img/hero/sp-600.png 600w,
+            img/hero/sp-768.png 768w,
+            img/hero/sp.png"
+        />
+        <source
+          type="image/png"
+          srcSet="
+            img/hero/pc-980.png 980w,
+            img/hero/pc-1200.png 1200w,
+            img/hero/pc-1680.png 1680w,
+            img/hero/pc-2000.png 2000w,
+            img/hero/pc-2560.png 2560w,
+            img/hero/pc.png"
         />
         <img src="img/hero/pc.png" alt="King shimabu and soldiers" />
       </picture>
