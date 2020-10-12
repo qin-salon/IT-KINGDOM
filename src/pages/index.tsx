@@ -4,12 +4,12 @@ import { ConceptVideo } from "src/components/concept-video";
 import { Contents } from "src/components/contents";
 import { FirstView } from "src/components/first-view";
 import { Footer } from "src/components/footer";
-import { Global } from "src/components/global";
 import { Header } from "src/components/header";
 import { Members } from "src/components/members";
 import { MessagePriceEntry } from "src/components/message-price-entry";
 import { StepUp } from "src/components/step";
 import { Vision } from "src/components/vision";
+import { MainLayout } from "src/layouts/main";
 
 type Props = { subscriberCount: number };
 
@@ -23,7 +23,7 @@ export default function IndexPage(props: Props): JSX.Element {
           content={`チャンネル登録者${props.subscriberCount}人のプログラミングYouTuberによるオンラインサロン。ヤフーやクックパッドなど国内大手IT企業出身の現役ITエンジニアが運営。`}
         />
       </Head>
-      <Global>
+      <MainLayout>
         <Header />
         <FirstView subscriberCount={props.subscriberCount} />
         <ConceptVideo />
@@ -33,7 +33,7 @@ export default function IndexPage(props: Props): JSX.Element {
         <Members />
         <MessagePriceEntry />
         <Footer />
-      </Global>
+      </MainLayout>
     </>
   );
 }

@@ -1,0 +1,37 @@
+.container {
+  width: min(100%, 740px);
+  margin: 0 auto;
+  padding: 2em 10px;
+  font-size: 14px;
+  color: #ffffff;
+  h1 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  h2 {
+    font-size: 1.2em;
+    margin-top: 2em;
+  }
+  p,
+  ul,
+  ol {
+    margin: 0.5em 0;
+  }
+  ul {
+    list-style: unset;
+    padding-left: 1.5em;
+  }
+  ol {
+    list-style: decimal;
+    padding-left: 1.5em;
+  }
+  ol ol {
+    list-style: lower-alpha;
+  }
+  time {
+    display: block;
+    padding-top: 2em;
+    text-align: right;
+  }
+}

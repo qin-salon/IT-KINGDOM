@@ -1,8 +1,9 @@
 import React from "react";
+import { SupportLayout } from "src/layouts/support";
 
 export default function PrivacyPolicyPage(): JSX.Element {
   return (
-    <div>
+    <SupportLayout page="プライバシーポリシー">
       <h1>個人情報保護方針</h1>
       <p>
         株式会社
@@ -54,38 +55,6 @@ export default function PrivacyPolicyPage(): JSX.Element {
       </p>
 
       <time>2020 年 07 月 24 日 改定</time>
-
-      <style jsx>{`
-        div {
-          width: min(100%, 740px);
-          margin: 0 auto;
-          padding: 2em 10px;
-          font-size: 14px;
-          color: var(--c-primary-level7);
-        }
-        h1 {
-          font-size: 1.4em;
-          text-align: center;
-          margin-bottom: 1em;
-        }
-        h2 {
-          font-size: 1.2em;
-          margin-top: 2em;
-        }
-        p,
-        ul {
-          margin: 0.5em 0;
-        }
-        ul {
-          list-style: unset;
-          padding-left: 1.5em;
-        }
-        time {
-          display: block;
-          padding-top: 2em;
-          text-align: right;
-        }
-      `}</style>
-    </div>
+    </SupportLayout>
   );
 }
