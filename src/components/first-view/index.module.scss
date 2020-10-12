@@ -1,27 +1,17 @@
 $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 0px 8px, black 2px 2px 16px,
   black -2px 2px 16px, black 2px -2px 16px, black -2px -2px 16px;
 
-.bg {
-  background-image: url("../../../public/img/hero/sp.png");
-  background-image: url("../../../public/img/hero/sp.webp");
-}
-@media (min-width: 680px) {
-  .bg {
-    background-image: url("../../../public/img/hero/pc.png");
-    background-image: url("../../../public/img/hero/pc.webp");
-  }
+.img {
+  position: absolute;
+  z-index: -1;
 }
 
 .container {
   position: relative;
   z-index: 1;
   margin-top: calc(3vh + 3vw);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
   > div {
     padding-top: calc(12vh + 12vw);
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +79,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   }
 }
 
-@media (min-width: 680px) {
+@media (min-width: 768px) {
   .container {
     margin-top: 0;
   }
@@ -120,9 +110,4 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   .itk {
     width: 70vw;
   }
-  // .button {
-  //   > a {
-  //     width: 40%;
-  //   }
-  // }
 }
