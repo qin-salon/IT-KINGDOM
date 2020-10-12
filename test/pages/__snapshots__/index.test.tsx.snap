@@ -12,10 +12,32 @@ exports[`Index page matches snapshot 1`] = `
         <a
           href="/"
         >
-          <img
-            alt="Logo of 'IT KINGDOM'"
-            src="/img/logo.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 320px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 321px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 320px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 321px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="Logo of 'IT KINGDOM"
+              src="test-file-stub"
+            />
+          </picture>
         </a>
       </h1>
       <nav
@@ -43,8 +65,38 @@ exports[`Index page matches snapshot 1`] = `
     </header>
     <section
       class="jsx-3651463820 container"
-      style="background-image: url(./img/hero.png);"
     >
+      <picture
+        class="jsx-3651463820 img"
+      >
+        <source
+          class="jsx-3651463820"
+          media="(max-width:768px)"
+          srcset=" img/hero/sp-400.webp 400w, img/hero/sp-500.webp 500w, img/hero/sp-600.webp 600w, img/hero/sp-768.webp 768w, img/hero/sp.webp"
+          type="image/webp"
+        />
+        <source
+          class="jsx-3651463820"
+          srcset=" img/hero/pc-980.webp 980w, img/hero/pc-1200.webp 1200w, img/hero/pc-1680.webp 1680w, img/hero/pc-2000.webp 2000w, img/hero/pc-2560.webp 2560w, img/hero/pc.webp"
+          type="image/webp"
+        />
+        <source
+          class="jsx-3651463820"
+          media="(max-width:768px)"
+          srcset=" img/hero/sp-400.png 400w, img/hero/sp-500.png 500w, img/hero/sp-600.png 600w, img/hero/sp-768.png 768w, img/hero/sp.png"
+          type="image/png"
+        />
+        <source
+          class="jsx-3651463820"
+          srcset=" img/hero/pc-980.png 980w, img/hero/pc-1200.png 1200w, img/hero/pc-1680.png 1680w, img/hero/pc-2000.png 2000w, img/hero/pc-2560.png 2560w, img/hero/pc.png"
+          type="image/png"
+        />
+        <img
+          alt="King shimabu and soldiers"
+          class="jsx-3651463820"
+          src="img/hero/pc.png"
+        />
+      </picture>
       <div
         class="jsx-3651463820"
       >
@@ -102,11 +154,73 @@ exports[`Index page matches snapshot 1`] = `
         <div
           class="jsx-3651463820 itk_button"
         >
-          <img
-            alt="Logo of 'IT KINGDOM'"
-            class="jsx-3651463820 itk"
-            src="/img/it-kingdom.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px) and (max-width: 680px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 681px) and (max-width: 800px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 801px) and (max-width: 1050px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 1051px) and (max-width: 1480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 1481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px) and (max-width: 680px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 681px) and (max-width: 800px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 801px) and (max-width: 1050px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 1051px) and (max-width: 1480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 1481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="Logo of 'IT KINGDOM"
+              class="itk"
+              src="test-file-stub"
+            />
+          </picture>
           <div
             class="jsx-3651463820 button"
           >
@@ -114,11 +228,32 @@ exports[`Index page matches snapshot 1`] = `
               class="jsx-3651463820"
               href="/"
             >
-              <img
-                alt="Entry button"
-                class="jsx-3651463820"
-                src="/img/entry-btn.png"
-              />
+              <picture>
+                <source
+                  media="(max-width: 320px)"
+                  srcset=", undefined 2x"
+                  type="image/undefined"
+                />
+                <source
+                  media="(min-width: 321px)"
+                  srcset=", undefined 2x"
+                  type="image/undefined"
+                />
+                <source
+                  media="(max-width: 320px)"
+                  srcset=", undefined 2x"
+                  type="image/undefined"
+                />
+                <source
+                  media="(min-width: 321px)"
+                  srcset=", undefined 2x"
+                  type="image/undefined"
+                />
+                <img
+                  alt="Entry button"
+                  src="test-file-stub"
+                />
+              </picture>
             </a>
           </div>
         </div>
@@ -138,26 +273,111 @@ exports[`Index page matches snapshot 1`] = `
           allowfullscreen=""
           frameborder="0"
           height="405"
-          src="https://www.youtube.com/embed/9XVuUr4DbNU"
+          loading="lazy"
           title="Concept video"
           width="720"
         />
       </div>
-      <img
-        alt="Background smoke"
-        class="smoke"
-        src="./img/smoke.png"
-      />
+      <picture>
+        <source
+          media="(max-width: 520px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 521px) and (max-width: 768px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 769px) and (max-width: 980px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 981px) and (max-width: 1200px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1201px) and (max-width: 1680px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1681px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(max-width: 520px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 521px) and (max-width: 768px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 769px) and (max-width: 980px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 981px) and (max-width: 1200px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1201px) and (max-width: 1680px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1681px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <img
+          alt="Background smoke"
+          class="smoke"
+          loading="lazy"
+          src="test-file-stub"
+        />
+      </picture>
     </section>
     <section
       class="container"
     >
-      <img
-        alt="Vision section's icon"
-        class="icon front"
-        loading="lazy"
-        src="/img/vision/weapon.png"
-      />
+      <picture>
+        <source
+          media="(max-width: 520px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 521px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(max-width: 520px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 521px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <img
+          alt="Vision section's icon"
+          class="icon front"
+          loading="lazy"
+          src="test-file-stub"
+        />
+      </picture>
       <h1
         class="title front"
       >
@@ -202,18 +422,42 @@ exports[`Index page matches snapshot 1`] = `
           <br />
           必要に応じてデザイン・マーケティング・プレゼンテーション・経営企画などの講座も行います。
         </p>
-        <img
-          alt="Background"
-          class="goldTopLeft"
-          loading="lazy"
-          src="/img/vision/gold-top-left.png"
-        />
-        <img
-          alt="Shimabu"
-          class="shimabu_udegumi"
-          loading="lazy"
-          src="/img/vision/shimabu_udegumi.png"
-        />
+        <picture>
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <img
+            alt="Background"
+            class="goldTopLeft"
+            loading="lazy"
+            src="test-file-stub"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <img
+            alt="Shimabu"
+            class="shimabu_udegumi"
+            loading="lazy"
+            src="test-file-stub"
+          />
+        </picture>
       </div>
       <div
         class="frame"
@@ -231,24 +475,60 @@ exports[`Index page matches snapshot 1`] = `
           <br />
           また学んだことは積極的にアウトプットを行い、国力の向上に努めてください。
         </p>
-        <img
-          alt="Background"
-          class="goldBottomRight"
-          loading="lazy"
-          src="/img/vision/gold-bottom-right.png"
-        />
-        <img
-          alt="Background"
-          class="goldTopLeft"
-          loading="lazy"
-          src="/img/vision/gold-top-left.png"
-        />
-        <img
-          alt="Salon members"
-          class="soldiers"
-          loading="lazy"
-          src="/img/vision/soldiers.png"
-        />
+        <picture>
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <img
+            alt="Background"
+            class="goldBottomRight"
+            loading="lazy"
+            src="test-file-stub"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <img
+            alt="Background"
+            class="goldTopLeft"
+            loading="lazy"
+            src="test-file-stub"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(max-width: 9999px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <img
+            alt="Salon members"
+            class="soldiers"
+            loading="lazy"
+            src="test-file-stub"
+          />
+        </picture>
       </div>
       <small
         class="sansSerif note"
@@ -280,13 +560,35 @@ exports[`Index page matches snapshot 1`] = `
       <ul>
         <li
           class="content"
-          style="background-image: url(/img/contents/cloud1.png);"
+          style="background-image: url(/img/ink.png);"
         >
-          <img
-            alt="プロダクト開発"
-            loading="lazy"
-            src="/img/contents/programming.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="プロダクト開発"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h2>
             <span>
               01. 
@@ -302,11 +604,33 @@ exports[`Index page matches snapshot 1`] = `
         <li
           class="content"
         >
-          <img
-            alt="気軽に質問"
-            loading="lazy"
-            src="/img/contents/qast.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="気軽に質問"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h2>
             <span>
               02. 
@@ -321,13 +645,35 @@ exports[`Index page matches snapshot 1`] = `
         </li>
         <li
           class="content"
-          style="background-image: url(/img/contents/cloud2.png);"
+          style="background-image: url(/img/ink.png);"
         >
-          <img
-            alt="ブログ & アウトプット"
-            loading="lazy"
-            src="/img/contents/blog.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="ブログ & アウトプット"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h2>
             <span>
               03. 
@@ -343,11 +689,33 @@ exports[`Index page matches snapshot 1`] = `
         <li
           class="content"
         >
-          <img
-            alt="IT業界研究"
-            loading="lazy"
-            src="/img/contents/news.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="IT業界研究"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h2>
             <span>
               04. 
@@ -362,13 +730,35 @@ exports[`Index page matches snapshot 1`] = `
         </li>
         <li
           class="content"
-          style="background-image: url(/img/contents/cloud3.png);"
+          style="background-image: url(/img/ink.png);"
         >
-          <img
-            alt="楽しめるコミュニティ"
-            loading="lazy"
-            src="/img/contents/community.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 400px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 401px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="楽しめるコミュニティ"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h2>
             <span>
               05. 
@@ -427,11 +817,34 @@ exports[`Index page matches snapshot 1`] = `
             STEP UP
           </span>
         </h1>
-        <img
-          alt="Curriculum"
-          class="step"
-          src="img/step.png"
-        />
+        <picture>
+          <source
+            media="(max-width: 400px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(min-width: 401px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(max-width: 400px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(min-width: 401px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <img
+            alt="Curriculum"
+            class="step"
+            loading="lazy"
+            src="test-file-stub"
+          />
+        </picture>
       </div>
       <ul
         class="text"
@@ -495,11 +908,33 @@ exports[`Index page matches snapshot 1`] = `
         class="members"
       >
         <li>
-          <img
-            alt="しまぶー"
-            loading="lazy"
-            src="/img/members/shimabu.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="しまぶー"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h1>
             しまぶー
           </h1>
@@ -513,11 +948,33 @@ exports[`Index page matches snapshot 1`] = `
           </p>
         </li>
         <li>
-          <img
-            alt="まっつん"
-            loading="lazy"
-            src="/img/members/shimabu.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="まっつん"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h1>
             まっつん
           </h1>
@@ -531,11 +988,33 @@ exports[`Index page matches snapshot 1`] = `
           </p>
         </li>
         <li>
-          <img
-            alt="いっぽ"
-            loading="lazy"
-            src="/img/members/ippo.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="いっぽ"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h1>
             いっぽ
           </h1>
@@ -549,11 +1028,33 @@ exports[`Index page matches snapshot 1`] = `
           </p>
         </li>
         <li>
-          <img
-            alt="やっさん"
-            loading="lazy"
-            src="/img/members/shimabu.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 481px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="やっさん"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
           <h1>
             やっさん
           </h1>
@@ -571,11 +1072,74 @@ exports[`Index page matches snapshot 1`] = `
     <div
       class="container"
     >
-      <img
-        alt="Background"
-        class="img"
-        src="./img/message.png"
-      />
+      <picture>
+        <source
+          media="(max-width: 520px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 521px) and (max-width: 768px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 769px) and (max-width: 980px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 981px) and (max-width: 1200px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1201px) and (max-width: 1680px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1681px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(max-width: 520px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 521px) and (max-width: 768px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 769px) and (max-width: 980px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 981px) and (max-width: 1200px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1201px) and (max-width: 1680px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <source
+          media="(min-width: 1681px)"
+          srcset=", undefined 2x"
+          type="image/undefined"
+        />
+        <img
+          alt="Background"
+          class="img"
+          loading="lazy"
+          src="test-file-stub"
+        />
+      </picture>
       <section
         class="container"
       >
@@ -653,119 +1217,210 @@ exports[`Index page matches snapshot 1`] = `
           >
             Qastなどの外部サービス利用料は含まれています。
             オフラインのイベントは別途費用がかかります。
-            新たなプランが追加される可能性がございます。
           </p>
         </div>
       </section>
+      <section
+        class="container"
+      >
+        <h1
+          class="headline container"
+        >
+          <span>
+            HOW TO ENTRY
+          </span>
+          <span>
+            入国方法
+          </span>
+        </h1>
+        <ul
+          style="background-image: url(img/ink.png);"
+        >
+          <li
+            class="step"
+          >
+            <div>
+              <span>
+                STEP
+              </span>
+              <span>
+                1
+              </span>
+            </div>
+            <h2>
+              入国手続きを行う
+            </h2>
+            <p
+              class="sansSerif"
+            >
+              IT KINGDOMへ入国するには手続きが必要です。パスポートのようなものですね。ページ上部または下部にある「入国手続きを行う」から行えます。GitHubまたはGoogleのアカウント連携で会員登録が可能です。プログラミングを学びたい方はGitHub連携をオススメしています。
+            </p>
+          </li>
+          <li
+            class="step"
+          >
+            <div>
+              <span>
+                STEP
+              </span>
+              <span>
+                2
+              </span>
+            </div>
+            <h2>
+              住民税を支払う
+            </h2>
+            <p
+              class="sansSerif"
+            >
+              IT KINGDOMも国家ですから、そこに住むにはやはり住民税（上記の月額費用）がかかります。会員登録完了後に、お支払い手続きをお済ませください。お支払いはクレジットカードのみとなっております。
+            </p>
+          </li>
+          <li
+            class="step"
+          >
+            <div>
+              <span>
+                STEP
+              </span>
+              <span>
+                3
+              </span>
+            </div>
+            <h2>
+              プロフィールを登録する
+            </h2>
+            <p
+              class="sansSerif"
+            >
+              続いてプロフィールをご記入ください。引越し後は転入届です。イベント企画をする際にこちらでご記入いただいたプロフィール情報を参考にさせていただきます。後からでも変更できます。
+            </p>
+          </li>
+          <li
+            class="step"
+          >
+            <div>
+              <span>
+                STEP
+              </span>
+              <span>
+                4
+              </span>
+            </div>
+            <h2>
+              各種サービスへご招待
+            </h2>
+            <p
+              class="sansSerif"
+            >
+              当サロンでは「Qast」「Workplace」という2つのサービスを使用します。プロフィールを登録後、1日後を目安にメールアドレスへ招待が届きますので、そこからご登録ください。使い方はサロン内で解説いたします。
+            </p>
+          </li>
+          <li
+            class="step"
+          >
+            <div>
+              <span>
+                STEP
+              </span>
+              <span>
+                5
+              </span>
+            </div>
+            <h2>
+              学ぼう、育てよう、楽しもう
+            </h2>
+            <p
+              class="sansSerif"
+            >
+              自身の目標実現のため鍛錬に励むも良し！ときには国力向上のためサロンに尽くすも良し！さぁ、楽しい IT KINGDOM ライフの始まりです！
+            </p>
+          </li>
+        </ul>
+        <a
+          class="button"
+          href="/"
+        >
+          <picture>
+            <source
+              media="(max-width: 320px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 321px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(max-width: 320px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <source
+              media="(min-width: 321px)"
+              srcset=", undefined 2x"
+              type="image/undefined"
+            />
+            <img
+              alt="Entry button"
+              loading="lazy"
+              src="test-file-stub"
+            />
+          </picture>
+        </a>
+      </section>
     </div>
-    <section
-      class="container"
+    <footer
+      class="sansSerif container"
     >
-      <h1
-        class="headline container"
-      >
-        <span>
-          HOW TO ENTRY
-        </span>
-        <span>
-          入国方法
-        </span>
-      </h1>
       <ul
-        style="background-image: url(./img/ink.png);"
+        class="links"
       >
         <li
-          class="step"
+          class="link"
         >
-          <div>
-            <span>
-              STEP
-            </span>
-            <span>
-              1
-            </span>
-          </div>
-          <h2>
-            ログインを行う
-          </h2>
-          <p
-            class="sansSerif"
+          <a
+            href="/"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
-          </p>
+            利用規約
+          </a>
         </li>
         <li
-          class="step"
+          class="link"
         >
-          <div>
-            <span>
-              STEP
-            </span>
-            <span>
-              2
-            </span>
-          </div>
-          <h2>
-            お支払いを行う
-          </h2>
-          <p
-            class="sansSerif"
+          <a
+            href="/"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
-          </p>
+            プライバシーポリシー
+          </a>
         </li>
         <li
-          class="step"
+          class="link"
         >
-          <div>
-            <span>
-              STEP
-            </span>
-            <span>
-              3
-            </span>
-          </div>
-          <h2>
-            プロフィールを登録しましょう
-          </h2>
-          <p
-            class="sansSerif"
+          <a
+            href="/"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
-          </p>
+            特定商取引法に基づく表記
+          </a>
         </li>
         <li
-          class="step"
+          class="link"
         >
-          <div>
-            <span>
-              STEP
-            </span>
-            <span>
-              4
-            </span>
-          </div>
-          <h2>
-            各種サービスの招待がきます
-          </h2>
-          <p
-            class="sansSerif"
+          <a
+            href="/"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis temporibus ducimus dolorum animi at voluptate? Sit harum veniam quas? Repellendus alias libero similique quibusdam. Non quaerat eum ratione commodi?
-          </p>
+            お問い合わせ
+          </a>
         </li>
       </ul>
-      <a
-        class="button"
-        href="/"
+      <small
+        class="copyright"
+        lang="en"
       >
-        <img
-          alt="Entry button"
-          loading="lazy"
-          src="/img/entry-btn.png"
-        />
-      </a>
-    </section>
+        @ 2020 IT KINGDOM
+      </small>
+    </footer>
   </div>
 </DocumentFragment>
 `;
