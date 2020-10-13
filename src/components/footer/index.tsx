@@ -1,13 +1,13 @@
 import clsx from "clsx";
 import Link from "next/link";
 import styles from "src/components/footer/index.module.scss";
-import { MAIL_ADDRESS } from "src/constants";
+import { CONTACT_URL } from "src/constants";
 
 const ITEMS = [
   { href: "/support/terms", label: "利用規約" },
   { href: "/support/privacy-policy", label: "プライバシーポリシー" },
   { href: "/support/commerce", label: "特定商取引法に基づく表記" },
-  { href: `mailto:${MAIL_ADDRESS}`, label: "お問い合わせ" },
+  { href: CONTACT_URL, label: "お問い合わせ" },
 ];
 
 export function Footer(): JSX.Element {
@@ -16,9 +16,15 @@ export function Footer(): JSX.Element {
       <ul className={styles.links}>
         {ITEMS.map(({ href, label }) => (
           <li key={label} className={styles.link}>
-            <Link href={href}>
-              <a>{label}</a>
-            </Link>
+            {label === "お問い合わせ" ? (
+              <a target="_blank" rel="noopener noreferrer" href={href}>
+                {label}
+              </a>
+            ) : (
+              <Link href={href}>
+                <a>{label}</a>
+              </Link>
+            )}
           </li>
         ))}
       </ul>

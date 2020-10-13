@@ -1,10 +1,40 @@
 .container {
-  width: min(92%, 680px);
-  margin: calc(6vh + 6vw) auto auto;
+  width: min(92%, 768px);
+  margin: calc(8vh + 6vw) auto calc(4vh + 2vw);
 }
 
 .title {
-  color: #b3ac8a;
   text-align: center;
-  margin-bottom: calc(2vh + 2vw);
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+}
+
+.category {
+  border: 1px solid #b3ac8a;
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+  margin-top: calc(1.5vh + 1.5vw);
+  padding: calc(1.2vh + 1.2vw) calc(1.2vh + 1.2vw) calc(1.3vh + 1.3vw);
+  > h2 {
+    font-size: 1.2em;
+  }
+}
+
+.qa {
+  margin-top: calc(1.5vh + 1.5vw);
+  > h3 {
+    color: #b3ac8a;
+    margin-bottom: calc(0.2vh + 0.2vw);
+  }
+  > h3,
+  > p {
+    font-size: 1em;
+  }
+}
+
+.note {
+  font-size: 0.9rem;
+  margin-top: calc(1.5vh + 1.5vw);
+  text-align: center;
+  > a {
+    color: #b3ac8a;
+  }
 }
