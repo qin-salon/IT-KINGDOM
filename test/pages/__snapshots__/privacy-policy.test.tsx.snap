@@ -2,8 +2,66 @@
 
 exports[`PrivacyPolicyPage matches snapshot 1`] = `
 <DocumentFragment>
-  <div
+  <header
     class="container"
+  >
+    <h1>
+      <a
+        href="/"
+      >
+        <picture>
+          <source
+            media="(max-width: 320px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(min-width: 321px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(max-width: 320px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <source
+            media="(min-width: 321px)"
+            srcset=", undefined 2x"
+            type="image/undefined"
+          />
+          <img
+            alt="Logo of 'IT KINGDOM"
+            src="test-file-stub"
+          />
+        </picture>
+      </a>
+    </h1>
+    <nav
+      class="sansSerif nav"
+    >
+      <ul>
+        <li>
+          <a
+            href="/faq"
+          >
+            よくある質問
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://qin.salon"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            ログイン
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main
+    class="container styled"
   >
     <h1>
       プライバシーポリシー
@@ -175,6 +233,58 @@ exports[`PrivacyPolicyPage matches snapshot 1`] = `
     <time>
       2020年10月15日 制定
     </time>
-  </div>
+  </main>
+  <footer
+    class="sansSerif container"
+  >
+    <ul
+      class="links"
+    >
+      <li
+        class="link"
+      >
+        <a
+          href="/support/terms"
+        >
+          利用規約
+        </a>
+      </li>
+      <li
+        class="link"
+      >
+        <a
+          href="/support/privacy-policy"
+        >
+          プライバシーポリシー
+        </a>
+      </li>
+      <li
+        class="link"
+      >
+        <a
+          href="/support/commerce"
+        >
+          特定商取引法に基づく表記
+        </a>
+      </li>
+      <li
+        class="link"
+      >
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf7lYhGHmnl2KTPXsArv5KCoZvlwX7pMF7EZrDXSgWQWnJDhw/viewform"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          お問い合わせ
+        </a>
+      </li>
+    </ul>
+    <small
+      class="copyright"
+      lang="en"
+    >
+      @ 2020 IT KINGDOM
+    </small>
+  </footer>
 </DocumentFragment>
 `;
