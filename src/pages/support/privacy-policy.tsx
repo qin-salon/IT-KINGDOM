@@ -4,7 +4,7 @@ import { SupportLayout } from "src/layouts/support";
 
 export default function PrivacyPolicyPage(): JSX.Element {
   return (
-    <SupportLayout page="プライバシーポリシー">
+    <SupportLayout page="プライバシーポリシー" styled>
       <h1>プライバシーポリシー</h1>
       <p>
         しまぶー（@shimabu_it）及びしまぶーが定める共同運営者（以下「当サービス提供者」とします）は、オンラインサロン、またはオンラインサロンで提供するサービス（以下「本サービス」といいます）における、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。

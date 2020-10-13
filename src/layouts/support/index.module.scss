@@ -1,13 +1,15 @@
 .container {
-  width: min(100%, 680px);
-  margin: 0 auto;
-  padding: 2em 10px;
-  font-size: 14px;
+  width: min(92%, 768px);
+  margin: calc(8vh + 6vw) auto calc(4vh + 2vw);
   color: #ffffff;
+}
+
+.styled {
+  font-size: 14px;
   h1 {
     font-size: 1.4em;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
   h2 {
     font-size: 1.2em;

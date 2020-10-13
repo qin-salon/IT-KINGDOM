@@ -68,7 +68,7 @@ const FAQs = [
 
 export function Faq(): JSX.Element {
   return (
-    <section className={styles.container}>
+    <>
       <h1 className={styles.title}>よくある質問</h1>
       <ul>
         {FAQs.map(({ label, items }) => (
@@ -92,6 +92,6 @@ export function Faq(): JSX.Element {
         </a>
         よりご連絡ください。
       </p>
-    </section>
+    </>
   );
 }

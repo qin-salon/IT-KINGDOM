@@ -4,7 +4,7 @@ import { SupportLayout } from "src/layouts/support";
 
 export default function TermsPage(): JSX.Element {
   return (
-    <SupportLayout page="利用規約">
+    <SupportLayout page="利用規約" styled>
       <h1>利用規約</h1>
       <p>
         この利用規約（以下「本規約」といいます）は、しまぶー（@shimabu_it）及びしまぶーが定める共同運営者（以下「当サービス提供者」とします）が提供するオンラインサロン、またはオンラインサロンにて提供するサービス（以下「本サービス」といいます）の利用条件を定めるものです。登録ユーザーの皆さま（以下「ユーザー」といいます）には、本規約に従って、本サービスをご利用いただきます。

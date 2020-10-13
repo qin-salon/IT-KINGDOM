@@ -4,7 +4,7 @@ import { SupportLayout } from "src/layouts/support";
 
 export default function CommercePage(): JSX.Element {
   return (
-    <SupportLayout page="特定商取引法に基づく表記">
+    <SupportLayout page="特定商取引法に基づく表記" styled>
       <h1>特定商取引法に基づく表記</h1>
       <p>「特定商取引に関する法律」第11条に基づき、以下のとおり表示致します。</p>
 
