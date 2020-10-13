@@ -15,8 +15,8 @@
 .headline {
   margin-bottom: 32px;
   > span:last-child {
-    text-shadow: #1c1c1c 0 0 24px, #1c1c1c 0 0 24px, #1c1c1c 0 0 24px, #1c1c1c 0 0 24px, #1c1c1c 0 0 24px,
-      #1c1c1c 0 0 24px;
+    text-shadow: #2d2d2d 2px 0px 8px, #2d2d2d -2px 0px 8px, #2d2d2d 0px -2px 8px, #2d2d2d -2px 0px 8px,
+      #2d2d2d 2px 2px 16px, #2d2d2d -2px 2px 16px, #2d2d2d 2px -2px 16px, #2d2d2d -2px -2px 16px;
   }
 }
 
