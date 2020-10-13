@@ -17,7 +17,7 @@ export default function IndexPage(props: Props): JSX.Element {
   return (
     <>
       <Head>
-        <title>IT KINGDOM - プログラミング × オンラインサロン</title>
+        <title>IT KINGDOM - しまぶーのIT大学オンラインサロン</title>
         <meta
           name="description"
           content={`チャンネル登録者${props.subscriberCount}人のプログラミングYouTuberによるオンラインサロン。ヤフーやクックパッドなど国内大手IT企業出身の現役ITエンジニアが運営。`}

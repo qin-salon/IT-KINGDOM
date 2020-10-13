@@ -20,7 +20,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
 
 .text {
   width: 100vw;
-  font-size: clamp(18px, 4vw, 28px);
+  font-size: clamp(18px, 3.5vw, 36px);
   letter-spacing: 1px;
   text-align: center;
   text-shadow: $-shadow;
@@ -61,7 +61,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
 }
 
 .itk {
-  width: clamp(280px, 100vw, 1100px);
+  width: clamp(280px, 100vw, 1200px);
   margin-bottom: 16px;
 }
 
