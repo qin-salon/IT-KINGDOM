@@ -57,7 +57,7 @@ export function Vision(): JSX.Element {
         <p className="sansSerif">
           最高のプロダクトが作れるように、各々スキルアップに励む必要があります。
           <br />
-          また学んだことは積極的にアウトプットを行い、国力の向上に努めてください。
+          また学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
         </p>
         <Img
           className={styles.goldBottomRight}
