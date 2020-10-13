@@ -10,6 +10,7 @@
   justify-content: center;
   margin-bottom: 52px;
   > picture {
+    user-select: none;
     display: contents;
   }
 }

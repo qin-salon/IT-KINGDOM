@@ -2,6 +2,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   black -2px 2px 16px, black 2px -2px 16px, black -2px -2px 16px;
 
 .img {
+  user-select: none;
   position: absolute;
   z-index: -1;
 }
@@ -61,6 +62,7 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
 }
 
 .itk {
+  user-select: none;
   width: clamp(280px, 100vw, 1200px);
   margin-bottom: 16px;
 }

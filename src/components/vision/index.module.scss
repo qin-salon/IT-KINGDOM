@@ -7,6 +7,7 @@
 }
 
 .icon {
+  user-select: none;
   display: block;
   width: clamp(40px, 8vw, 60px);
   margin: 0 auto 20px;
@@ -50,6 +51,7 @@
   position: relative;
   z-index: 1;
   > picture {
+    user-select: none;
     > img.goldTopLeft {
       position: absolute;
       top: 0;
@@ -127,6 +129,7 @@
 }
 
 .backgroundText {
+  user-select: none;
   display: block;
   position: absolute;
   color: rgb(41 38 29 / 80%);

@@ -26,6 +26,7 @@
       / auto 3% 1fr 3% auto;
 
     > picture {
+      user-select: none;
       display: contents;
       > img {
         grid-area: img;

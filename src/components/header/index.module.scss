@@ -7,6 +7,7 @@
   z-index: 2;
   top: 0;
   > h1 {
+    user-select: none;
     display: flex;
     align-items: center;
     width: min(36%, 180px);
