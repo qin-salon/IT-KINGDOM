@@ -23,7 +23,7 @@ export function Header(): JSX.Element {
           </li>
           <li>
             <a target="_blank" rel="noopener noreferrer" href={QIN_URL}>
-              ログイン
+              入国手続
             </a>
           </li>
         </ul>

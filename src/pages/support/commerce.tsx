@@ -12,7 +12,7 @@ export default function CommercePage(): JSX.Element {
       <p>しまぶー</p>
 
       <h2>事業者の所在地</h2>
-      <p>東京都</p>
+      <p>東京都豊島区南大塚2-11-10 ミモザビル3F</p>
 
       <h2>事業者の連絡先</h2>
       <p>{MAIL_ADDRESS}</p>
@@ -27,7 +27,7 @@ export default function CommercePage(): JSX.Element {
       </p>
 
       <h2>支払方法</h2>
-      <p>クレジットカード、Google Pay</p>
+      <p>クレジットカード、Apple Pay、Google Pay</p>
 
       <h2>代金の支払時期:</h2>
       <p>お客様が選択した支払い方法に関する、プラットフォーム事業者、クレジットカード会社等の規約に基づきます。</p>

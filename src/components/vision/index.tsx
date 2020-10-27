@@ -55,9 +55,9 @@ export function Vision(): JSX.Element {
           <strong>みんな</strong>にやってもらうこと
         </h2>
         <p className="sansSerif">
-          最高のプロダクトが作れるように、各々スキルアップに励む必要があります。
+          最高のプロダクトが作れるように、各自スキルアップに励む必要があります。
           <br />
-          また学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
+          学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
         </p>
         <Img
           className={styles.goldBottomRight}
