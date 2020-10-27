@@ -1,6 +1,4 @@
-<p style="background:black; padding:4em 0; margin-bottom: 4em;" align="center">
-  <a href="https://it-kingdom.com" target="_blank" rel="noopener noreferrer"><img width="280" src="https://it-kingdom.com/img/logo.png" alt="IT KINGDOM"></a>
-</p>
+[![IT KINGDOM](https://it-kingdom.com/img/readme.png)](https://it-kingdom.com)
 
 ## 紹介
 
