@@ -54,7 +54,7 @@ exports[`CommercePage matches snapshot 1`] = `
             rel="noopener noreferrer"
             target="_blank"
           >
-            ログイン
+            入国手続
           </a>
         </li>
       </ul>
@@ -79,7 +79,7 @@ exports[`CommercePage matches snapshot 1`] = `
       事業者の所在地
     </h2>
     <p>
-      東京都
+      東京都豊島区南大塚2-11-10 ミモザビル3F
     </p>
     <h2>
       事業者の連絡先
@@ -106,7 +106,7 @@ exports[`CommercePage matches snapshot 1`] = `
       支払方法
     </h2>
     <p>
-      クレジットカード、Google Pay
+      クレジットカード、Apple Pay、Google Pay
     </p>
     <h2>
       代金の支払時期:
