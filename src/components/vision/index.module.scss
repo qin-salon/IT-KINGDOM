@@ -8,7 +8,6 @@
 
 .icon {
   user-select: none;
-  display: block;
   width: clamp(40px, 8vw, 60px);
   margin: 0 auto 20px;
 }
@@ -44,81 +43,6 @@
   line-height: 2;
 }
 
-.frame {
-  width: 92%;
-  margin: 0 auto;
-  border: 1px solid #b3ac8a;
-  position: relative;
-  z-index: 1;
-  > picture {
-    user-select: none;
-    > img.goldTopLeft {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-    }
-    > img.goldBottomRight {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      height: 100%;
-      width: auto;
-    }
-  }
-  &:nth-of-type(1) {
-    padding: 32px 16px;
-    > picture {
-      > img.shimabu_udegumi {
-        position: absolute;
-        bottom: 0;
-        width: 220px;
-        right: -40px;
-      }
-    }
-    > p {
-      padding-right: 88px;
-    }
-  }
-  &:nth-of-type(2) {
-    margin-top: calc(1vh + 1vw);
-    padding: 32px 16px 50vw;
-    > picture {
-      > img.soldiers {
-        position: absolute;
-        bottom: 0;
-        left: -10px;
-        width: 100%;
-      }
-      > img.goldBottomRight {
-        display: none;
-      }
-    }
-  }
-  > h2 {
-    color: #b3ac8a;
-    font-size: clamp(1.1rem, 4vw, 1.6rem);
-    letter-spacing: 2px;
-    > strong {
-      color: #fff;
-      font-size: 1.4em;
-    }
-  }
-  > p {
-    margin-top: 28px;
-    font-size: 0.9rem;
-    line-height: 2;
-    > br {
-      display: none;
-    }
-  }
-  > h2,
-  > p {
-    position: relative;
-    z-index: 2;
-  }
-}
-
 .note {
   display: block;
   text-align: center;
@@ -128,63 +52,6 @@
   padding: 0 4%;
 }
 
-.backgroundText {
-  user-select: none;
-  display: block;
-  position: absolute;
-  color: rgb(41 38 29 / 80%);
-  font-size: 6rem;
-  &.sai {
-    top: 80px;
-    left: 0;
-  }
-  &.kou {
-    top: 30px;
-    left: 76px;
-  }
-  &.kyou {
-    top: 136px;
-    left: 76px;
-  }
-}
-
-@media (min-width: 480px) {
-  .frame {
-    > picture {
-      > img.goldTopLeft {
-        height: 100%;
-        width: auto;
-      }
-    }
-    &:nth-of-type(2) {
-      padding: 32px 16px 32px 28vw;
-      > picture {
-        > img.soldiers {
-          position: absolute;
-          bottom: 0;
-          left: -32px;
-          width: 44vw;
-        }
-      }
-    }
-  }
-  .backgroundText {
-    font-size: 8rem;
-    &.sai {
-      top: 80px;
-      left: 0;
-    }
-    &.kou {
-      top: 28px;
-      left: 104px;
-    }
-    &.kyou {
-      top: 156px;
-      left: 104px;
-    }
-  }
-}
-
 @media (min-width: 768px) {
   .container {
     overflow: visible;
@@ -192,64 +59,10 @@
   .paragraph {
     white-space: pre-line;
   }
-  .backgroundText {
-    color: rgb(41 38 29 / 100%);
-    font-size: 12rem;
-    &.sai {
-      top: 80px;
-      left: -20px;
-    }
-    &.kou {
-      top: -20px;
-      left: 128px;
-    }
-    &.kyou {
-      top: 192px;
-      left: 132px;
-    }
-  }
-  .frame {
-    text-align: center;
-    &:nth-of-type(1) {
-      > picture {
-        > img.shimabu_udegumi {
-          right: 0;
-        }
-      }
-      > p {
-        padding-right: 0;
-      }
-    }
-    &:nth-of-type(2) {
-      padding: 40px 24px 44px;
-      > picture {
-        > img.goldTopLeft {
-          display: none;
-        }
-        > img.goldBottomRight {
-          display: block;
-        }
-        > img.soldiers {
-          left: -44px;
-          height: 115%;
-          width: auto;
-        }
-      }
-    }
-    > p {
-      > br {
-        display: block;
-      }
-    }
-  }
 }
 
 @media (min-width: 1024px) {
   .container {
     width: 940px;
-  }
-  .frame {
-    width: 940px;
-    padding: 40px 24px 44px;
   }
 }

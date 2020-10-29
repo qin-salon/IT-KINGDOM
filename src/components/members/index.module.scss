@@ -25,11 +25,10 @@
       "... ... ..... ... ..." 16px
       / auto 3% 1fr 3% auto;
 
-    > picture {
-      user-select: none;
-      display: contents;
-      > img {
-        grid-area: img;
+    > .img {
+      grid-area: img;
+      img {
+        user-select: none;
         width: 100%;
         object-fit: cover;
         object-position: top center;
@@ -68,10 +67,8 @@
         "... ... ... ..... ..."
         / auto 180px calc(1vw + 1vh) 1fr auto;
 
-      > picture {
-        > img {
-          height: 240px;
-        }
+      > .img {
+        height: 240px;
       }
     }
   }

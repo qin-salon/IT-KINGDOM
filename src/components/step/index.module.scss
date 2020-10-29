@@ -9,10 +9,6 @@
   align-items: flex-start;
   justify-content: center;
   margin-bottom: 52px;
-  > picture {
-    user-select: none;
-    display: contents;
-  }
 }
 
 .title {
@@ -41,6 +37,10 @@
   width: 80%;
   max-width: 400px;
   height: auto;
+  user-select: none;
+  img {
+    width: 100%;
+  }
 }
 
 .text {

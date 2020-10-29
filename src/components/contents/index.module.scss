@@ -39,13 +39,12 @@
     background-size: cover;
     background-position: 160px center;
   }
-  > picture {
+  > .img {
     user-select: none;
-    display: contents;
-    > img {
-      grid-area: img;
-      width: 40%;
-    }
+    grid-area: img;
+    width: 40%;
+    display: flex;
+    justify-content: center;
   }
   > h2 {
     grid-area: title;
@@ -127,10 +126,8 @@
       background-size: auto 160%;
       background-position: 50vw bottom;
     }
-    > picture {
-      > img {
-        width: 100%;
-      }
+    > .img {
+      width: 100%;
     }
     > h2 {
       letter-spacing: 0;

@@ -1,16 +1,12 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const withOptimizedImages = require("next-optimized-images");
-const { resolve } = require("path");
-
-module.exports = withOptimizedImages({
-  // next-optimized-images
-  webpack: (config) => {
-    config.resolve.alias["@img"] = resolve(__dirname, "public/img");
-    return config;
+module.exports = {
+  images: {
+    deviceSizes: [320, 500, 768, 1024, 1200, 1680, 2560],
+    imageSizes: [60, 220],
+    domains: [],
+    path: "/_next/image",
+    loader: "default",
   },
-
-  // Next.js
   reactStrictMode: true,
   typescript: { ignoreDevErrors: true },
   poweredByHeader: false,
-});
+};

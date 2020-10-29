@@ -1,36 +1,36 @@
-import Img from "react-optimized-image";
+import Image from "next/image";
 import styles from "src/components/contents/index.module.scss";
 import { Headline } from "src/components/headline";
 
 const ITEMS = [
   {
-    src: "contents/programming.png",
+    src: "/img/contents/programming.png",
     bgSrc: "/img/ink.png",
     title: "プロダクト開発",
     body:
       "私含め現役エンジニアが新規事業のプロジェクトをたてます。プロジェクトのコードはみんなが読めるようにGitHubを使用し、適宜コードの解説も行います。開発に参加したい方は、実際にコードを書いてチーム開発の実戦を経験していただくことも可能です。",
   },
   {
-    src: "contents/qast.png",
+    src: "/img/contents/qast.png",
     title: "気軽に質問",
     body:
       "Qastという外部サービスを使用します。Qastには匿名で質問を行う機能があり「何度も質問するのは気が引ける」「初歩的すぎて聞くのが恥ずかしい」という方も気軽に質問できます。また誰でも回答でき、回答していくことでポイントが溜まる仕組みがあります。楽しく教え合いましょう。",
   },
   {
-    src: "contents/blog.png",
+    src: "/img/contents/blog.png",
     bgSrc: "/img/ink.png",
     title: "ブログ & アウトプット",
     body:
       "Qastにはブログ機能も備わっており、誰でもブログを書くことができます。外部だと心無い指摘が少し怖いかもしれませんが、当サロンではみんなが優しく教えてくれますので、積極的にアウトプットしていきましょう。また私含め現役エンジニアもブログを執筆します。",
   },
   {
-    src: "contents/news.png",
+    src: "/img/contents/news.png",
     title: "IT業界研究",
     body:
       "優れたプロダクトを作るためにはIT業界のトレンドを知る必要があります。私がニュースをサロン内でシェアしたり時事ネタを解説するので、みんなで議論しましょう。また就職や転職に必要なIT企業の研究や情報共有も行います。",
   },
   {
-    src: "contents/community.png",
+    src: "/img/contents/community.png",
     bgSrc: "/img/ink.png",
     title: "楽しめるコミュニティ",
     body:
@@ -46,7 +46,9 @@ export function Contents(): JSX.Element {
       <ul>
         {ITEMS.map(({ src, bgSrc, title, body, notes }, index) => (
           <li key={title} className={styles.content} style={bgSrc ? { backgroundImage: `url("${bgSrc}")` } : undefined}>
-            <Img src={require(`@img/${src}`)} alt={title} sizes={[150, 240]} breakpoints={[400]} loading="lazy" />
+            <div className={styles.img}>
+              <Image src={src} alt={title} width={220} height={230} />
+            </div>
             <h2>
               <span>{String(index + 1).padStart(2, "0")}. </span>
               {title}

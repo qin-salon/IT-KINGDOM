@@ -1,0 +1,56 @@
+.common {
+  user-select: none;
+  display: block;
+  position: absolute;
+  color: rgb(41 38 29 / 80%);
+  font-size: 6rem;
+  &.sai {
+    top: 80px;
+    left: 0;
+  }
+  &.kou {
+    top: 30px;
+    left: 76px;
+  }
+  &.kyou {
+    top: 136px;
+    left: 76px;
+  }
+}
+
+@media (min-width: 480px) {
+  .common {
+    font-size: 8rem;
+    &.sai {
+      top: 80px;
+      left: 0;
+    }
+    &.kou {
+      top: 28px;
+      left: 104px;
+    }
+    &.kyou {
+      top: 156px;
+      left: 104px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .common {
+    color: rgb(41 38 29 / 100%);
+    font-size: 12rem;
+    &.sai {
+      top: 80px;
+      left: -20px;
+    }
+    &.kou {
+      top: -20px;
+      left: 128px;
+    }
+    &.kyou {
+      top: 192px;
+      left: 132px;
+    }
+  }
+}

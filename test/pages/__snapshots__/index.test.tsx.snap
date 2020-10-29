@@ -9,32 +9,20 @@ exports[`IndexPage matches snapshot 1`] = `
       <a
         href="/"
       >
-        <picture>
-          <source
-            media="(max-width: 320px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(min-width: 321px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 320px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(min-width: 321px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Logo of 'IT KINGDOM"
-            src="test-file-stub"
-          />
-        </picture>
+        <div
+          style="max-width: 100%; width: 180px;"
+        >
+          <div
+            style="position: relative; padding-bottom: 21.11111111111111%;"
+          >
+            <img
+              alt="IT KINGDOM logo"
+              src="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75"
+              srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 320w"
+              style="visibility: visible; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+            />
+          </div>
+        </div>
       </a>
     </h1>
     <nav
@@ -154,73 +142,17 @@ exports[`IndexPage matches snapshot 1`] = `
         <div
           class="jsx-3651463820 itk_button"
         >
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px) and (max-width: 680px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 681px) and (max-width: 800px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 801px) and (max-width: 1050px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 1051px) and (max-width: 1480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 1481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px) and (max-width: 680px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 681px) and (max-width: 800px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 801px) and (max-width: 1050px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 1051px) and (max-width: 1480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 1481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="Logo of 'IT KINGDOM"
-              class="itk"
-              src="test-file-stub"
-            />
-          </picture>
+          <div>
+            <div>
+              <img
+                alt="IT KINGDOM"
+                class="itk"
+                sizes="(min-width: 1200px) 1200px"
+                src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w"
+              />
+            </div>
+          </div>
           <div
             class="jsx-3651463820 button"
           >
@@ -230,32 +162,20 @@ exports[`IndexPage matches snapshot 1`] = `
               rel="noopener noreferrer"
               target="_blank"
             >
-              <picture>
-                <source
-                  media="(max-width: 320px)"
-                  srcset=", undefined 2x"
-                  type="image/undefined"
-                />
-                <source
-                  media="(min-width: 321px)"
-                  srcset=", undefined 2x"
-                  type="image/undefined"
-                />
-                <source
-                  media="(max-width: 320px)"
-                  srcset=", undefined 2x"
-                  type="image/undefined"
-                />
-                <source
-                  media="(min-width: 321px)"
-                  srcset=", undefined 2x"
-                  type="image/undefined"
-                />
-                <img
-                  alt="Entry button"
-                  src="test-file-stub"
-                />
-              </picture>
+              <div
+                style="max-width: 100%; width: 480px;"
+              >
+                <div
+                  style="position: relative; padding-bottom: 21.458333333333332%;"
+                >
+                  <img
+                    alt="Entry button"
+                    src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75"
+                    srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 768w"
+                    style="visibility: visible; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                  />
+                </div>
+              </div>
             </a>
           </div>
         </div>
@@ -280,106 +200,39 @@ exports[`IndexPage matches snapshot 1`] = `
           width="720"
         />
       </div>
-      <picture>
-        <source
-          media="(max-width: 520px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 521px) and (max-width: 768px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 769px) and (max-width: 980px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 981px) and (max-width: 1200px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1201px) and (max-width: 1680px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1681px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(max-width: 520px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 521px) and (max-width: 768px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 769px) and (max-width: 980px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 981px) and (max-width: 1200px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1201px) and (max-width: 1680px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1681px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <img
-          alt="Background smoke"
-          class="smoke"
-          loading="lazy"
-          src="test-file-stub"
-        />
-      </picture>
+      <div>
+        <div>
+          <img
+            alt="Background"
+            class="smoke"
+            src="/_next/image?url=%2Fimg%2Fsmoke.png&w=1200&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fsmoke.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fsmoke.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fsmoke.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1200&q=75 1200w"
+          />
+        </div>
+      </div>
     </section>
     <section
       class="container"
     >
-      <picture>
-        <source
-          media="(max-width: 520px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 521px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(max-width: 520px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 521px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <img
-          alt="Vision section's icon"
-          class="icon front"
-          loading="lazy"
-          src="test-file-stub"
-        />
-      </picture>
+      <div
+        class="nextImg icon front"
+      >
+        <div
+          style="max-width: 100%; width: 60px;"
+        >
+          <div
+            style="position: relative; padding-bottom: 93.33333333333333%;"
+          >
+            <img
+              alt="Vision section's icon"
+              class="__lazy"
+              data-src="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75"
+              data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75 320w"
+              style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+            />
+          </div>
+        </div>
+      </div>
       <h1
         class="title front"
       >
@@ -408,7 +261,7 @@ exports[`IndexPage matches snapshot 1`] = `
 みんなでスキルアップして良いプロダクトを作りましょう。
       </p>
       <div
-        class="frame"
+        class="first"
       >
         <h2>
           そのために
@@ -424,45 +277,47 @@ exports[`IndexPage matches snapshot 1`] = `
           <br />
           必要に応じてデザイン・マーケティング・プレゼンテーション・経営企画などの講座も行います。
         </p>
-        <picture>
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Background"
-            class="goldTopLeft"
-            loading="lazy"
-            src="test-file-stub"
-          />
-        </picture>
-        <picture>
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Shimabu"
-            class="shimabu_udegumi"
-            loading="lazy"
-            src="test-file-stub"
-          />
-        </picture>
+        <div
+          class="nextImg goldTopLeft"
+        >
+          <div
+            style="max-width: 100%; width: 333px;"
+          >
+            <div
+              style="position: relative; padding-bottom: 66.66666666666666%;"
+            >
+              <img
+                alt="Background"
+                class="__lazy"
+                data-src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75"
+                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 420w"
+                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="nextImg shimabuUdegumi"
+        >
+          <div
+            style="max-width: 100%; width: 219px;"
+          >
+            <div
+              style="position: relative; padding-bottom: 130.59360730593608%;"
+            >
+              <img
+                alt="Shimabu"
+                class="__lazy"
+                data-src="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=320&q=75"
+                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=320&q=75 320w"
+                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div
-        class="frame"
+        class="second"
       >
         <h2>
           <strong>
@@ -477,60 +332,63 @@ exports[`IndexPage matches snapshot 1`] = `
           <br />
           学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
         </p>
-        <picture>
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Background"
-            class="goldBottomRight"
-            loading="lazy"
-            src="test-file-stub"
-          />
-        </picture>
-        <picture>
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Background"
-            class="goldTopLeft"
-            loading="lazy"
-            src="test-file-stub"
-          />
-        </picture>
-        <picture>
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 9999px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Salon members"
-            class="soldiers"
-            loading="lazy"
-            src="test-file-stub"
-          />
-        </picture>
+        <div
+          class="nextImg goldBottomRight"
+        >
+          <div
+            style="max-width: 100%; width: 333px;"
+          >
+            <div
+              style="position: relative; padding-bottom: 66.66666666666666%;"
+            >
+              <img
+                alt="Background"
+                class="__lazy"
+                data-src="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=420&q=75"
+                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=420&q=75 420w"
+                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="nextImg goldTopLeft"
+        >
+          <div
+            style="max-width: 100%; width: 333px;"
+          >
+            <div
+              style="position: relative; padding-bottom: 66.66666666666666%;"
+            >
+              <img
+                alt="Background"
+                class="__lazy"
+                data-src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75"
+                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 420w"
+                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="nextImg soldiers"
+        >
+          <div
+            style="max-width: 100%; width: 385px;"
+          >
+            <div
+              style="position: relative; padding-bottom: 66.23376623376623%;"
+            >
+              <img
+                alt="Salon members"
+                class="__lazy"
+                data-src="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=420&q=75"
+                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=420&q=75 420w"
+                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <small
         class="sansSerif note"
@@ -538,17 +396,17 @@ exports[`IndexPage matches snapshot 1`] = `
         ※ プロジェクトの動きや中の様子を見たいだけの方もご参加いただけます。
       </small>
       <span
-        class="backgroundText sai"
+        class="common sai"
       >
         最
       </span>
       <span
-        class="backgroundText kou"
+        class="common kou"
       >
         高
       </span>
       <span
-        class="backgroundText kyou"
+        class="common kyou"
       >
         強
       </span>
@@ -564,33 +422,25 @@ exports[`IndexPage matches snapshot 1`] = `
           class="content"
           style="background-image: url(/img/ink.png);"
         >
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="プロダクト開発"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="img"
+          >
+            <div
+              style="max-width: 100%; width: 220px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 104.54545454545455%;"
+              >
+                <img
+                  alt="プロダクト開発"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=320&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=320&q=75 320w"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h2>
             <span>
               01. 
@@ -606,33 +456,25 @@ exports[`IndexPage matches snapshot 1`] = `
         <li
           class="content"
         >
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="気軽に質問"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="img"
+          >
+            <div
+              style="max-width: 100%; width: 220px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 104.54545454545455%;"
+              >
+                <img
+                  alt="気軽に質問"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=320&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=320&q=75 320w"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h2>
             <span>
               02. 
@@ -649,33 +491,25 @@ exports[`IndexPage matches snapshot 1`] = `
           class="content"
           style="background-image: url(/img/ink.png);"
         >
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="ブログ & アウトプット"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="img"
+          >
+            <div
+              style="max-width: 100%; width: 220px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 104.54545454545455%;"
+              >
+                <img
+                  alt="ブログ & アウトプット"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=320&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=320&q=75 320w"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h2>
             <span>
               03. 
@@ -691,33 +525,25 @@ exports[`IndexPage matches snapshot 1`] = `
         <li
           class="content"
         >
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="IT業界研究"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="img"
+          >
+            <div
+              style="max-width: 100%; width: 220px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 104.54545454545455%;"
+              >
+                <img
+                  alt="IT業界研究"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=320&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=320&q=75 320w"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h2>
             <span>
               04. 
@@ -734,33 +560,25 @@ exports[`IndexPage matches snapshot 1`] = `
           class="content"
           style="background-image: url(/img/ink.png);"
         >
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 400px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 401px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="楽しめるコミュニティ"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="img"
+          >
+            <div
+              style="max-width: 100%; width: 220px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 104.54545454545455%;"
+              >
+                <img
+                  alt="楽しめるコミュニティ"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=320&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=320&q=75 320w"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h2>
             <span>
               05. 
@@ -819,34 +637,25 @@ exports[`IndexPage matches snapshot 1`] = `
             STEP UP
           </span>
         </h1>
-        <picture>
-          <source
-            media="(max-width: 400px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(min-width: 401px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 400px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(min-width: 401px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Curriculum"
-            class="step"
-            loading="lazy"
-            src="test-file-stub"
-          />
-        </picture>
+        <div
+          class="step"
+        >
+          <div
+            style="max-width: 100%; width: 340px;"
+          >
+            <div
+              style="position: relative; padding-bottom: 161.76470588235296%;"
+            >
+              <img
+                alt="Curriculum"
+                class="__lazy"
+                data-src="/_next/image?url=%2Fimg%2Fstep.png&w=420&q=75"
+                data-srcset="/_next/image?url=%2Fimg%2Fstep.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fstep.png&w=420&q=75 420w"
+                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <ul
         class="text"
@@ -910,33 +719,26 @@ exports[`IndexPage matches snapshot 1`] = `
         class="members"
       >
         <li>
-          <picture>
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="しまぶー"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="nextImg img"
+          >
+            <div
+              style="max-width: 100%; width: 480px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 100%;"
+              >
+                <img
+                  alt="しまぶー"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75 768w"
+                  sizes="(min-width: 480px) 180px, 100vw"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h1>
             しまぶー
           </h1>
@@ -950,33 +752,26 @@ exports[`IndexPage matches snapshot 1`] = `
           </p>
         </li>
         <li>
-          <picture>
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="まっつん"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="nextImg img"
+          >
+            <div
+              style="max-width: 100%; width: 480px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 100%;"
+              >
+                <img
+                  alt="まっつん"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=768&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=768&q=75 768w"
+                  sizes="(min-width: 480px) 180px, 100vw"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h1>
             まっつん
           </h1>
@@ -990,33 +785,26 @@ exports[`IndexPage matches snapshot 1`] = `
           </p>
         </li>
         <li>
-          <picture>
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="いっぽ"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="nextImg img"
+          >
+            <div
+              style="max-width: 100%; width: 480px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 100%;"
+              >
+                <img
+                  alt="いっぽ"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=768&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=768&q=75 768w"
+                  sizes="(min-width: 480px) 180px, 100vw"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h1>
             いっぽ
           </h1>
@@ -1030,33 +818,26 @@ exports[`IndexPage matches snapshot 1`] = `
           </p>
         </li>
         <li>
-          <picture>
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 480px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 481px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="やっさん"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            class="nextImg img"
+          >
+            <div
+              style="max-width: 100%; width: 480px;"
+            >
+              <div
+                style="position: relative; padding-bottom: 100%;"
+              >
+                <img
+                  alt="やっさん"
+                  class="__lazy"
+                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75"
+                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75 768w"
+                  sizes="(min-width: 480px) 180px, 100vw"
+                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                />
+              </div>
+            </div>
+          </div>
           <h1>
             やっさん
           </h1>
@@ -1074,74 +855,20 @@ exports[`IndexPage matches snapshot 1`] = `
     <div
       class="container"
     >
-      <picture>
-        <source
-          media="(max-width: 520px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 521px) and (max-width: 768px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 769px) and (max-width: 980px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 981px) and (max-width: 1200px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1201px) and (max-width: 1680px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1681px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(max-width: 520px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 521px) and (max-width: 768px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 769px) and (max-width: 980px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 981px) and (max-width: 1200px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1201px) and (max-width: 1680px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <source
-          media="(min-width: 1681px)"
-          srcset=", undefined 2x"
-          type="image/undefined"
-        />
-        <img
-          alt="Background"
-          class="img"
-          loading="lazy"
-          src="test-file-stub"
-        />
-      </picture>
+      <div
+        class="nextImg img"
+      >
+        <div>
+          <div>
+            <img
+              alt="Background"
+              class="__lazy"
+              data-src="/_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75"
+              data-srcset="/_next/image?url=%2Fimg%2Fmessage.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmessage.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmessage.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmessage.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75 1200w"
+            />
+          </div>
+        </div>
+      </div>
       <section
         class="container"
       >
@@ -1178,7 +905,7 @@ exports[`IndexPage matches snapshot 1`] = `
             <p
               class="sansSerif"
             >
-              このような形で実際にビジネスを行うのは前例の殆どない最先端な取り組みです。
+              オンラインサロンでITのビジネスを行うのは前例の殆どない最先端な取り組みです。
               私も不安ではありますが、そういった不安も一緒に楽しめる方に入っていただけると嬉しいです。
               個々の進化はもちろん、コミュニティの進化も目指して、一緒に最高のモノづくりをしましょう。
             </p>
@@ -1275,7 +1002,7 @@ exports[`IndexPage matches snapshot 1`] = `
             <p
               class="sansSerif"
             >
-              アカウント登録後に会費をお支払いする画面（Stripe）に遷移します。お支払い手続きをお済ませください。
+              アカウント登録後に会費をお支払いする画面に遷移しますので、指定の方法でお支払い手続きをお済ませください。
             </p>
           </li>
           <li
@@ -1345,33 +1072,21 @@ exports[`IndexPage matches snapshot 1`] = `
           rel="noopener noreferrer"
           target="_blank"
         >
-          <picture>
-            <source
-              media="(max-width: 320px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 321px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(max-width: 320px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <source
-              media="(min-width: 321px)"
-              srcset=", undefined 2x"
-              type="image/undefined"
-            />
-            <img
-              alt="Entry button"
-              loading="lazy"
-              src="test-file-stub"
-            />
-          </picture>
+          <div
+            style="max-width: 100%; width: 480px;"
+          >
+            <div
+              style="position: relative; padding-bottom: 21.458333333333332%;"
+            >
+              <img
+                alt="Entry button"
+                class="__lazy"
+                data-src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75"
+                data-srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 768w"
+                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              />
+            </div>
+          </div>
         </a>
       </section>
     </div>

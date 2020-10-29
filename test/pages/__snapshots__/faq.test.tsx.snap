@@ -9,32 +9,20 @@ exports[`FaqPage matches snapshot 1`] = `
       <a
         href="/"
       >
-        <picture>
-          <source
-            media="(max-width: 320px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(min-width: 321px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(max-width: 320px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <source
-            media="(min-width: 321px)"
-            srcset=", undefined 2x"
-            type="image/undefined"
-          />
-          <img
-            alt="Logo of 'IT KINGDOM"
-            src="test-file-stub"
-          />
-        </picture>
+        <div
+          style="max-width: 100%; width: 180px;"
+        >
+          <div
+            style="position: relative; padding-bottom: 21.11111111111111%;"
+          >
+            <img
+              alt="IT KINGDOM logo"
+              src="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75"
+              srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 320w"
+              style="visibility: visible; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+            />
+          </div>
+        </div>
       </a>
     </h1>
     <nav

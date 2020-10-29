@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Img from "react-optimized-image";
+import Image from "next/image";
 import styles from "src/components/first-view/index.module.scss";
 import { QIN_URL } from "src/constants";
 
@@ -70,16 +70,17 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
           </div>
         </h1>
         <div className={styles.itk_button}>
-          <Img
+          <Image
             className={styles.itk}
-            src={require("@img/hero/it-kingdom.png")}
-            sizes={[400, 680, 800, 1050, 1480, 2000]}
-            breakpoints={[400, 680, 800, 1050, 1480]}
-            alt="Logo of 'IT KINGDOM"
+            alt="IT KINGDOM"
+            src="/img/hero/it-kingdom.png"
+            loading="eager"
+            sizes="(min-width: 1200px) 1200px"
+            unsized
           />
           <div className={styles.button}>
             <a target="_blank" rel="noopener noreferrer" href={QIN_URL}>
-              <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" />
+              <Image src="/img/entry-btn.png" alt="Entry button" loading="eager" width={480} height={103} priority />
             </a>
           </div>
         </div>

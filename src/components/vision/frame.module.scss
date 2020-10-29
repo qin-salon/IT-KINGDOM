@@ -1,0 +1,139 @@
+.first,
+.second {
+  width: 92%;
+  margin: 0 auto;
+  border: 1px solid #b3ac8a;
+  position: relative;
+  z-index: 1;
+  user-select: none;
+  > h2,
+  > p {
+    position: relative;
+    z-index: 2;
+  }
+  > h2 {
+    color: #b3ac8a;
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
+    letter-spacing: 2px;
+    > strong {
+      color: #fff;
+      font-size: 1.4em;
+    }
+  }
+  > p {
+    margin-top: 28px;
+    font-size: 0.9rem;
+    line-height: 2;
+    > br {
+      display: none;
+    }
+  }
+}
+
+.first {
+  padding: 32px 16px;
+  > p {
+    padding-right: 88px;
+  }
+}
+.second {
+  margin-top: calc(1vh + 1vw);
+  padding: 32px 16px 50vw;
+  > .goldBottomRight {
+    display: none;
+  }
+}
+
+.goldTopLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.goldBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+}
+
+.shimabuUdegumi {
+  position: absolute;
+  bottom: 0;
+  width: 220px;
+  right: -40px;
+}
+
+.soldiers {
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .first,
+  .second {
+    > .goldTopLeft {
+      height: 100%;
+      width: auto;
+    }
+  }
+  .second {
+    padding: 32px 16px 32px 28vw;
+    > .soldiers {
+      position: absolute;
+      bottom: 0;
+      left: -32px;
+      width: 44vw;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .first,
+  .second {
+    text-align: center;
+    > p {
+      > br {
+        display: block;
+      }
+    }
+  }
+  .first {
+    > .shimabuUdegumi {
+      right: 0;
+    }
+    > p {
+      padding-right: 0;
+    }
+  }
+  .second {
+    padding: 40px 24px 44px;
+    > .goldTopLeft {
+      display: none;
+    }
+    > .goldBottomRight {
+      display: block;
+    }
+    > .soldiers {
+      left: -44px;
+      height: 100%;
+      bottom: 15%;
+      width: auto;
+      img {
+        height: 115%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .first,
+  .second {
+    width: 940px;
+    padding: 40px 24px 44px;
+  }
+}

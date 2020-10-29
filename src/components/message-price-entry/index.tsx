@@ -1,4 +1,5 @@
-import Img from "react-optimized-image";
+import clsx from "clsx";
+import Image from "next/image";
 import { Entry } from "src/components/entry";
 import { Message } from "src/components/message";
 import styles from "src/components/message-price-entry/index.module.scss";
@@ -7,13 +8,9 @@ import { Price } from "src/components/price";
 export function MessagePriceEntry(): JSX.Element {
   return (
     <div className={styles.container}>
-      <Img
-        className={styles.img}
-        src={require("@img/message.png")}
-        sizes={[520, 768, 980, 1200, 1680, 2560]}
-        alt="Background"
-        loading="lazy"
-      />
+      <div className={clsx("nextImg", styles.img)}>
+        <Image src="/img/message.png" alt="Background" unsized />
+      </div>
       <Message />
       <Price />
       <Entry />

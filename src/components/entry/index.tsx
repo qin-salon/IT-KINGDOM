@@ -1,4 +1,4 @@
-import Img from "react-optimized-image";
+import Image from "next/image";
 import styles from "src/components/entry/index.module.scss";
 import { Headline } from "src/components/headline";
 import { QIN_URL } from "src/constants";
@@ -49,7 +49,7 @@ export function Entry(): JSX.Element {
       </ul>
 
       <a className={styles.button} target="_blank" rel="noopener noreferrer" href={QIN_URL}>
-        <Img src={require("@img/entry-btn.png")} sizes={[320, 480]} alt="Entry button" loading="lazy" />
+        <Image src="/img/entry-btn.png" alt="Entry button" width={480} height={103} />
       </a>
     </section>
   );

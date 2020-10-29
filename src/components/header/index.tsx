@@ -1,6 +1,6 @@
 import clsx from "clsx";
+import Image from "next/image";
 import Link from "next/link";
-import Img from "react-optimized-image";
 import styles from "src/components/header/index.module.scss";
 import { QIN_URL } from "src/constants";
 
@@ -10,7 +10,7 @@ export function Header(): JSX.Element {
       <h1>
         <Link href="/">
           <a>
-            <Img src={require("@img/logo.png")} sizes={[108, 180]} breakpoints={[320]} alt="Logo of 'IT KINGDOM" />
+            <Image src="/img/logo.png" alt="IT KINGDOM logo" loading="eager" width={180} height={38} priority />
           </a>
         </Link>
       </h1>

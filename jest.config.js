@@ -10,6 +10,6 @@ module.exports = {
     "\\.(gif|ttf|eot|svg|png)$": "<rootDir>/test/__mocks__/fileMock.js",
     "src/(.*)": "<rootDir>/src/$1",
     "test/(.*)": "<rootDir>/test/$1",
-    "@img/(.*)": "<rootDir>/test/__mocks__/fileMock.js",
   },
+  setupFiles: ["./jest.setup.js"],
 };

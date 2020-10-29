@@ -75,6 +75,9 @@
   display: block;
   width: clamp(255px, 100%, 480px);
   margin: 40px auto 0;
+  img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
