@@ -2,7 +2,7 @@
   user-select: none;
   display: block;
   position: absolute;
-  color: rgb(41 38 29 / 80%);
+  color: rgb(41 38 29 / 90%);
   font-size: 6rem;
   &.sai {
     top: 80px;
@@ -38,7 +38,6 @@
 
 @media (min-width: 768px) {
   .common {
-    color: rgb(41 38 29 / 100%);
     font-size: 12rem;
     &.sai {
       top: 80px;
