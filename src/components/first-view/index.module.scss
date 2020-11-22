@@ -57,31 +57,14 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   margin: 0 2px;
 }
 
-.itk_button {
-  position: relative;
-}
-
 .itk {
   user-select: none;
   width: clamp(280px, 100vw, 1200px);
-  margin-bottom: 16px;
 }
 
 .button {
-  width: 89%;
-  left: 5.5%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  > a {
-    display: block;
-    width: clamp(255px, 100%, 480px);
-    height: fit-content;
-    img {
-      width: 100%;
-    }
-  }
+  max-width: 89%;
+  margin-top: calc(-14vw);
 }
 
 @media (min-width: 768px) {
@@ -94,14 +77,13 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
   .line + .line {
     display: inline-block;
   }
-  .itk_button {
+  .itk {
     margin-top: -20px;
   }
-  .itk {
-    margin-bottom: 0;
-  }
+}
+
+@media (min-width: 1024px) {
   .button {
-    top: 64%;
-    margin-bottom: 0;
+    margin-top: -160px;
   }
 }

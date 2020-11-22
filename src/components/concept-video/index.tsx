@@ -9,7 +9,9 @@ export function ConceptVideo(): JSX.Element {
       <div className={styles.responsiveVideo}>
         <Video src="https://www.youtube.com/embed/9XVuUr4DbNU" />
       </div>
-      <Image className={styles.smoke} src="/img/smoke.png" alt="Background" loading="eager" unsized />
+      <div className={styles.smoke}>
+        <Image src="/img/smoke.png" alt="Background" loading="eager" width={2560} height={1228} layout="responsive" />
+      </div>
     </section>
   );
 }

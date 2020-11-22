@@ -53,6 +53,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
         />
         <img src="img/hero/pc.png" alt="King shimabu and soldiers" />
       </picture>
+
       <div>
         <h1 className={styles.text}>
           <div className={styles.line}>
@@ -69,22 +70,24 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
             <span className={styles.strong}>オンラインサロン</span>
           </div>
         </h1>
-        <div className={styles.itk_button}>
+
+        <div className={styles.itk}>
           <Image
-            className={styles.itk}
             alt="IT KINGDOM"
             src="/img/hero/it-kingdom.png"
             loading="eager"
             sizes="(min-width: 1200px) 1200px"
-            unsized
+            width={2144}
+            height={959}
+            layout="responsive"
           />
-          <div className={styles.button}>
-            <a target="_blank" rel="noopener noreferrer" href={QIN_URL}>
-              <Image src="/img/entry-btn.png" alt="Entry button" loading="eager" width={480} height={103} priority />
-            </a>
-          </div>
         </div>
+
+        <a target="_blank" rel="noopener noreferrer" href={QIN_URL} className={styles.button}>
+          <Image src="/img/entry-btn.png" alt="Entry button" loading="eager" width={480} height={103} priority />
+        </a>
       </div>
+
       <style jsx>{`
         .number::before {
           content: "${count}万人";

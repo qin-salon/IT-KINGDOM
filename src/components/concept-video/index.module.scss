@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  padding: 60px 0;
+  padding: 120px 0 60px;
   text-align: center;
   > h1 {
     color: #b3ac8a;
@@ -15,6 +15,7 @@
 .smoke {
   user-select: none;
   position: absolute;
+  width: 100%;
   bottom: -15vw;
 }
 

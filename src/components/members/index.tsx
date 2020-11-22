@@ -26,7 +26,7 @@ const MEMBERS = [
       "神戸大学工学部卒。新卒でクックパッドに入社し現在はITベンチャーに転職。アプリ・フロントエンド・デザインに秀でており、サロンでもその分野を担当。",
   },
   {
-    src: "/img/members/shimabu.png",
+    src: "/img/members/yasu.png",
     name: "やっさん",
     rank: "右丞相",
     introduction:

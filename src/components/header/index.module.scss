@@ -11,7 +11,7 @@
     align-items: center;
     width: min(36%, 180px);
     a {
-      max-width: 100%;
+      display: contents;
     }
     img {
       user-select: none;

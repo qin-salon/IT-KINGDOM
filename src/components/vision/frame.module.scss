@@ -119,12 +119,9 @@
       display: block;
     }
     > .soldiers {
-      left: -44px;
-      height: 100%;
-      bottom: 15%;
       width: auto;
-      img {
-        height: 115%;
+      > div {
+        display: block !important;
       }
     }
   }
