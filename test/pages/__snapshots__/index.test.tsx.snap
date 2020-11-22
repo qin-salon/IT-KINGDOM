@@ -10,18 +10,26 @@ exports[`IndexPage matches snapshot 1`] = `
         href="/"
       >
         <div
-          style="max-width: 100%; width: 180px;"
+          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
         >
           <div
-            style="position: relative; padding-bottom: 21.11111111111111%;"
+            style="box-sizing: border-box; display: block; max-width: 100%;"
           >
             <img
-              alt="IT KINGDOM logo"
-              src="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75"
-              srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 320w"
-              style="visibility: visible; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjM4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              style="max-width: 100%; display: block;"
             />
           </div>
+          <img
+            alt="IT KINGDOM logo"
+            decoding="async"
+            src="/_next/image?url=%2Fimg%2Flogo.png&w=768&q=75"
+            srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Flogo.png&w=420&q=75 2x, /_next/image?url=%2Fimg%2Flogo.png&w=768&q=75 3x"
+            style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
         </div>
       </a>
     </h1>
@@ -38,7 +46,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </li>
         <li>
           <a
-            href="https://qin.salon"
+            href="https://qin.salon/signup"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -140,45 +148,53 @@ exports[`IndexPage matches snapshot 1`] = `
           </div>
         </h1>
         <div
-          class="jsx-3651463820 itk_button"
+          class="jsx-3651463820 itk"
         >
-          <div>
-            <div>
-              <img
-                alt="IT KINGDOM"
-                class="itk"
-                sizes="(min-width: 1200px) 1200px"
-                src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w"
-              />
-            </div>
-          </div>
           <div
-            class="jsx-3651463820 button"
+            style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
-            <a
-              class="jsx-3651463820"
-              href="https://qin.salon"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div
-                style="max-width: 100%; width: 480px;"
-              >
-                <div
-                  style="position: relative; padding-bottom: 21.458333333333332%;"
-                >
-                  <img
-                    alt="Entry button"
-                    src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75"
-                    srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 768w"
-                    style="visibility: visible; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
-                  />
-                </div>
-              </div>
-            </a>
+            <div
+              style="display: block; box-sizing: border-box; padding-top: 44.7294776119403%;"
+            />
+            <img
+              alt="IT KINGDOM"
+              decoding="async"
+              sizes="(min-width: 1200px) 1200px"
+              src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </div>
+        <a
+          class="jsx-3651463820 button"
+          href="https://qin.salon/signup"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgwIiBoZWlnaHQ9IjEwMyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
+              />
+            </div>
+            <img
+              alt="Entry button"
+              decoding="async"
+              src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1200&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1024&q=75 2x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1200&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </a>
       </div>
     </section>
     <section
@@ -200,13 +216,22 @@ exports[`IndexPage matches snapshot 1`] = `
           width="720"
         />
       </div>
-      <div>
-        <div>
+      <div
+        class="smoke"
+      >
+        <div
+          style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        >
+          <div
+            style="display: block; box-sizing: border-box; padding-top: 47.96875%;"
+          />
           <img
             alt="Background"
-            class="smoke"
+            decoding="async"
+            sizes="(max-width: 320px) 320px, (max-width: 420px) 420px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, 1200px"
             src="/_next/image?url=%2Fimg%2Fsmoke.png&w=1200&q=75"
             srcset="/_next/image?url=%2Fimg%2Fsmoke.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fsmoke.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fsmoke.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1200&q=75 1200w"
+            style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </div>
@@ -218,19 +243,25 @@ exports[`IndexPage matches snapshot 1`] = `
         class="nextImg icon front"
       >
         <div
-          style="max-width: 100%; width: 60px;"
+          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
         >
           <div
-            style="position: relative; padding-bottom: 93.33333333333333%;"
+            style="box-sizing: border-box; display: block; max-width: 100%;"
           >
             <img
-              alt="Vision section's icon"
-              class="__lazy"
-              data-src="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75"
-              data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75 320w"
-              style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style="max-width: 100%; display: block;"
             />
           </div>
+          <img
+            alt="Vision section's icon"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
         </div>
       </div>
       <h1
@@ -281,38 +312,50 @@ exports[`IndexPage matches snapshot 1`] = `
           class="nextImg goldTopLeft"
         >
           <div
-            style="max-width: 100%; width: 333px;"
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
             <div
-              style="position: relative; padding-bottom: 66.66666666666666%;"
+              style="box-sizing: border-box; display: block; max-width: 100%;"
             >
               <img
-                alt="Background"
-                class="__lazy"
-                data-src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75"
-                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 420w"
-                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMzIiBoZWlnaHQ9IjIyMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
               />
             </div>
+            <img
+              alt="Background"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </div>
         <div
           class="nextImg shimabuUdegumi"
         >
           <div
-            style="max-width: 100%; width: 219px;"
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
             <div
-              style="position: relative; padding-bottom: 130.59360730593608%;"
+              style="box-sizing: border-box; display: block; max-width: 100%;"
             >
               <img
-                alt="Shimabu"
-                class="__lazy"
-                data-src="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=320&q=75"
-                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=320&q=75 320w"
-                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjE5IiBoZWlnaHQ9IjI4NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
               />
             </div>
+            <img
+              alt="Shimabu"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </div>
       </div>
@@ -336,57 +379,75 @@ exports[`IndexPage matches snapshot 1`] = `
           class="nextImg goldBottomRight"
         >
           <div
-            style="max-width: 100%; width: 333px;"
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
             <div
-              style="position: relative; padding-bottom: 66.66666666666666%;"
+              style="box-sizing: border-box; display: block; max-width: 100%;"
             >
               <img
-                alt="Background"
-                class="__lazy"
-                data-src="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=420&q=75"
-                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=420&q=75 420w"
-                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMzIiBoZWlnaHQ9IjIyMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
               />
             </div>
+            <img
+              alt="Background"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </div>
         <div
           class="nextImg goldTopLeft"
         >
           <div
-            style="max-width: 100%; width: 333px;"
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
             <div
-              style="position: relative; padding-bottom: 66.66666666666666%;"
+              style="box-sizing: border-box; display: block; max-width: 100%;"
             >
               <img
-                alt="Background"
-                class="__lazy"
-                data-src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75"
-                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 420w"
-                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMzIiBoZWlnaHQ9IjIyMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
               />
             </div>
+            <img
+              alt="Background"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </div>
         <div
           class="nextImg soldiers"
         >
           <div
-            style="max-width: 100%; width: 385px;"
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
             <div
-              style="position: relative; padding-bottom: 66.23376623376623%;"
+              style="box-sizing: border-box; display: block; max-width: 100%;"
             >
               <img
-                alt="Salon members"
-                class="__lazy"
-                data-src="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=420&q=75"
-                data-srcset="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=420&q=75 420w"
-                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzg1IiBoZWlnaHQ9IjI1NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
               />
             </div>
+            <img
+              alt="Salon members"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </div>
       </div>
@@ -426,19 +487,25 @@ exports[`IndexPage matches snapshot 1`] = `
             class="img"
           >
             <div
-              style="max-width: 100%; width: 220px;"
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 104.54545454545455%;"
+                style="box-sizing: border-box; display: block; max-width: 100%;"
               >
                 <img
-                  alt="プロダクト開発"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=320&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=320&q=75 320w"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style="max-width: 100%; display: block;"
                 />
               </div>
+              <img
+                alt="プロダクト開発"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h2>
@@ -460,19 +527,25 @@ exports[`IndexPage matches snapshot 1`] = `
             class="img"
           >
             <div
-              style="max-width: 100%; width: 220px;"
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 104.54545454545455%;"
+                style="box-sizing: border-box; display: block; max-width: 100%;"
               >
                 <img
-                  alt="気軽に質問"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=320&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=320&q=75 320w"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style="max-width: 100%; display: block;"
                 />
               </div>
+              <img
+                alt="気軽に質問"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h2>
@@ -495,19 +568,25 @@ exports[`IndexPage matches snapshot 1`] = `
             class="img"
           >
             <div
-              style="max-width: 100%; width: 220px;"
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 104.54545454545455%;"
+                style="box-sizing: border-box; display: block; max-width: 100%;"
               >
                 <img
-                  alt="ブログ & アウトプット"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=320&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=320&q=75 320w"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style="max-width: 100%; display: block;"
                 />
               </div>
+              <img
+                alt="ブログ & アウトプット"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h2>
@@ -529,19 +608,25 @@ exports[`IndexPage matches snapshot 1`] = `
             class="img"
           >
             <div
-              style="max-width: 100%; width: 220px;"
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 104.54545454545455%;"
+                style="box-sizing: border-box; display: block; max-width: 100%;"
               >
                 <img
-                  alt="IT業界研究"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=320&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=320&q=75 320w"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style="max-width: 100%; display: block;"
                 />
               </div>
+              <img
+                alt="IT業界研究"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h2>
@@ -564,19 +649,25 @@ exports[`IndexPage matches snapshot 1`] = `
             class="img"
           >
             <div
-              style="max-width: 100%; width: 220px;"
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 104.54545454545455%;"
+                style="box-sizing: border-box; display: block; max-width: 100%;"
               >
                 <img
-                  alt="楽しめるコミュニティ"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=320&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=320&q=75 320w"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style="max-width: 100%; display: block;"
                 />
               </div>
+              <img
+                alt="楽しめるコミュニティ"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h2>
@@ -641,19 +732,25 @@ exports[`IndexPage matches snapshot 1`] = `
           class="step"
         >
           <div
-            style="max-width: 100%; width: 340px;"
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
             <div
-              style="position: relative; padding-bottom: 161.76470588235296%;"
+              style="box-sizing: border-box; display: block; max-width: 100%;"
             >
               <img
-                alt="Curriculum"
-                class="__lazy"
-                data-src="/_next/image?url=%2Fimg%2Fstep.png&w=420&q=75"
-                data-srcset="/_next/image?url=%2Fimg%2Fstep.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fstep.png&w=420&q=75 420w"
-                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzQwIiBoZWlnaHQ9IjU1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
               />
             </div>
+            <img
+              alt="Curriculum"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </div>
       </div>
@@ -723,20 +820,17 @@ exports[`IndexPage matches snapshot 1`] = `
             class="nextImg img"
           >
             <div
-              style="max-width: 100%; width: 480px;"
+              style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 100%;"
-              >
-                <img
-                  alt="しまぶー"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75 768w"
-                  sizes="(min-width: 480px) 180px, 100vw"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
-                />
-              </div>
+                style="display: block; box-sizing: border-box; padding-top: 100%;"
+              />
+              <img
+                alt="しまぶー"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h1>
@@ -756,20 +850,17 @@ exports[`IndexPage matches snapshot 1`] = `
             class="nextImg img"
           >
             <div
-              style="max-width: 100%; width: 480px;"
+              style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 100%;"
-              >
-                <img
-                  alt="まっつん"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=768&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=768&q=75 768w"
-                  sizes="(min-width: 480px) 180px, 100vw"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
-                />
-              </div>
+                style="display: block; box-sizing: border-box; padding-top: 100%;"
+              />
+              <img
+                alt="まっつん"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h1>
@@ -789,20 +880,17 @@ exports[`IndexPage matches snapshot 1`] = `
             class="nextImg img"
           >
             <div
-              style="max-width: 100%; width: 480px;"
+              style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 100%;"
-              >
-                <img
-                  alt="いっぽ"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=768&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=768&q=75 768w"
-                  sizes="(min-width: 480px) 180px, 100vw"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
-                />
-              </div>
+                style="display: block; box-sizing: border-box; padding-top: 100%;"
+              />
+              <img
+                alt="いっぽ"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h1>
@@ -822,20 +910,17 @@ exports[`IndexPage matches snapshot 1`] = `
             class="nextImg img"
           >
             <div
-              style="max-width: 100%; width: 480px;"
+              style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
             >
               <div
-                style="position: relative; padding-bottom: 100%;"
-              >
-                <img
-                  alt="やっさん"
-                  class="__lazy"
-                  data-src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75"
-                  data-srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75 768w"
-                  sizes="(min-width: 480px) 180px, 100vw"
-                  style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
-                />
-              </div>
+                style="display: block; box-sizing: border-box; padding-top: 100%;"
+              />
+              <img
+                alt="やっさん"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
             </div>
           </div>
           <h1>
@@ -858,15 +943,18 @@ exports[`IndexPage matches snapshot 1`] = `
       <div
         class="nextImg img"
       >
-        <div>
-          <div>
-            <img
-              alt="Background"
-              class="__lazy"
-              data-src="/_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75"
-              data-srcset="/_next/image?url=%2Fimg%2Fmessage.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmessage.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmessage.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmessage.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75 1200w"
-            />
-          </div>
+        <div
+          style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        >
+          <div
+            style="display: block; box-sizing: border-box; padding-top: 55.39062500000001%;"
+          />
+          <img
+            alt="Background"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
         </div>
       </div>
       <section
@@ -1068,24 +1156,30 @@ exports[`IndexPage matches snapshot 1`] = `
         </ul>
         <a
           class="button"
-          href="https://qin.salon"
+          href="https://qin.salon/signup"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
-            style="max-width: 100%; width: 480px;"
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
           >
             <div
-              style="position: relative; padding-bottom: 21.458333333333332%;"
+              style="box-sizing: border-box; display: block; max-width: 100%;"
             >
               <img
-                alt="Entry button"
-                class="__lazy"
-                data-src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75"
-                data-srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 768w"
-                style="visibility: hidden; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgwIiBoZWlnaHQ9IjEwMyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
               />
             </div>
+            <img
+              alt="Entry button"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
           </div>
         </a>
       </section>
