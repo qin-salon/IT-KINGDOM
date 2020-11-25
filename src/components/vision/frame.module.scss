@@ -5,7 +5,6 @@
   border: 1px solid #b3ac8a;
   position: relative;
   z-index: 1;
-  user-select: none;
   > h2,
   > p {
     position: relative;
@@ -42,6 +41,13 @@
   > .goldBottomRight {
     display: none;
   }
+}
+
+.goldTopLeft,
+.goldBottomRight,
+.shimabuUdegumi,
+.soldiers {
+  user-select: none;
 }
 
 .goldTopLeft {
