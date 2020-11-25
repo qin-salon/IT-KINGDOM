@@ -4,7 +4,7 @@ import styles from "src/components/step/index.module.scss";
 const STEPS = [
   {
     label: "隊員〜什長",
-    body: `まずはプログラミングの基礎知識を身につけよう。気軽に質問できる環境に加え、ライブ講座や簡単な課題も用意します。`,
+    body: `まずはプログラミングの基礎知識を身につけよう。気軽に質問できる環境に加え、ライブ講座なども実施します。`,
   },
   {
     label: "百人将〜千人将",

@@ -15,7 +15,7 @@ export function Price(): JSX.Element {
           </h2>
         </div>
         <p className={clsx("sansSerif", styles.note)}>
-          {`Qastなどの外部サービス利用料は含まれています。
+          {`外部のサービス利用料はすべて含まれています。
             オフラインのイベントは別途費用がかかります。`}
         </p>
       </div>

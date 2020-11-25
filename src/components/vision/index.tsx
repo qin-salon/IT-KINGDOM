@@ -18,7 +18,7 @@ export function Vision(): JSX.Element {
       </h1>
 
       <p className={clsx("sansSerif", styles.paragraph, styles.front)}>
-        {`私はこのサロンから世界中で使われる最高のプロダクトを生み出したいと思っています。\nみんなでスキルアップして良いプロダクトを作りましょう。`}
+        {`私はこのサロンからたくさんのユーザーに使われるプロダクトを生み出したいと思っています。\nみんなで一緒にスキルアップしておもしろいプロダクトを開発しましょう。`}
       </p>
 
       <div className={frame.first}>
@@ -28,7 +28,7 @@ export function Vision(): JSX.Element {
         <p className="sansSerif">
           プロダクトを作るために必要なプログラミングスキルを伝授します。
           <br />
-          必要に応じてデザイン・マーケティング・プレゼンテーション・経営企画などの講座も行います。
+          必要に応じてデザイン・マーケティング・プレゼンテーション・アイディア出しなどの講座も行います。
         </p>
         <div className={clsx("nextImg", frame.goldTopLeft)}>
           <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} />
