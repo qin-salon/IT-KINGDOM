@@ -29,7 +29,7 @@ export default function IndexPage(props: Props): JSX.Element {
   return (
     <MainLayout
       page="しまぶーのIT大学オンラインサロン"
-      description={`チャンネル登録者${props.subscriberCount}人のプログラミングYouTuberによるオンラインサロン。ヤフーやクックパッドなど国内大手IT企業出身の現役ITエンジニアが運営。`}
+      description={`チャンネル登録者${props.subscriberCount}人のプログラミングYouTuber「しまぶー」によるオンラインサロン。ヤフーやクックパッドなど国内大手IT企業出身の現役エンジニアが運営。`}
     >
       <FirstView subscriberCount={props.subscriberCount} />
       <ConceptVideo />
