@@ -14,7 +14,6 @@ export function SupportLayout({ page, description, children, styled }: Props): J
         <title>IT KINGDOM - {page}</title>
         {description ? <meta name="description" content={description} /> : null}
         <meta name="robots" content="noindex" />
-        <meta name="theme-color" content="#000000" key="themeColor" />
       </Head>
       <Header />
       <main className={clsx(styles.container, { [styles.styled]: styled })}>{children}</main>
