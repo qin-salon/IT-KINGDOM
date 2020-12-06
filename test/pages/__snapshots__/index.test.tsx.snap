@@ -210,10 +210,10 @@ exports[`IndexPage matches snapshot 1`] = `
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen=""
           frameborder="0"
-          height="405"
+          height="528.75"
           loading="lazy"
           title="Concept video"
-          width="720"
+          width="940"
         />
       </div>
       <div
@@ -259,8 +259,9 @@ exports[`IndexPage matches snapshot 1`] = `
           <img
             alt="Vision section's icon"
             decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            src="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75 1x"
+            style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </div>
@@ -328,8 +329,9 @@ exports[`IndexPage matches snapshot 1`] = `
             <img
               alt="Background"
               decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=1024&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=768&q=75 2x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=1024&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -353,8 +355,9 @@ exports[`IndexPage matches snapshot 1`] = `
             <img
               alt="Shimabu"
               decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              src="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=768&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=768&q=75 2x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -395,8 +398,9 @@ exports[`IndexPage matches snapshot 1`] = `
             <img
               alt="Background"
               decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              src="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=1024&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=768&q=75 2x, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=1024&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -420,8 +424,9 @@ exports[`IndexPage matches snapshot 1`] = `
             <img
               alt="Background"
               decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=1024&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=768&q=75 2x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=1024&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -445,8 +450,9 @@ exports[`IndexPage matches snapshot 1`] = `
             <img
               alt="Salon members"
               decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              src="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=1200&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=1024&q=75 2x, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=1200&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -503,8 +509,9 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="プロダクト開発"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                src="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=768&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=768&q=75 2x"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -543,8 +550,9 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="気軽に質問"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                src="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=768&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=768&q=75 2x"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -584,8 +592,9 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="ブログ & アウトプット"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=768&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=768&q=75 2x"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -624,8 +633,9 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="IT業界研究"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=768&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=768&q=75 2x"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -665,8 +675,9 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="楽しめるコミュニティ"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                src="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=768&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=768&q=75 2x"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -748,8 +759,9 @@ exports[`IndexPage matches snapshot 1`] = `
             <img
               alt="Curriculum"
               decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              src="/_next/image?url=%2Fimg%2Fstep.png&w=1024&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fstep.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fstep.png&w=768&q=75 2x, /_next/image?url=%2Fimg%2Fstep.png&w=1024&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -828,8 +840,10 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="しまぶー"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                sizes="(min-width: 480px) 180px, 100vw"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=1200&q=75 1200w"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -858,8 +872,10 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="まっつん"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                sizes="(min-width: 480px) 180px, 100vw"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=1200&q=75 1200w"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -888,8 +904,10 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="いっぽ"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                sizes="(min-width: 480px) 180px, 100vw"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=1200&q=75 1200w"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -918,8 +936,10 @@ exports[`IndexPage matches snapshot 1`] = `
               <img
                 alt="やっさん"
                 decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                sizes="(min-width: 480px) 180px, 100vw"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=1200&q=75 1200w"
+                style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -952,8 +972,10 @@ exports[`IndexPage matches snapshot 1`] = `
           <img
             alt="Background"
             decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            sizes="(max-width: 320px) 320px, (max-width: 420px) 420px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, 1200px"
+            src="/_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fmessage.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmessage.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmessage.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmessage.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75 1200w"
+            style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </div>
@@ -1177,8 +1199,9 @@ exports[`IndexPage matches snapshot 1`] = `
             <img
               alt="Entry button"
               decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1200&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1024&q=75 2x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1200&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </a>
