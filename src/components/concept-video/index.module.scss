@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  padding: 120px 0 60px;
+  padding: calc(6vh + 4vw) 0 calc(8vh + 2vw);
   text-align: center;
   > h1 {
     color: #b3ac8a;
@@ -42,8 +42,8 @@
     display: contents;
     > iframe {
       all: unset;
-      width: 720px;
-      height: 405px;
+      width: 940px;
+      height: calc(940px * (9 / 16));
       position: relative;
       z-index: 1;
     }

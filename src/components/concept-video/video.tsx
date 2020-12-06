@@ -22,8 +22,8 @@ export function Video({ src }: Props): JSX.Element {
     <iframe
       ref={el}
       title="Concept video"
-      width="720"
-      height="405"
+      width={940}
+      height={940 * (9 / 16)}
       frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
