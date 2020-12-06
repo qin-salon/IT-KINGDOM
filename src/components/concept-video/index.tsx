@@ -7,7 +7,7 @@ export function ConceptVideo(): JSX.Element {
     <section className={styles.container}>
       <h1>CONCEPT VIDEO</h1>
       <div className={styles.responsiveVideo}>
-        <Video src="https://www.youtube.com/embed/9XVuUr4DbNU" />
+        <Video src="https://www.youtube.com/embed/fWXtiU3YjuE?modestbranding=1&controls=0&rel=0" />
       </div>
       <div className={styles.smoke}>
         <Image src="/img/smoke.png" alt="Background" loading="eager" width={2560} height={1228} layout="responsive" />
