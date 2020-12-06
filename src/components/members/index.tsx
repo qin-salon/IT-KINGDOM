@@ -48,6 +48,7 @@ export function Members(): JSX.Element {
                 width={480}
                 height={480}
                 sizes="(min-width: 480px) 180px, 100vw"
+                loading="eager"
               />
             </div>
             <h1>{member.name}</h1>

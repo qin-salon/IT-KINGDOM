@@ -9,7 +9,7 @@ export function MessagePriceEntry(): JSX.Element {
   return (
     <div className={styles.container}>
       <div className={clsx("nextImg", styles.img)}>
-        <Image src="/img/message.png" alt="Background" width={2560} height={1418} layout="responsive" />
+        <Image src="/img/message.png" alt="Background" width={2560} height={1418} layout="responsive" loading="eager" />
       </div>
       <Message />
       <Price />

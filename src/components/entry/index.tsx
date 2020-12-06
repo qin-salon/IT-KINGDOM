@@ -49,7 +49,7 @@ export function Entry(): JSX.Element {
       </ul>
 
       <a className={styles.button} target="_blank" rel="noopener noreferrer" href={QIN_URL}>
-        <Image src="/img/entry-btn.png" alt="Entry button" width={480} height={103} />
+        <Image src="/img/entry-btn.png" alt="Entry button" width={480} height={103} loading="eager" />
       </a>
     </section>
   );

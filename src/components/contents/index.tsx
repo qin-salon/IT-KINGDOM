@@ -47,7 +47,7 @@ export function Contents(): JSX.Element {
         {ITEMS.map(({ src, bgSrc, title, body, notes }, index) => (
           <li key={title} className={styles.content} style={bgSrc ? { backgroundImage: `url("${bgSrc}")` } : undefined}>
             <div className={styles.img}>
-              <Image src={src} alt={title} width={220} height={230} />
+              <Image src={src} alt={title} width={220} height={230} loading="eager" />
             </div>
             <h2>
               <span>{String(index + 1).padStart(2, "0")}. </span>
