@@ -1,0 +1,21 @@
+.button {
+  display: contents;
+}
+
+.thumbnail {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: 89%;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  .button {
+    all: unset;
+  }
+  .thumbnail {
+    width: 940px;
+    height: calc(940px * (9 / 16));
+  }
+}

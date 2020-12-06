@@ -1,14 +1,15 @@
 import Image from "next/image";
 import styles from "src/components/concept-video/index.module.scss";
-import { Video } from "src/components/concept-video/video";
+import { VideoClickToPlay } from "src/components/concept-video/video-click-to-play";
 
 export function ConceptVideo(): JSX.Element {
   return (
     <section className={styles.container}>
       <h1>CONCEPT VIDEO</h1>
-      <div className={styles.responsiveVideo}>
-        <Video src="https://www.youtube.com/embed/fWXtiU3YjuE?modestbranding=1&controls=0&rel=0" />
-      </div>
+      <VideoClickToPlay
+        thumbnail="/img/video-play.jpg"
+        src="https://www.youtube.com/embed/fWXtiU3YjuE?modestbranding=1&controls=0&rel=0"
+      />
       <div className={styles.smoke}>
         <Image src="/img/smoke.png" alt="Background" loading="eager" width={2560} height={1228} layout="responsive" />
       </div>
