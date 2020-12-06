@@ -208,10 +208,8 @@ exports[`IndexPage matches snapshot 1`] = `
       >
         <iframe
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen=""
           frameborder="0"
           height="528.75"
-          loading="lazy"
           title="Concept video"
           width="940"
         />
@@ -290,7 +288,7 @@ exports[`IndexPage matches snapshot 1`] = `
         class="sansSerif paragraph front"
       >
         私はこのサロンからたくさんのユーザーに使われるプロダクトを生み出したいと思っています。
-みんなで一緒にスキルアップしておもしろいプロダクトを開発しましょう。
+みんなでスキルアップして一緒におもしろいプロダクトを作りましょう。
       </p>
       <div
         class="first"
@@ -841,8 +839,8 @@ exports[`IndexPage matches snapshot 1`] = `
                 alt="しまぶー"
                 decoding="async"
                 sizes="(min-width: 480px) 180px, 100vw"
-                src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=1200&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.png&w=1200&q=75 1200w"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=1200&q=75 1200w"
                 style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
@@ -873,8 +871,8 @@ exports[`IndexPage matches snapshot 1`] = `
                 alt="まっつん"
                 decoding="async"
                 sizes="(min-width: 480px) 180px, 100vw"
-                src="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=1200&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.png&w=1200&q=75 1200w"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=1200&q=75 1200w"
                 style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
@@ -905,8 +903,8 @@ exports[`IndexPage matches snapshot 1`] = `
                 alt="いっぽ"
                 decoding="async"
                 sizes="(min-width: 480px) 180px, 100vw"
-                src="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=1200&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.png&w=1200&q=75 1200w"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=1200&q=75 1200w"
                 style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
@@ -937,8 +935,8 @@ exports[`IndexPage matches snapshot 1`] = `
                 alt="やっさん"
                 decoding="async"
                 sizes="(min-width: 480px) 180px, 100vw"
-                src="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=1200&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.png&w=1200&q=75 1200w"
+                src="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=1200&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=1200&q=75 1200w"
                 style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
