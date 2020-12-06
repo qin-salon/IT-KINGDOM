@@ -23,8 +23,8 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  width: 88%;
-  padding-top: calc(9 / 16 * 92%);
+  width: 89%;
+  padding-top: calc(9 / 16 * 89%);
   margin: 0 auto;
   > iframe {
     position: absolute;
@@ -37,7 +37,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .responsiveVideo {
     display: contents;
     > iframe {
