@@ -7,7 +7,7 @@ export function ConceptVideo(): JSX.Element {
     <section className={styles.container}>
       <h1>CONCEPT VIDEO</h1>
       <VideoClickToPlay
-        thumbnail="/img/video-play.jpg"
+        thumbnail="/img/video-play.png"
         src="https://www.youtube.com/embed/fWXtiU3YjuE?modestbranding=1&controls=0&rel=0"
       />
       <div className={styles.smoke}>
