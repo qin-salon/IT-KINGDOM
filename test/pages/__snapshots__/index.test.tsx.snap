@@ -203,17 +203,17 @@ exports[`IndexPage matches snapshot 1`] = `
       <h1>
         CONCEPT VIDEO
       </h1>
-      <div
-        class="responsiveVideo"
+      <button
+        class="button"
       >
-        <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          frameborder="0"
+        <img
+          alt="Click to play video"
+          class="thumbnail"
           height="528.75"
-          title="Concept video"
+          src="/img/video-play.png"
           width="940"
         />
-      </div>
+      </button>
       <div
         class="smoke"
       >
