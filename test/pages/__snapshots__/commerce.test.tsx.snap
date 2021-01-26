@@ -20,15 +20,15 @@ exports[`CommercePage matches snapshot 1`] = `
               aria-hidden="true"
               role="presentation"
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjM4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-              style="max-width: 100%; display: block;"
+              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
             />
           </div>
           <img
             alt="IT KINGDOM logo"
             decoding="async"
-            src="/_next/image?url=%2Fimg%2Flogo.png&w=768&q=75"
-            srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Flogo.png&w=420&q=75 2x, /_next/image?url=%2Fimg%2Flogo.png&w=768&q=75 3x"
-            style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            src="/_next/image?url=%2Fimg%2Flogo.png&w=420&q=75"
+            srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Flogo.png&w=420&q=75 2x"
+            style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </a>
@@ -69,7 +69,7 @@ exports[`CommercePage matches snapshot 1`] = `
       事業者の名称
     </h2>
     <p>
-      しまぶー
+      島袋光音
     </p>
     <h2>
       事業者の所在地
