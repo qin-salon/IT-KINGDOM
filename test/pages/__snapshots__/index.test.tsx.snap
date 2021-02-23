@@ -546,10 +546,10 @@ exports[`IndexPage matches snapshot 1`] = `
                 />
               </div>
               <img
-                alt="気軽に質問"
+                alt="みんなに質問"
                 decoding="async"
-                src="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=768&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fqast.png&w=768&q=75 2x"
+                src="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=768&q=75"
+                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=768&q=75 2x"
                 style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
@@ -558,12 +558,12 @@ exports[`IndexPage matches snapshot 1`] = `
             <span>
               02. 
             </span>
-            気軽に質問
+            みんなに質問
           </h2>
           <p
             class="sansSerif"
           >
-            Qastという外部サービスを使用します。Qastには匿名で質問を行う機能があり「何度も質問するのは気が引ける」「初歩的すぎて聞くのが恥ずかしい」という方も気兼ねなく質問できます。また誰でも回答が可能で、回答していくことでポイントが溜まります。ポイントにより回答率が高まることが期待され、質問者の疑問がすぐに解決します。
+            運営が独自でつくったプラットフォームがあり、そこには質問機能があります。質問をしていただくと運営やサロン内のエンジニアが回答します。質問の際は回答者が答えやすくなるように詳細な情報を添えてください。また皆さんも回答側になれますので、困っている仲間がいたら助けましょう。
           </p>
         </li>
         <li
@@ -588,7 +588,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 />
               </div>
               <img
-                alt="ブログ & アウトプット"
+                alt="メモ & アウトプット"
                 decoding="async"
                 src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=768&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=768&q=75 2x"
@@ -600,12 +600,12 @@ exports[`IndexPage matches snapshot 1`] = `
             <span>
               03. 
             </span>
-            ブログ & アウトプット
+            メモ & アウトプット
           </h2>
           <p
             class="sansSerif"
           >
-            Qastにはブログ機能も備わっており誰でもブログを書くことができます。外部だと心無い指摘が怖いかもしれませんが、当サロンではみんなが優しく教えてくれますので気軽にアウトプットできます。また私も「しまぶーのIT大学」で使う動画の内容を文章として残したり、学びになる記事を書いていく予定です。
+            IT KINGDOMのプラットフォームにはメモ機能も備わっています。外部だと心無い指摘が怖いかもしれませんが、当サロンではみんなが優しく教えてくれますので気軽にアウトプットできます。運営のエンジニアも適宜メモを残していく予定です。
           </p>
         </li>
         <li
@@ -629,7 +629,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 />
               </div>
               <img
-                alt="IT業界研究"
+                alt="限定コンテンツ"
                 decoding="async"
                 src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=768&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=768&q=75 2x"
@@ -641,12 +641,12 @@ exports[`IndexPage matches snapshot 1`] = `
             <span>
               04. 
             </span>
-            IT業界研究
+            限定コンテンツ
           </h2>
           <p
             class="sansSerif"
           >
-            優れたITエンジニアになるためには、IT業界のトレンドを知る必要があります。私が重要なITニュースをサロン内で共有したり、時事ネタを解説しますので、みんなで議論しましょう。また就職や転職に必要な業界研究や情報共有をサロンメンバーと一緒に行っていきます。
+            最低でも月に6本は動画が配信されます。YouTubeより数ヶ月早く講座が見れたり、サロンでしか見られない講座もございます。月に一度、運営のエンジニアが旬な情報をまとめてお届けするライブ配信も人気があります。またSlackでは毎日活発にニュースのシェアが行われています。
           </p>
         </li>
         <li
@@ -688,13 +688,13 @@ exports[`IndexPage matches snapshot 1`] = `
           <p
             class="sansSerif"
           >
-            ただ学ぶだけではなく楽しめるサロンにします。Slackを用いて頻繁に交流の場を設けます。一緒に勉強するもくもく会、ライブ配信で質疑応答や雑談、オンライン飲み会、オフラインでの交流会など、色んなイベントを予定しています。
+            ただ学ぶだけではなく楽しめるサロンを目指して、頻繁にビデオチャットやSlackを用いて交流の場を設けています。例えば毎日朝活が行われていたり、一緒に勉強するもくもく会、学びの成果を発表するLT、オンライン交流会、ライブ配信で質疑応答・雑談など、様々なイベントが実施されています。
           </p>
           <ul>
             <li
               class="sansSerif"
             >
-              ※ オフラインイベントは新型コロナウイルス感染症の影響が落ち着いてから計画いたします。
+              ※ 新型コロナウイルス感染症の影響が落ち着き次第、オフラインイベントも実施します。
             </li>
           </ul>
         </li>
@@ -715,8 +715,8 @@ exports[`IndexPage matches snapshot 1`] = `
         <p
           class="sansSerif"
         >
-          当サロンは最善を求めて常に進化していきます。
-          良いアイディアを一緒に考えみんなで成長させていければと思っております。
+          当サロンは常に進化していきます。
+          良いアイディアを一緒に考えみんなで成長させていく予定です。
           ここに書いてあること以外にもおもしろいことは積極的にやりましょう。
         </p>
       </div>
@@ -1090,7 +1090,7 @@ exports[`IndexPage matches snapshot 1`] = `
             <p
               class="sansSerif"
             >
-              サロンに参加するにはページ上部または下部にある「入国手続きを行う」ボタンから行えます。GitHubまたはGoogleのアカウント連携で登録が可能です。プログラミングを学びたい方にはGitHub連携をオススメしています。
+              サロンに参加するにはページ上部または下部にある「入国手続きを行う」ボタンから行えます。その後、別ページにてGitHubまたはGoogleのアカウント連携を行ってください。
             </p>
           </li>
           <li
@@ -1105,12 +1105,12 @@ exports[`IndexPage matches snapshot 1`] = `
               </span>
             </div>
             <h2>
-              プロフィールを登録する
+              月会費をお支払いする
             </h2>
             <p
               class="sansSerif"
             >
-              続いてプロフィールをご記入ください。イベント企画の際に、こちらでご記入いただいたプロフィール情報を参考にさせていただきます。後からでも変更が可能です。
+              GitHubまたはGoogleでの連携後に、会費をお支払いする画面に遷移しますので指定の方法でお支払い手続きをお済ませください。
             </p>
           </li>
           <li
@@ -1125,12 +1125,12 @@ exports[`IndexPage matches snapshot 1`] = `
               </span>
             </div>
             <h2>
-              月会費をお支払いする
+              プロフィールを登録する
             </h2>
             <p
               class="sansSerif"
             >
-              プロフィール登録後に会費をお支払いする画面に遷移しますので、指定の方法でお支払い手続きをお済ませください。
+              続いてプロフィールをご記入ください。プロフィールの情報はすべて後から変更することが可能です。
             </p>
           </li>
           <li
@@ -1150,7 +1150,7 @@ exports[`IndexPage matches snapshot 1`] = `
             <p
               class="sansSerif"
             >
-              当サロンでは「Qast」「Slack」「GitHub」を使用します。お支払い完了後、1日以内を目安に、各サービスへの招待をメールでお送りします。メール内のリンクから各サービスへのご登録をお済ませください。使い方はサロン内で解説いたします。
+              当サロンでは「Slack」「GitHub」を使用します。Slackは1日以内を目安に招待メールをお送りします。GitHubはサロンのマイページ→設定からGitHub連携を行い、招待メールを送ることで利用できるようになります。
             </p>
           </li>
           <li
