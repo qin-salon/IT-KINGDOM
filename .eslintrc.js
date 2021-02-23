@@ -1,31 +1,17 @@
 module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: "module",
-    ecmaFeatures: { jsx: true },
-  },
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
-  env: {
-    es6: true,
-    browser: true,
-    jest: true,
-    node: true,
-  },
-  plugins: ["simple-import-sort", "react-hooks"],
+  parserOptions: { ecmaVersion: 2021, sourceType: "module", ecmaFeatures: { jsx: true } },
+  settings: { react: { version: "detect" } },
+  env: { es2021: true, browser: true, jest: true, node: true },
+  plugins: ["import", "simple-import-sort", "react-hooks"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended",
+    "prettier",
   ],
   rules: {
     "no-console": ["error", { allow: ["warn", "info", "error"] }],
@@ -42,7 +28,6 @@ module.exports = {
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/consistent-type-imports": ["warn", { prefer: "type-imports" }],
     "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
-    "prettier/prettier": ["error", {}, { usePrettierrc: true }],
     "jsx-a11y/anchor-is-valid": [
       "error",
       { components: ["Link"], specialLink: ["hrefLeft", "hrefRight"], aspects: ["invalidHref", "preferButton"] },
