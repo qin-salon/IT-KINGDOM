@@ -5,7 +5,8 @@
   width: 89%;
   padding-top: calc(9 / 16 * 89%);
   margin: 0 auto;
-  > iframe {
+  > iframe,
+  > video {
     position: absolute;
     top: 0;
     left: 0;
@@ -19,7 +20,8 @@
 @media (min-width: 1024px) {
   .responsiveVideo {
     display: contents;
-    > iframe {
+    > iframe,
+    > video {
       all: unset;
       width: 940px;
       height: calc(940px * (9 / 16));

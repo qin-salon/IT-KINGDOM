@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 import type { IframeHTMLAttributes } from "react";
 import { useState } from "react";
 import videoStyles from "src/components/concept-video/responsive-video.module.scss";
@@ -13,15 +14,21 @@ export function VideoClickToPlay({ src, thumbnail, ...iframeProps }: Props): JSX
 
   return clicked ? (
     <div className={videoStyles.responsiveVideo}>
-      <iframe
-        src={`${src}&autoplay=1`}
-        title="Concept video"
-        width={940}
-        height={940 * (9 / 16)}
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        {...iframeProps}
-      />
+      {src.includes("youtu") ? (
+        <iframe
+          src={`${src}&autoplay=1`}
+          title="Concept video"
+          width={940}
+          height={940 * (9 / 16)}
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          {...iframeProps}
+        />
+      ) : (
+        <video autoPlay controls disablePictureInPicture controlsList="nodownload">
+          <source src={src} />
+        </video>
+      )}
     </div>
   ) : (
     <button
