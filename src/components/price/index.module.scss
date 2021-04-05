@@ -17,7 +17,7 @@
   > span {
     border: 1px solid #fff;
     border-radius: 100px;
-    padding: 6px 32px;
+    padding: 6px 20px 6px 28px;
     margin-bottom: 16px;
     font-size: 0.9rem;
   }
@@ -48,7 +48,6 @@
     justify-content: center;
     > span {
       margin: 0;
-      padding: 6px 20px;
     }
   }
   .note {
@@ -76,7 +75,6 @@
     padding: 20px min(6vw, 80px) 20px 0;
     border-right: 2px solid #b3ac8a7a;
     > span {
-      padding: 6px 32px;
       margin-bottom: 16px;
     }
   }

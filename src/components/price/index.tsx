@@ -8,7 +8,7 @@ export function Price(): JSX.Element {
       <Headline title="料金" label="PRICE" className={styles.headline} />
       <div>
         <div className={styles.price}>
-          <span className="sansSerif">月額 (税抜)</span>
+          <span className="sansSerif">月額（税込3,278円）</span>
           <h2>
             2,980
             <span>円</span>
