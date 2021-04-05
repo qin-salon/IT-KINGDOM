@@ -28,7 +28,7 @@ exports[`TermsPage matches snapshot 1`] = `
             decoding="async"
             src="/_next/image?url=%2Fimg%2Flogo.png&w=420&q=75"
             srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Flogo.png&w=420&q=75 2x"
-            style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </a>

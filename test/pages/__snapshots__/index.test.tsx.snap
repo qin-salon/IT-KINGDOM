@@ -28,7 +28,7 @@ exports[`IndexPage matches snapshot 1`] = `
             decoding="async"
             src="/_next/image?url=%2Fimg%2Flogo.png&w=420&q=75"
             srcset="/_next/image?url=%2Fimg%2Flogo.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Flogo.png&w=420&q=75 2x"
-            style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </a>
@@ -162,7 +162,7 @@ exports[`IndexPage matches snapshot 1`] = `
               sizes="(min-width: 1200px) 1200px"
               src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75"
               srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -191,7 +191,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1024&q=75"
               srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1024&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </a>
@@ -229,7 +229,7 @@ exports[`IndexPage matches snapshot 1`] = `
             sizes="100vw"
             src="/_next/image?url=%2Fimg%2Fsmoke.png&w=1200&q=75"
             srcset="/_next/image?url=%2Fimg%2Fsmoke.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fsmoke.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fsmoke.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1200&q=75 1200w"
-            style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </div>
@@ -259,7 +259,7 @@ exports[`IndexPage matches snapshot 1`] = `
             decoding="async"
             src="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75"
             srcset="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=320&q=75 1x"
-            style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </div>
@@ -329,7 +329,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=768&q=75"
               srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=768&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -355,7 +355,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=768&q=75"
               srcset="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=768&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -398,7 +398,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=768&q=75"
               srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=768&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -424,7 +424,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=768&q=75"
               srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=768&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -450,7 +450,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=1024&q=75"
               srcset="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=1024&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -509,7 +509,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 decoding="async"
                 src="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=768&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=768&q=75 2x"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -550,7 +550,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 decoding="async"
                 src="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=768&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=768&q=75 2x"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -592,7 +592,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 decoding="async"
                 src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=768&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=768&q=75 2x"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -633,7 +633,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 decoding="async"
                 src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=768&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=768&q=75 2x"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -675,7 +675,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 decoding="async"
                 src="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=768&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=320&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=768&q=75 2x"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -759,7 +759,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fstep.png&w=768&q=75"
               srcset="/_next/image?url=%2Fimg%2Fstep.png&w=420&q=75 1x, /_next/image?url=%2Fimg%2Fstep.png&w=768&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </div>
@@ -841,7 +841,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 sizes="(min-width: 480px) 180px, 100vw"
                 src="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=1200&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fshimabu.jpg&w=1200&q=75 1200w"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -873,7 +873,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 sizes="(min-width: 480px) 180px, 100vw"
                 src="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=1200&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fmatsu.jpg&w=1200&q=75 1200w"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -905,7 +905,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 sizes="(min-width: 480px) 180px, 100vw"
                 src="/_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=1200&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fippo.jpg&w=1200&q=75 1200w"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -937,7 +937,7 @@ exports[`IndexPage matches snapshot 1`] = `
                 sizes="(min-width: 480px) 180px, 100vw"
                 src="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=1200&q=75"
                 srcset="/_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmembers%2Fyasu.jpg&w=1200&q=75 1200w"
-                style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
               />
             </div>
           </div>
@@ -973,7 +973,7 @@ exports[`IndexPage matches snapshot 1`] = `
             sizes="100vw"
             src="/_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75"
             srcset="/_next/image?url=%2Fimg%2Fmessage.png&w=320&q=75 320w, /_next/image?url=%2Fimg%2Fmessage.png&w=420&q=75 420w, /_next/image?url=%2Fimg%2Fmessage.png&w=768&q=75 768w, /_next/image?url=%2Fimg%2Fmessage.png&w=1024&q=75 1024w, /_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75 1200w"
-            style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
         </div>
       </div>
@@ -1040,7 +1040,7 @@ exports[`IndexPage matches snapshot 1`] = `
             <span
               class="sansSerif"
             >
-              月額 (税抜)
+              月額（税込3,278円）
             </span>
             <h2>
               2,980
@@ -1199,7 +1199,7 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1024&q=75"
               srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=768&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1024&q=75 2x"
-              style="visibility: inherit; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
             />
           </div>
         </a>
