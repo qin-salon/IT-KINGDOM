@@ -27,12 +27,8 @@
 
     > .img {
       grid-area: img;
-      img {
-        user-select: none;
-        width: 100%;
-        object-fit: cover;
-        object-position: top center;
-      }
+      height: 480px;
+      position: relative;
     }
     > h1 {
       grid-area: name;

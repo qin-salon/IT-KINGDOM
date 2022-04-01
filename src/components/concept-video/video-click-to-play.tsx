@@ -1,15 +1,14 @@
 /* eslint-disable jsx-a11y/media-has-caption */
+import Image from "next/image";
+import thumbnailPic from "public/img/video-play.png";
 import type { IframeHTMLAttributes } from "react";
 import { useState } from "react";
 import videoStyles from "src/components/concept-video/responsive-video.module.scss";
 import styles from "src/components/concept-video/video-click-to-play.module.scss";
 
-type Props = {
-  src: string;
-  thumbnail: string;
-} & IframeHTMLAttributes<HTMLIFrameElement>;
+type Props = { src: string } & IframeHTMLAttributes<HTMLIFrameElement>;
 
-export function VideoClickToPlay({ src, thumbnail, ...iframeProps }: Props): JSX.Element {
+export function VideoClickToPlay({ src, ...iframeProps }: Props): JSX.Element {
   const [clicked, setClicked] = useState(false);
 
   return clicked ? (
@@ -37,7 +36,9 @@ export function VideoClickToPlay({ src, thumbnail, ...iframeProps }: Props): JSX
         setClicked(true);
       }}
     >
-      <img className={styles.thumbnail} width={940} height={940 * (9 / 16)} src={thumbnail} alt="Click to play video" />
+      <div className={styles.thumbnail}>
+        <Image src={thumbnailPic} alt="Click to play video" width={940} height={940 * (9 / 16)} />
+      </div>
     </button>
   );
 }

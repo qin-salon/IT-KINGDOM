@@ -10,7 +10,10 @@ export function MainLayout({ page, children, description }: LayoutProps): JSX.El
       <NextSeo
         title={`IT KINGDOM - ${page}`}
         description={description}
-        openGraph={{ url: `https://it-kingdom.com`, images: [{ url: "/img/ogp.jpg", alt: "IT KINGDOM" }] }}
+        openGraph={{
+          url: `https://it-kingdom.com`,
+          images: [{ url: `https://it-kingdom.com/img/ogp.jpg`, alt: "IT KINGDOM" }],
+        }}
       />
       <Header />
       <main className={styles.container}>{children}</main>

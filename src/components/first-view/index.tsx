@@ -51,6 +51,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
             img/hero/pc-2560.png 2560w,
             img/hero/pc.png"
         />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="img/hero/pc.png" alt="King shimabu and soldiers" />
       </picture>
 
@@ -88,7 +89,9 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
         </a>
       </div>
 
-      <style jsx>{`
+      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+      {/* @ts-ignore */}
+      <style jsx="true">{`
         .number::before {
           content: "${count}万人";
         }

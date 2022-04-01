@@ -66,6 +66,7 @@
 }
 
 .shimabuUdegumi {
+  display: flex;
   position: absolute;
   bottom: 0;
   width: 220px;
@@ -73,6 +74,7 @@
 }
 
 .soldiers {
+  display: flex;
   position: absolute;
   bottom: 0;
   left: -10px;
@@ -122,13 +124,10 @@
       display: none;
     }
     > .goldBottomRight {
-      display: block;
+      display: flex;
     }
     > .soldiers {
-      width: auto;
-      > div {
-        display: block !important;
-      }
+      display: flex;
     }
   }
 }

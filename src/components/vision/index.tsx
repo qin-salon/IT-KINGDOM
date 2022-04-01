@@ -7,7 +7,7 @@ import styles from "src/components/vision/index.module.scss";
 export function Vision(): JSX.Element {
   return (
     <section className={styles.container}>
-      <div className={clsx("nextImg", styles.icon, styles.front)}>
+      <div className={clsx(styles.icon, styles.front)}>
         <Image src="/img/vision/weapon.png" alt="Vision section's icon" width={60} height={56} loading="eager" />
       </div>
 
@@ -30,10 +30,10 @@ export function Vision(): JSX.Element {
           <br />
           必要に応じてデザイン・マーケティング・プレゼンテーション・アイディア出しなどの講座も行います。
         </p>
-        <div className={clsx("nextImg", frame.goldTopLeft)}>
+        <div className={frame.goldTopLeft}>
           <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} loading="eager" />
         </div>
-        <div className={clsx("nextImg", frame.shimabuUdegumi)}>
+        <div className={frame.shimabuUdegumi}>
           <Image src="/img/vision/shimabu_udegumi.png" alt="Shimabu" width={219} height={286} loading="eager" />
         </div>
       </div>
@@ -47,13 +47,13 @@ export function Vision(): JSX.Element {
           <br />
           学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
         </p>
-        <div className={clsx("nextImg", frame.goldBottomRight)}>
+        <div className={frame.goldBottomRight}>
           <Image src="/img/vision/gold-bottom-right.png" alt="Background" width={333} height={222} loading="eager" />
         </div>
-        <div className={clsx("nextImg", frame.goldTopLeft)}>
+        <div className={frame.goldTopLeft}>
           <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} loading="eager" />
         </div>
-        <div className={clsx("nextImg", frame.soldiers)}>
+        <div className={frame.soldiers}>
           <Image src="/img/vision/soldiers.png" alt="Salon members" width={385} height={255} loading="eager" />
         </div>
       </div>
