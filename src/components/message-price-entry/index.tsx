@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import Image from "next/image";
 import { Entry } from "src/components/entry";
 import { Message } from "src/components/message";
@@ -8,7 +7,7 @@ import { Price } from "src/components/price";
 export function MessagePriceEntry(): JSX.Element {
   return (
     <div className={styles.container}>
-      <div className={clsx("nextImg", styles.img)}>
+      <div className={styles.img}>
         <Image src="/img/message.png" alt="Background" width={2560} height={1418} layout="responsive" loading="eager" />
       </div>
       <Message />

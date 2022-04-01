@@ -4,14 +4,14 @@ module.exports = {
   parserOptions: { ecmaVersion: 2021, sourceType: "module", ecmaFeatures: { jsx: true } },
   settings: { react: { version: "detect" } },
   env: { es2021: true, browser: true, jest: true, node: true },
-  plugins: ["import", "simple-import-sort", "react-hooks"],
+  plugins: ["import", "simple-import-sort"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "prettier",
+    "next/core-web-vitals",
   ],
   rules: {
     "no-console": ["error", { allow: ["warn", "info", "error"] }],
