@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import Image from "next/image";
 import styles from "src/components/first-view/index.module.scss";
 import { QIN_URL } from "src/constants";
@@ -59,10 +58,7 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
         <h1 className={styles.text}>
           <div className={styles.line}>
             <span>チャンネル登録者</span>
-            <span
-              className={clsx("number", styles.number)}
-              style={{ "--count-text": `"${countText}"` } as React.CSSProperties}
-            >
+            <span className={styles.number} style={{ "--count-text": `"${countText}"` } as React.CSSProperties}>
               {countText}
             </span>
             <span>の</span>
@@ -90,7 +86,7 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
         </div>
 
         <a target="_blank" rel="noopener noreferrer" href={QIN_URL} className={styles.button}>
-          <Image src="/img/entry-btn.png" alt="Entry button" loading="eager" width={480} height={103} />
+          <Image src="/img/entry-btn.png" alt="Entry button" width={480} height={103} loading="eager" />
         </a>
       </div>
     </section>

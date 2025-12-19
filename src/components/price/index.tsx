@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@lightsound/cn";
 import { Headline } from "src/components/headline";
 import styles from "src/components/price/index.module.scss";
 
@@ -14,7 +14,7 @@ export function Price(): React.JSX.Element {
             <span>円</span>
           </h2>
         </div>
-        <p className={clsx("sansSerif", styles.note)}>
+        <p className={cn("sansSerif", styles.note)}>
           {`外部のサービス利用料はすべて含まれています。
             領収書は毎月メールでお届けいたします。`}
         </p>

@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@lightsound/cn";
 import Link from "next/link";
 import styles from "src/components/footer/index.module.scss";
 import { CONTACT_URL } from "src/constants";
@@ -12,7 +12,7 @@ const ITEMS = [
 
 export function Footer(): React.JSX.Element {
   return (
-    <footer className={clsx("sansSerif", styles.container)}>
+    <footer className={cn("sansSerif", styles.container)}>
       <ul className={styles.links}>
         {ITEMS.map(({ href, label }) => (
           <li key={label} className={styles.link}>

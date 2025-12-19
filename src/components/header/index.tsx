@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@lightsound/cn";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "src/components/header/index.module.scss";
@@ -12,7 +12,7 @@ export function Header(): React.JSX.Element {
           <Image src="/img/logo.png" alt="IT KINGDOM logo" loading="eager" width={180} height={38} priority />
         </Link>
       </h1>
-      <nav className={clsx("sansSerif", styles.nav)}>
+      <nav className={cn("sansSerif", styles.nav)}>
         <ul>
           <li>
             <Link href="/faq">よくある質問</Link>

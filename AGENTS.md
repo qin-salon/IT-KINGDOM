@@ -25,18 +25,18 @@
 
 | パッケージ      | 現在のバージョン | 備考                    |
 | --------------- | ---------------- | ----------------------- |
-| ESLint          | 8.12.0           | eslint-config-next 使用 |
-| Prettier        | 2.6.1            | printWidth: 120         |
-| Jest            | 27.5.1           | スナップショットテスト  |
-| Testing Library | 13.0.0           | @testing-library/react  |
+| ESLint          | 9.x              | eslint-config-next 使用 |
+| Prettier        | 3.x              | printWidth: 120         |
+| Vitest          | 4.x              | スナップショットテスト  |
+| Testing Library | 16.x             | @testing-library/react  |
 
 ### 依存ライブラリ
 
-| パッケージ    | 用途                 |
-| ------------- | -------------------- |
-| clsx          | 条件付きクラス名結合 |
-| next-head-seo | SEO メタタグ管理     |
-| ress          | CSS リセット         |
+| パッケージ     | 用途                 |
+| -------------- | -------------------- |
+| @lightsound/cn | 条件付きクラス名結合 |
+| next-head-seo  | SEO メタタグ管理     |
+| ress           | CSS リセット         |
 
 ## ディレクトリ構造
 
@@ -224,7 +224,7 @@ bun run unit
 ### パッケージ更新時
 
 1. `bun.lock` を削除してから `bun install` で再インストール推奨
-2. スナップショットテストは `bun run unit -u` で更新
+2. スナップショットテストは `bun run unit -- --update` で更新
 3. ESLint エラーは `bun run fix` で自動修正を試行
 
 ## 外部リンク
@@ -255,7 +255,7 @@ bun run unit
 
 ```typescript
 // インポート
-import clsx from "clsx";
+import { cn } from "@lightsound/cn";
 import Image from "next/image";
 import styles from "src/components/xxx/index.module.scss";
 

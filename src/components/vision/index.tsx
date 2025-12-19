@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@lightsound/cn";
 import Image from "next/image";
 import backgroundText from "src/components/vision/background-text.module.scss";
 import frame from "src/components/vision/frame.module.scss";
@@ -7,17 +7,17 @@ import styles from "src/components/vision/index.module.scss";
 export function Vision(): React.JSX.Element {
   return (
     <section className={styles.container}>
-      <div className={clsx(styles.icon, styles.front)}>
+      <div className={cn(styles.icon, styles.front)}>
         <Image src="/img/vision/weapon.png" alt="Vision section's icon" width={60} height={56} loading="eager" />
       </div>
 
-      <h1 className={clsx(styles.title, styles.front)}>
+      <h1 className={cn(styles.title, styles.front)}>
         <strong>最高</strong>の<span>プロダクト</span>を生み出す
         <br />
         <strong>最強</strong>の<span>コミュニティ</span>をつくりたい
       </h1>
 
-      <p className={clsx("sansSerif", styles.paragraph, styles.front)}>
+      <p className={cn("sansSerif", styles.paragraph, styles.front)}>
         {`私はこのサロンからたくさんのユーザーに使われるプロダクトを生み出したいと思っています。\nみんなでスキルアップして一緒におもしろいプロダクトを作りましょう。`}
       </p>
 
@@ -58,13 +58,13 @@ export function Vision(): React.JSX.Element {
         </div>
       </div>
 
-      <small className={clsx("sansSerif", styles.note)}>
+      <small className={cn("sansSerif", styles.note)}>
         ※ プロジェクトの動きや中の様子を見たいだけの方もご参加いただけます。
       </small>
 
-      <span className={clsx(backgroundText.common, backgroundText.sai)}>最</span>
-      <span className={clsx(backgroundText.common, backgroundText.kou)}>高</span>
-      <span className={clsx(backgroundText.common, backgroundText.kyou)}>強</span>
+      <span className={cn(backgroundText.common, backgroundText.sai)}>最</span>
+      <span className={cn(backgroundText.common, backgroundText.kou)}>高</span>
+      <span className={cn(backgroundText.common, backgroundText.kyou)}>強</span>
     </section>
   );
 }

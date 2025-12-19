@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`IndexPage matches snapshot 1`] = `
+exports[`IndexPage > matches snapshot 1`] = `
 <DocumentFragment>
   <header
-    class="container"
+    class="_container_031107"
   >
     <h1>
       <a
@@ -23,7 +23,7 @@ exports[`IndexPage matches snapshot 1`] = `
       </a>
     </h1>
     <nav
-      class="sansSerif nav"
+      class="sansSerif _nav_031107"
     >
       <ul>
         <li>
@@ -46,30 +46,52 @@ exports[`IndexPage matches snapshot 1`] = `
     </nav>
   </header>
   <main
-    class="container"
+    class="_container_9bf32e"
   >
     <section
-      class="container"
+      class="_container_0a0336"
     >
       <picture
-        class="img"
+        class="_img_0a0336"
       >
         <source
           media="(max-width:768px)"
-          srcset=" img/hero/sp-400.webp 400w, img/hero/sp-500.webp 500w, img/hero/sp-600.webp 600w, img/hero/sp-768.webp 768w, img/hero/sp.webp"
+          srcset="
+            img/hero/sp-400.webp 400w,
+            img/hero/sp-500.webp 500w,
+            img/hero/sp-600.webp 600w,
+            img/hero/sp-768.webp 768w,
+            img/hero/sp.webp"
           type="image/webp"
         />
         <source
-          srcset=" img/hero/pc-980.webp 980w, img/hero/pc-1200.webp 1200w, img/hero/pc-1680.webp 1680w, img/hero/pc-2000.webp 2000w, img/hero/pc-2560.webp 2560w, img/hero/pc.webp"
+          srcset="
+            img/hero/pc-980.webp 980w,
+            img/hero/pc-1200.webp 1200w,
+            img/hero/pc-1680.webp 1680w,
+            img/hero/pc-2000.webp 2000w,
+            img/hero/pc-2560.webp 2560w,
+            img/hero/pc.webp"
           type="image/webp"
         />
         <source
           media="(max-width:768px)"
-          srcset=" img/hero/sp-400.png 400w, img/hero/sp-500.png 500w, img/hero/sp-600.png 600w, img/hero/sp-768.png 768w, img/hero/sp.png"
+          srcset="
+            img/hero/sp-400.png 400w,
+            img/hero/sp-500.png 500w,
+            img/hero/sp-600.png 600w,
+            img/hero/sp-768.png 768w,
+            img/hero/sp.png"
           type="image/png"
         />
         <source
-          srcset=" img/hero/pc-980.png 980w, img/hero/pc-1200.png 1200w, img/hero/pc-1680.png 1680w, img/hero/pc-2000.png 2000w, img/hero/pc-2560.png 2560w, img/hero/pc.png"
+          srcset="
+            img/hero/pc-980.png 980w,
+            img/hero/pc-1200.png 1200w,
+            img/hero/pc-1680.png 1680w,
+            img/hero/pc-2000.png 2000w,
+            img/hero/pc-2560.png 2560w,
+            img/hero/pc.png"
           type="image/png"
         />
         <img
@@ -79,16 +101,16 @@ exports[`IndexPage matches snapshot 1`] = `
       </picture>
       <div>
         <h1
-          class="text"
+          class="_text_0a0336"
         >
           <div
-            class="line"
+            class="_line_0a0336"
           >
             <span>
               チャンネル登録者
             </span>
             <span
-              class="number number"
+              class="_number_0a0336"
               style="--count-text: "7万人";"
             >
               7万人
@@ -98,13 +120,13 @@ exports[`IndexPage matches snapshot 1`] = `
             </span>
           </div>
           <div
-            class="line"
+            class="_line_0a0336"
           >
             <span>
               エンジニア
             </span>
             <span
-              class="strong"
+              class="_strong_0a0336"
             >
               YouTuber
             </span>
@@ -113,24 +135,23 @@ exports[`IndexPage matches snapshot 1`] = `
             </span>
           </div>
           <div
-            class="line"
+            class="_line_0a0336"
           >
             <span
-              class="strong"
+              class="_strong_0a0336"
             >
               オンラインサロン
             </span>
           </div>
         </h1>
         <div
-          class="itk"
+          class="_itk_0a0336"
         >
           <img
             alt="IT KINGDOM"
             data-nimg="1"
             decoding="async"
             height="959"
-            loading="eager"
             sizes="(min-width: 1200px) 1200px, 100vw"
             src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75"
             srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75 3840w"
@@ -139,7 +160,7 @@ exports[`IndexPage matches snapshot 1`] = `
           />
         </div>
         <a
-          class="button"
+          class="_button_0a0336"
           href="https://qin.salon/signup"
           rel="noopener noreferrer"
           target="_blank"
@@ -149,7 +170,6 @@ exports[`IndexPage matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="103"
-            loading="eager"
             src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75"
             srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75 2x"
             style="color: transparent;"
@@ -159,16 +179,16 @@ exports[`IndexPage matches snapshot 1`] = `
       </div>
     </section>
     <section
-      class="container"
+      class="_container_3716c7"
     >
       <h1>
         CONCEPT VIDEO
       </h1>
       <button
-        class="button"
+        class="_button_882411"
       >
         <div
-          class="thumbnail"
+          class="_thumbnail_882411"
         >
           <img
             alt="Click to play video"
@@ -176,15 +196,15 @@ exports[`IndexPage matches snapshot 1`] = `
             decoding="async"
             height="528.75"
             loading="lazy"
-            src="/_next/image?url=%2Fimg.jpg&w=1920&q=75"
-            srcset="/_next/image?url=%2Fimg.jpg&w=1080&q=75 1x, /_next/image?url=%2Fimg.jpg&w=1920&q=75 2x"
+            src="/_next/image?url=%2Fpublic%2Fimg%2Fvideo-play.png&w=1920&q=75"
+            srcset="/_next/image?url=%2Fpublic%2Fimg%2Fvideo-play.png&w=1080&q=75 1x, /_next/image?url=%2Fpublic%2Fimg%2Fvideo-play.png&w=1920&q=75 2x"
             style="color: transparent;"
             width="940"
           />
         </div>
       </button>
       <div
-        class="smoke"
+        class="_smoke_3716c7"
       >
         <img
           alt="Background"
@@ -200,10 +220,10 @@ exports[`IndexPage matches snapshot 1`] = `
       </div>
     </section>
     <section
-      class="container"
+      class="_container_13f238"
     >
       <div
-        class="icon front"
+        class="_icon_13f238 _front_13f238"
       >
         <img
           alt="Vision section's icon"
@@ -218,7 +238,7 @@ exports[`IndexPage matches snapshot 1`] = `
         />
       </div>
       <h1
-        class="title front"
+        class="_title_13f238 _front_13f238"
       >
         <strong>
           最高
@@ -239,13 +259,13 @@ exports[`IndexPage matches snapshot 1`] = `
         をつくりたい
       </h1>
       <p
-        class="sansSerif paragraph front"
+        class="sansSerif _paragraph_13f238 _front_13f238"
       >
         私はこのサロンからたくさんのユーザーに使われるプロダクトを生み出したいと思っています。
 みんなでスキルアップして一緒におもしろいプロダクトを作りましょう。
       </p>
       <div
-        class="first"
+        class="_first_382c8c"
       >
         <h2>
           そのために
@@ -262,7 +282,7 @@ exports[`IndexPage matches snapshot 1`] = `
           必要に応じてデザイン・マーケティング・プレゼンテーション・アイディア出しなどの講座も行います。
         </p>
         <div
-          class="goldTopLeft"
+          class="_goldTopLeft_382c8c"
         >
           <img
             alt="Background"
@@ -277,7 +297,7 @@ exports[`IndexPage matches snapshot 1`] = `
           />
         </div>
         <div
-          class="shimabuUdegumi"
+          class="_shimabuUdegumi_382c8c"
         >
           <img
             alt="Shimabu"
@@ -293,7 +313,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </div>
       </div>
       <div
-        class="second"
+        class="_second_382c8c"
       >
         <h2>
           <strong>
@@ -309,7 +329,7 @@ exports[`IndexPage matches snapshot 1`] = `
           学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
         </p>
         <div
-          class="goldBottomRight"
+          class="_goldBottomRight_382c8c"
         >
           <img
             alt="Background"
@@ -324,7 +344,7 @@ exports[`IndexPage matches snapshot 1`] = `
           />
         </div>
         <div
-          class="goldTopLeft"
+          class="_goldTopLeft_382c8c"
         >
           <img
             alt="Background"
@@ -339,7 +359,7 @@ exports[`IndexPage matches snapshot 1`] = `
           />
         </div>
         <div
-          class="soldiers"
+          class="_soldiers_382c8c"
         >
           <img
             alt="Salon members"
@@ -355,39 +375,39 @@ exports[`IndexPage matches snapshot 1`] = `
         </div>
       </div>
       <small
-        class="sansSerif note"
+        class="sansSerif _note_13f238"
       >
         ※ プロジェクトの動きや中の様子を見たいだけの方もご参加いただけます。
       </small>
       <span
-        class="common sai"
+        class="_common_ae9525 _sai_ae9525"
       >
         最
       </span>
       <span
-        class="common kou"
+        class="_common_ae9525 _kou_ae9525"
       >
         高
       </span>
       <span
-        class="common kyou"
+        class="_common_ae9525 _kyou_ae9525"
       >
         強
       </span>
     </section>
     <section
-      class="container"
+      class="_container_2e1d1c"
     >
       <h1>
         CONTENTS
       </h1>
       <ul>
         <li
-          class="content"
+          class="_content_2e1d1c"
           style="background-image: url("/img/ink.png");"
         >
           <div
-            class="img"
+            class="_img_2e1d1c"
           >
             <img
               alt="プロダクト開発"
@@ -414,10 +434,10 @@ exports[`IndexPage matches snapshot 1`] = `
           </p>
         </li>
         <li
-          class="content"
+          class="_content_2e1d1c"
         >
           <div
-            class="img"
+            class="_img_2e1d1c"
           >
             <img
               alt="みんなに質問"
@@ -444,11 +464,11 @@ exports[`IndexPage matches snapshot 1`] = `
           </p>
         </li>
         <li
-          class="content"
+          class="_content_2e1d1c"
           style="background-image: url("/img/ink.png");"
         >
           <div
-            class="img"
+            class="_img_2e1d1c"
           >
             <img
               alt="メモ & アウトプット"
@@ -475,10 +495,10 @@ exports[`IndexPage matches snapshot 1`] = `
           </p>
         </li>
         <li
-          class="content"
+          class="_content_2e1d1c"
         >
           <div
-            class="img"
+            class="_img_2e1d1c"
           >
             <img
               alt="限定コンテンツ"
@@ -505,11 +525,11 @@ exports[`IndexPage matches snapshot 1`] = `
           </p>
         </li>
         <li
-          class="content"
+          class="_content_2e1d1c"
           style="background-image: url("/img/ink.png");"
         >
           <div
-            class="img"
+            class="_img_2e1d1c"
           >
             <img
               alt="楽しめるコミュニティ"
@@ -544,10 +564,10 @@ exports[`IndexPage matches snapshot 1`] = `
         </li>
       </ul>
       <div
-        class="more"
+        class="_more_2e1d1c"
       >
         <h2
-          class="headline container coloredTitle"
+          class="_headline_2e1d1c _container_13aa15 _coloredTitle_13aa15"
         >
           <span>
             AND MORE
@@ -566,13 +586,13 @@ exports[`IndexPage matches snapshot 1`] = `
       </div>
     </section>
     <section
-      class="container"
+      class="_container_da4415"
     >
       <div
-        class="title_step"
+        class="_title_step_da4415"
       >
         <h1
-          class="title"
+          class="_title_da4415"
         >
           <span>
             訓練
@@ -582,7 +602,7 @@ exports[`IndexPage matches snapshot 1`] = `
           </span>
         </h1>
         <div
-          class="step"
+          class="_step_da4415"
         >
           <img
             alt="Curriculum"
@@ -598,7 +618,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </div>
       </div>
       <ul
-        class="text"
+        class="_text_da4415"
       >
         <li>
           <h2>
@@ -643,10 +663,10 @@ exports[`IndexPage matches snapshot 1`] = `
       </ul>
     </section>
     <section
-      class="container"
+      class="_container_bafaf2"
     >
       <h1
-        class="headline container"
+        class="_headline_bafaf2 _container_13aa15"
       >
         <span>
           MEMBERS
@@ -656,11 +676,11 @@ exports[`IndexPage matches snapshot 1`] = `
         </span>
       </h1>
       <ul
-        class="members"
+        class="_members_bafaf2"
       >
         <li>
           <div
-            class="img"
+            class="_img_bafaf2"
           >
             <img
               alt="しまぶー"
@@ -668,8 +688,8 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               loading="lazy"
               sizes="100vw"
-              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              src="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=640&q=75 640w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=750&q=75 750w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=828&q=75 828w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fshimabu.jpg&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
@@ -687,7 +707,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </li>
         <li>
           <div
-            class="img"
+            class="_img_bafaf2"
           >
             <img
               alt="まっつん"
@@ -695,8 +715,8 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               loading="lazy"
               sizes="100vw"
-              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              src="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=640&q=75 640w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=750&q=75 750w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=828&q=75 828w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fmatsu.jpg&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
@@ -714,7 +734,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </li>
         <li>
           <div
-            class="img"
+            class="_img_bafaf2"
           >
             <img
               alt="いっぽ"
@@ -722,8 +742,8 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               loading="lazy"
               sizes="100vw"
-              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              src="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=640&q=75 640w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=750&q=75 750w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=828&q=75 828w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fippo.jpg&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
@@ -741,7 +761,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </li>
         <li>
           <div
-            class="img"
+            class="_img_bafaf2"
           >
             <img
               alt="やっさん"
@@ -749,8 +769,8 @@ exports[`IndexPage matches snapshot 1`] = `
               decoding="async"
               loading="lazy"
               sizes="100vw"
-              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              src="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=640&q=75 640w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=750&q=75 750w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=828&q=75 828w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fpublic%2Fimg%2Fmembers%2Fyasu.jpg&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
@@ -769,10 +789,10 @@ exports[`IndexPage matches snapshot 1`] = `
       </ul>
     </section>
     <div
-      class="container"
+      class="_container_3855d7"
     >
       <div
-        class="img"
+        class="_img_3855d7"
       >
         <img
           alt="Background"
@@ -787,13 +807,13 @@ exports[`IndexPage matches snapshot 1`] = `
         />
       </div>
       <section
-        class="container"
+        class="_container_f0f85f"
       >
         <div
-          class="backgroundText"
+          class="_backgroundText_f0f85f"
         >
           <h1
-            class="headline container coloredTitle"
+            class="_headline_f0f85f _container_13aa15 _coloredTitle_13aa15"
           >
             <span>
               MESSAGE
@@ -803,7 +823,7 @@ exports[`IndexPage matches snapshot 1`] = `
             </span>
           </h1>
           <div
-            class="text"
+            class="_text_f0f85f"
           >
             <p
               class="sansSerif"
@@ -830,10 +850,10 @@ exports[`IndexPage matches snapshot 1`] = `
         </div>
       </section>
       <section
-        class="container"
+        class="_container_496bc5"
       >
         <h1
-          class="headline container"
+          class="_headline_496bc5 _container_13aa15"
         >
           <span>
             PRICE
@@ -844,7 +864,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </h1>
         <div>
           <div
-            class="price"
+            class="_price_496bc5"
           >
             <span
               class="sansSerif"
@@ -859,7 +879,7 @@ exports[`IndexPage matches snapshot 1`] = `
             </h2>
           </div>
           <p
-            class="sansSerif note"
+            class="sansSerif _note_496bc5"
           >
             外部のサービス利用料はすべて含まれています。
             領収書は毎月メールでお届けいたします。
@@ -867,10 +887,10 @@ exports[`IndexPage matches snapshot 1`] = `
         </div>
       </section>
       <section
-        class="container"
+        class="_container_32a0d0"
       >
         <h1
-          class="headline container"
+          class="_headline_32a0d0 _container_13aa15"
         >
           <span>
             HOW TO ENTRY
@@ -883,7 +903,7 @@ exports[`IndexPage matches snapshot 1`] = `
           style="background-image: url("img/ink.png");"
         >
           <li
-            class="step"
+            class="_step_32a0d0"
           >
             <div>
               <span>
@@ -903,7 +923,7 @@ exports[`IndexPage matches snapshot 1`] = `
             </p>
           </li>
           <li
-            class="step"
+            class="_step_32a0d0"
           >
             <div>
               <span>
@@ -923,7 +943,7 @@ exports[`IndexPage matches snapshot 1`] = `
             </p>
           </li>
           <li
-            class="step"
+            class="_step_32a0d0"
           >
             <div>
               <span>
@@ -943,7 +963,7 @@ exports[`IndexPage matches snapshot 1`] = `
             </p>
           </li>
           <li
-            class="step"
+            class="_step_32a0d0"
           >
             <div>
               <span>
@@ -964,7 +984,7 @@ exports[`IndexPage matches snapshot 1`] = `
           </li>
         </ul>
         <a
-          class="button"
+          class="_button_32a0d0"
           href="https://qin.salon/signup"
           rel="noopener noreferrer"
           target="_blank"
@@ -985,13 +1005,13 @@ exports[`IndexPage matches snapshot 1`] = `
     </div>
   </main>
   <footer
-    class="sansSerif container"
+    class="sansSerif _container_084d48"
   >
     <ul
-      class="links"
+      class="_links_084d48"
     >
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="/support/terms"
@@ -1000,7 +1020,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="/support/privacy-policy"
@@ -1009,7 +1029,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="/support/commerce"
@@ -1018,7 +1038,7 @@ exports[`IndexPage matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSf7lYhGHmnl2KTPXsArv5KCoZvlwX7pMF7EZrDXSgWQWnJDhw/viewform"
@@ -1030,7 +1050,7 @@ exports[`IndexPage matches snapshot 1`] = `
       </li>
     </ul>
     <small
-      class="copyright"
+      class="_copyright_084d48"
       lang="en"
     >
       @ 2020 IT KINGDOM

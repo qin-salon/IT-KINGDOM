@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@lightsound/cn";
 import { createElement } from "react";
 import styles from "src/components/headline/index.module.scss";
 
@@ -13,7 +13,7 @@ type Props = {
 export function Headline({ title, label, type = "h1", coloredTitle = false, className }: Props): React.JSX.Element {
   return createElement(
     type,
-    { className: clsx(className, styles.container, { [styles.coloredTitle]: coloredTitle }) },
+    { className: cn(className, styles.container, coloredTitle && styles.coloredTitle) },
     <>
       <span>{label}</span>
       <span>{title}</span>

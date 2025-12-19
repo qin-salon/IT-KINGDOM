@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`TermsPage matches snapshot 1`] = `
+exports[`TermsPage > matches snapshot 1`] = `
 <DocumentFragment>
   <header
-    class="container"
+    class="_container_031107"
   >
     <h1>
       <a
@@ -23,7 +23,7 @@ exports[`TermsPage matches snapshot 1`] = `
       </a>
     </h1>
     <nav
-      class="sansSerif nav"
+      class="sansSerif _nav_031107"
     >
       <ul>
         <li>
@@ -46,7 +46,7 @@ exports[`TermsPage matches snapshot 1`] = `
     </nav>
   </header>
   <main
-    class="container styled"
+    class="_container_a869a4 _styled_a869a4"
   >
     <h1>
       利用規約
@@ -335,13 +335,13 @@ exports[`TermsPage matches snapshot 1`] = `
     </time>
   </main>
   <footer
-    class="sansSerif container"
+    class="sansSerif _container_084d48"
   >
     <ul
-      class="links"
+      class="_links_084d48"
     >
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="/support/terms"
@@ -350,7 +350,7 @@ exports[`TermsPage matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="/support/privacy-policy"
@@ -359,7 +359,7 @@ exports[`TermsPage matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="/support/commerce"
@@ -368,7 +368,7 @@ exports[`TermsPage matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="link"
+        class="_link_084d48"
       >
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSf7lYhGHmnl2KTPXsArv5KCoZvlwX7pMF7EZrDXSgWQWnJDhw/viewform"
@@ -380,7 +380,7 @@ exports[`TermsPage matches snapshot 1`] = `
       </li>
     </ul>
     <small
-      class="copyright"
+      class="_copyright_084d48"
       lang="en"
     >
       @ 2020 IT KINGDOM

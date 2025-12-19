@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { cn } from "@lightsound/cn";
 import Head from "next/head";
 import { Footer } from "src/components/footer";
 import { Header } from "src/components/header";
@@ -16,7 +16,7 @@ export function SupportLayout({ page, description, children, styled }: Props): R
         <meta name="robots" content="noindex" />
       </Head>
       <Header />
-      <main className={clsx(styles.container, { [styles.styled]: styled })}>{children}</main>
+      <main className={cn(styles.container, styled && styles.styled)}>{children}</main>
       <Footer />
     </>
   );
