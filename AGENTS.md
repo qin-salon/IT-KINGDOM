@@ -14,12 +14,12 @@
 
 ### コア技術
 
-| パッケージ | 現在のバージョン | 備考              |
-| ---------- | ---------------- | ----------------- |
-| Next.js    | 12.1.4           | Pages Router 使用 |
-| React      | 18.0.0           |                   |
-| TypeScript | 4.6.3            |                   |
-| Sass       | 1.49.10          | CSS Modules 使用  |
+| パッケージ | 現在のバージョン | 備考                         |
+| ---------- | ---------------- | ---------------------------- |
+| Next.js    | 16.1.0           | Pages Router 使用、Turbopack |
+| React      | 19.2.3           |                              |
+| TypeScript | 5.9.3            |                              |
+| Sass       | 1.97.0           | CSS Modules 使用             |
 
 ### 開発ツール
 
@@ -35,7 +35,6 @@
 | パッケージ     | 用途                 |
 | -------------- | -------------------- |
 | @lightsound/cn | 条件付きクラス名結合 |
-| next-head-seo  | SEO メタタグ管理     |
 | ress           | CSS リセット         |
 
 ## ディレクトリ構造
@@ -178,48 +177,25 @@ bun run unit
 
 ## 既知の技術的負債
 
-### 高優先度
-
-1. **Next.js Image API の非推奨プロパティ**
-   - `layout="responsive"` → `style` または `fill` に移行必要
-   - 影響ファイル: `first-view`, `vision`, `contents`, `members` など
-
-2. **Link コンポーネントの非推奨パターン**
-   - `<Link><a>...</a></Link>` → `<Link>...</Link>` に移行
-   - 影響ファイル: `header/index.tsx`, `footer/index.tsx`, `support/terms.tsx`
-
-3. **@types/react バージョン不一致**
-   - React 18 使用中に `@types/react@17` を使用
-   - `JSX.Element` 型の問題が発生する可能性
-
 ### 中優先度
 
-4. **next-head-seo の移行検討**
-   - Next.js 13+ の Metadata API への移行を推奨
-   - App Router 移行時に対応
-
-5. **TypeScript 設定の更新**
-   - `target: "es5"` は古い（`es2017` 以上推奨）
-   - `module`, `moduleResolution` の更新検討
-
-6. **ESLint 設定の整理**
-   - 設定ファイルが package.json 内になく、eslint-config-next のみ使用
-   - flat config への移行検討
+1. **App Router への移行検討**
+   - 現在 Pages Router を使用中
+   - App Router 移行時は Metadata API を使用
 
 ### 低優先度
 
-7. **テストの `any` 使用**
+2. **テストの `any` 使用**
    - `test/test-utils.ts` で `as any` を使用
    - 型安全性の改善検討
 
 ## アップデート時の注意点
 
-### Next.js 13+ への移行
+### App Router への移行
 
 1. Pages Router は引き続きサポートされるため、段階的移行が可能
-2. `next/image` の新しい API に移行必須
-3. `next/link` から `<a>` タグを削除
-4. App Router 移行時は `next-head-seo` を Metadata API に置換
+2. App Router 移行時は Metadata API を使用
+3. `next/head` を Metadata API に置換
 
 ### パッケージ更新時
 

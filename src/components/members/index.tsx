@@ -47,8 +47,8 @@ export function Members(): React.JSX.Element {
             <div className={styles.img}>
               <Image src={member.src} alt={member.name} fill style={{ objectFit: "cover" }} />
             </div>
-            <h1>{member.name}</h1>
-            <h2>{member.rank}</h2>
+            <h3>{member.name}</h3>
+            <h4>{member.rank}</h4>
             <p className="sansSerif">{member.introduction}</p>
           </li>
         ))}

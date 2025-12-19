@@ -29,7 +29,7 @@ export function StepUp(): React.JSX.Element {
           <span>STEP UP</span>
         </h1>
         <div className={styles.step}>
-          <Image src="/img/step.png" alt="Curriculum" width={340} height={550} loading="eager" />
+          <Image src="/img/step.png" alt="Curriculum" width={340} height={550} loading="lazy" />
         </div>
       </div>
       <ul className={styles.text}>

@@ -14,7 +14,7 @@ export function ConceptVideo(): React.JSX.Element {
         <Image
           src="/img/smoke.png"
           alt="Background"
-          loading="eager"
+          loading="lazy"
           width={2560}
           height={1228}
           style={{ width: "100%", height: "auto" }}

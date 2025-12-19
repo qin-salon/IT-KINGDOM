@@ -51,7 +51,7 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
             img/hero/pc-2560.png 2560w,
             img/hero/pc.png"
         />
-        <img src="img/hero/pc.png" alt="King shimabu and soldiers" />
+        <img src="img/hero/pc.png" alt="King shimabu and soldiers" fetchPriority="high" />
       </picture>
 
       <div>

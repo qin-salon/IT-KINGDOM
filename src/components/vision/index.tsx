@@ -8,7 +8,7 @@ export function Vision(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <div className={cn(styles.icon, styles.front)}>
-        <Image src="/img/vision/weapon.png" alt="Vision section's icon" width={60} height={56} loading="eager" />
+        <Image src="/img/vision/weapon.png" alt="Vision section's icon" width={60} height={56} loading="lazy" />
       </div>
 
       <h1 className={cn(styles.title, styles.front)}>
@@ -31,10 +31,10 @@ export function Vision(): React.JSX.Element {
           必要に応じてデザイン・マーケティング・プレゼンテーション・アイディア出しなどの講座も行います。
         </p>
         <div className={frame.goldTopLeft}>
-          <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} loading="eager" />
+          <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} loading="lazy" />
         </div>
         <div className={frame.shimabuUdegumi}>
-          <Image src="/img/vision/shimabu_udegumi.png" alt="Shimabu" width={219} height={286} loading="eager" />
+          <Image src="/img/vision/shimabu_udegumi.png" alt="Shimabu" width={219} height={286} loading="lazy" />
         </div>
       </div>
 
@@ -48,13 +48,13 @@ export function Vision(): React.JSX.Element {
           学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
         </p>
         <div className={frame.goldBottomRight}>
-          <Image src="/img/vision/gold-bottom-right.png" alt="Background" width={333} height={222} loading="eager" />
+          <Image src="/img/vision/gold-bottom-right.png" alt="Background" width={333} height={222} loading="lazy" />
         </div>
         <div className={frame.goldTopLeft}>
-          <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} loading="eager" />
+          <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} loading="lazy" />
         </div>
         <div className={frame.soldiers}>
-          <Image src="/img/vision/soldiers.png" alt="Salon members" width={385} height={255} loading="eager" />
+          <Image src="/img/vision/soldiers.png" alt="Salon members" width={385} height={255} loading="lazy" />
         </div>
       </div>
 

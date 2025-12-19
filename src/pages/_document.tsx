@@ -5,6 +5,7 @@ export default function Document(): React.JSX.Element {
   return (
     <Html lang="ja">
       <Head>
+        <meta name="theme-color" content="#000000" />
         <link rel="apple-touch-icon" sizes="180x180" href={`${faviconPath}/apple-touch-icon.png`} />
         <link rel="icon" type="image/png" sizes="32x32" href={`${faviconPath}/favicon-32x32.png`} />
         <link rel="icon" type="image/png" sizes="16x16" href={`${faviconPath}/favicon-16x16.png`} />

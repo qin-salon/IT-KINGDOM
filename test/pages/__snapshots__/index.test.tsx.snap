@@ -96,6 +96,7 @@ exports[`IndexPage > matches snapshot 1`] = `
         />
         <img
           alt="King shimabu and soldiers"
+          fetchpriority="high"
           src="img/hero/pc.png"
         />
       </picture>
@@ -152,6 +153,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="959"
+            loading="eager"
             sizes="(min-width: 1200px) 1200px, 100vw"
             src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75"
             srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75 3840w"
@@ -170,6 +172,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="103"
+            loading="eager"
             src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75"
             srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75 2x"
             style="color: transparent;"
@@ -211,7 +214,7 @@ exports[`IndexPage > matches snapshot 1`] = `
           data-nimg="1"
           decoding="async"
           height="1228"
-          loading="eager"
+          loading="lazy"
           src="/_next/image?url=%2Fimg%2Fsmoke.png&w=3840&q=75"
           srcset="/_next/image?url=%2Fimg%2Fsmoke.png&w=3840&q=75 1x"
           style="color: transparent; width: 100%; height: auto;"
@@ -230,7 +233,7 @@ exports[`IndexPage > matches snapshot 1`] = `
           data-nimg="1"
           decoding="async"
           height="56"
-          loading="eager"
+          loading="lazy"
           src="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=128&q=75"
           srcset="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=64&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=128&q=75 2x"
           style="color: transparent;"
@@ -289,7 +292,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="222"
-            loading="eager"
+            loading="lazy"
             src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75"
             srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75 2x"
             style="color: transparent;"
@@ -304,7 +307,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="286"
-            loading="eager"
+            loading="lazy"
             src="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=640&q=75"
             srcset="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=640&q=75 2x"
             style="color: transparent;"
@@ -336,7 +339,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="222"
-            loading="eager"
+            loading="lazy"
             src="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=750&q=75"
             srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=750&q=75 2x"
             style="color: transparent;"
@@ -351,7 +354,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="222"
-            loading="eager"
+            loading="lazy"
             src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75"
             srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75 2x"
             style="color: transparent;"
@@ -366,7 +369,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="255"
-            loading="eager"
+            loading="lazy"
             src="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=828&q=75"
             srcset="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=828&q=75 2x"
             style="color: transparent;"
@@ -414,7 +417,7 @@ exports[`IndexPage > matches snapshot 1`] = `
               data-nimg="1"
               decoding="async"
               height="230"
-              loading="eager"
+              loading="lazy"
               src="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=640&q=75"
               srcset="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=640&q=75 2x"
               style="color: transparent;"
@@ -444,7 +447,7 @@ exports[`IndexPage > matches snapshot 1`] = `
               data-nimg="1"
               decoding="async"
               height="230"
-              loading="eager"
+              loading="lazy"
               src="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=640&q=75"
               srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=640&q=75 2x"
               style="color: transparent;"
@@ -475,7 +478,7 @@ exports[`IndexPage > matches snapshot 1`] = `
               data-nimg="1"
               decoding="async"
               height="230"
-              loading="eager"
+              loading="lazy"
               src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=640&q=75"
               srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=640&q=75 2x"
               style="color: transparent;"
@@ -505,7 +508,7 @@ exports[`IndexPage > matches snapshot 1`] = `
               data-nimg="1"
               decoding="async"
               height="230"
-              loading="eager"
+              loading="lazy"
               src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=640&q=75"
               srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=640&q=75 2x"
               style="color: transparent;"
@@ -536,7 +539,7 @@ exports[`IndexPage > matches snapshot 1`] = `
               data-nimg="1"
               decoding="async"
               height="230"
-              loading="eager"
+              loading="lazy"
               src="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=640&q=75"
               srcset="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=640&q=75 2x"
               style="color: transparent;"
@@ -609,7 +612,7 @@ exports[`IndexPage > matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="550"
-            loading="eager"
+            loading="lazy"
             src="/_next/image?url=%2Fimg%2Fstep.png&w=750&q=75"
             srcset="/_next/image?url=%2Fimg%2Fstep.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fstep.png&w=750&q=75 2x"
             style="color: transparent;"
@@ -693,12 +696,12 @@ exports[`IndexPage > matches snapshot 1`] = `
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
-          <h1>
+          <h3>
             しまぶー
-          </h1>
-          <h2>
+          </h3>
+          <h4>
             国王
-          </h2>
+          </h4>
           <p
             class="sansSerif"
           >
@@ -720,12 +723,12 @@ exports[`IndexPage > matches snapshot 1`] = `
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
-          <h1>
+          <h3>
             まっつん
-          </h1>
-          <h2>
+          </h3>
+          <h4>
             相国
-          </h2>
+          </h4>
           <p
             class="sansSerif"
           >
@@ -747,12 +750,12 @@ exports[`IndexPage > matches snapshot 1`] = `
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
-          <h1>
+          <h3>
             いっぽ
-          </h1>
-          <h2>
+          </h3>
+          <h4>
             左丞相
-          </h2>
+          </h4>
           <p
             class="sansSerif"
           >
@@ -774,12 +777,12 @@ exports[`IndexPage > matches snapshot 1`] = `
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
             />
           </div>
-          <h1>
+          <h3>
             やっさん
-          </h1>
-          <h2>
+          </h3>
+          <h4>
             右丞相
-          </h2>
+          </h4>
           <p
             class="sansSerif"
           >
