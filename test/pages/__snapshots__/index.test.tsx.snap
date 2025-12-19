@@ -49,95 +49,81 @@ exports[`IndexPage matches snapshot 1`] = `
     class="container"
   >
     <section
-      class="jsx-3686349518 container"
+      class="container"
     >
       <picture
-        class="jsx-3686349518 img"
+        class="img"
       >
         <source
-          class="jsx-3686349518"
           media="(max-width:768px)"
           srcset=" img/hero/sp-400.webp 400w, img/hero/sp-500.webp 500w, img/hero/sp-600.webp 600w, img/hero/sp-768.webp 768w, img/hero/sp.webp"
           type="image/webp"
         />
         <source
-          class="jsx-3686349518"
           srcset=" img/hero/pc-980.webp 980w, img/hero/pc-1200.webp 1200w, img/hero/pc-1680.webp 1680w, img/hero/pc-2000.webp 2000w, img/hero/pc-2560.webp 2560w, img/hero/pc.webp"
           type="image/webp"
         />
         <source
-          class="jsx-3686349518"
           media="(max-width:768px)"
           srcset=" img/hero/sp-400.png 400w, img/hero/sp-500.png 500w, img/hero/sp-600.png 600w, img/hero/sp-768.png 768w, img/hero/sp.png"
           type="image/png"
         />
         <source
-          class="jsx-3686349518"
           srcset=" img/hero/pc-980.png 980w, img/hero/pc-1200.png 1200w, img/hero/pc-1680.png 1680w, img/hero/pc-2000.png 2000w, img/hero/pc-2560.png 2560w, img/hero/pc.png"
           type="image/png"
         />
         <img
           alt="King shimabu and soldiers"
-          class="jsx-3686349518"
           src="img/hero/pc.png"
         />
       </picture>
-      <div
-        class="jsx-3686349518"
-      >
+      <div>
         <h1
-          class="jsx-3686349518 text"
+          class="text"
         >
           <div
-            class="jsx-3686349518 line"
+            class="line"
           >
-            <span
-              class="jsx-3686349518"
-            >
+            <span>
               チャンネル登録者
             </span>
             <span
-              class="jsx-3686349518 number number"
+              class="number number"
+              style="--count-text: "7万人";"
             >
               7万人
             </span>
-            <span
-              class="jsx-3686349518"
-            >
+            <span>
               の
             </span>
           </div>
           <div
-            class="jsx-3686349518 line"
+            class="line"
           >
-            <span
-              class="jsx-3686349518"
-            >
+            <span>
               エンジニア
             </span>
             <span
-              class="jsx-3686349518 strong"
+              class="strong"
             >
               YouTuber
             </span>
-            <span
-              class="jsx-3686349518"
-            >
+            <span>
               がおくる
             </span>
           </div>
           <div
-            class="jsx-3686349518 line"
+            class="line"
           >
             <span
-              class="jsx-3686349518 strong"
+              class="strong"
             >
               オンラインサロン
             </span>
           </div>
         </h1>
         <div
-          class="jsx-3686349518 itk"
+          class="itk"
         >
           <img
             alt="IT KINGDOM"
@@ -145,15 +131,15 @@ exports[`IndexPage matches snapshot 1`] = `
             decoding="async"
             height="959"
             loading="eager"
-            sizes="(min-width: 1200px) 1200px"
+            sizes="(min-width: 1200px) 1200px, 100vw"
             src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75"
-            srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=32&q=75 32w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=48&q=75 48w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=64&q=75 64w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=96&q=75 96w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=128&q=75 128w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=256&q=75 256w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=384&q=75 384w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75 3840w"
+            srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75 3840w"
             style="color: transparent; width: 100%; height: auto;"
             width="2144"
           />
         </div>
         <a
-          class="jsx-3686349518 button"
+          class="button"
           href="https://qin.salon/signup"
           rel="noopener noreferrer"
           target="_blank"

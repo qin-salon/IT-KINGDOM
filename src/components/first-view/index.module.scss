@@ -48,6 +48,7 @@ $-shadow:
   position: relative;
   text-shadow: $-shadow;
   &::before {
+    content: var(--count-text);
     position: absolute;
     width: max-content;
     color: rgba(0, 0, 0, 0);

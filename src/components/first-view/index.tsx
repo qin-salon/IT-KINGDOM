@@ -7,6 +7,7 @@ type Props = { subscriberCount: number };
 
 export function FirstView({ subscriberCount }: Props): React.JSX.Element {
   const count = Math.round(subscriberCount * 0.001) / 10;
+  const countText = `${count}万人`;
 
   return (
     <section className={styles.container}>
@@ -51,7 +52,6 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
             img/hero/pc-2560.png 2560w,
             img/hero/pc.png"
         />
-        {}
         <img src="img/hero/pc.png" alt="King shimabu and soldiers" />
       </picture>
 
@@ -59,7 +59,12 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
         <h1 className={styles.text}>
           <div className={styles.line}>
             <span>チャンネル登録者</span>
-            <span className={clsx("number", styles.number)}>{count}万人</span>
+            <span
+              className={clsx("number", styles.number)}
+              style={{ "--count-text": `"${countText}"` } as React.CSSProperties}
+            >
+              {countText}
+            </span>
             <span>の</span>
           </div>
           <div className={styles.line}>
@@ -77,7 +82,7 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
             alt="IT KINGDOM"
             src="/img/hero/it-kingdom.png"
             loading="eager"
-            sizes="(min-width: 1200px) 1200px"
+            sizes="(min-width: 1200px) 1200px, 100vw"
             width={2144}
             height={959}
             style={{ width: "100%", height: "auto" }}
@@ -85,17 +90,9 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
         </div>
 
         <a target="_blank" rel="noopener noreferrer" href={QIN_URL} className={styles.button}>
-          <Image src="/img/entry-btn.png" alt="Entry button" loading="eager" width={480} height={103} priority />
+          <Image src="/img/entry-btn.png" alt="Entry button" loading="eager" width={480} height={103} />
         </a>
       </div>
-
-      {}
-      {/* @ts-ignore */}
-      <style jsx="true">{`
-        .number::before {
-          content: "${count}万人";
-        }
-      `}</style>
     </section>
   );
 }
