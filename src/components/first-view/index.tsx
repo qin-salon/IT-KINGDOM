@@ -5,7 +5,7 @@ import { QIN_URL } from "src/constants";
 
 type Props = { subscriberCount: number };
 
-export function FirstView({ subscriberCount }: Props): JSX.Element {
+export function FirstView({ subscriberCount }: Props): React.JSX.Element {
   const count = Math.round(subscriberCount * 0.001) / 10;
 
   return (
@@ -51,7 +51,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
             img/hero/pc-2560.png 2560w,
             img/hero/pc.png"
         />
-        {/* eslint-disable-next-line @next/next/no-img-element */}
+        {}
         <img src="img/hero/pc.png" alt="King shimabu and soldiers" />
       </picture>
 
@@ -80,7 +80,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
             sizes="(min-width: 1200px) 1200px"
             width={2144}
             height={959}
-            layout="responsive"
+            style={{ width: "100%", height: "auto" }}
           />
         </div>
 
@@ -89,7 +89,7 @@ export function FirstView({ subscriberCount }: Props): JSX.Element {
         </a>
       </div>
 
-      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+      {}
       {/* @ts-ignore */}
       <style jsx="true">{`
         .number::before {

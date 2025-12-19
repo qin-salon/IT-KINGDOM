@@ -20,7 +20,7 @@ const STEPS = [
   },
 ];
 
-export function StepUp(): JSX.Element {
+export function StepUp(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <div className={styles.title_step}>

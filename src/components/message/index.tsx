@@ -1,7 +1,7 @@
 import { Headline } from "src/components/headline";
 import styles from "src/components/message/index.module.scss";
 
-export function Message(): JSX.Element {
+export function Message(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <div className={styles.backgroundText}>

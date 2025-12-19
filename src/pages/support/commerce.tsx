@@ -2,7 +2,7 @@ import React from "react";
 import { MAIL_ADDRESS } from "src/constants";
 import { SupportLayout } from "src/layouts/support";
 
-export default function CommercePage(): JSX.Element {
+export default function CommercePage(): React.JSX.Element {
   return (
     <SupportLayout page="特定商取引法に基づく表記" styled>
       <h1>特定商取引法に基づく表記</h1>

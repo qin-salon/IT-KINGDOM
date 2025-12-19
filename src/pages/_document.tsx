@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     return initialProps;
   }
-  render(): JSX.Element {
+  render(): React.JSX.Element {
     const faviconPath = "favicon_io";
     return (
       <Html lang="ja">

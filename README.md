@@ -13,10 +13,10 @@
 
 ## 開発手順
 
-yarn を使用しています
+bun を使用しています
 
 ```bash
-yarn
-yarn dev // 開発用
-yarn build && yarn start // 本番確認用
+bun install
+bun dev // 開発用
+bun run build && bun start // 本番確認用
 ```

@@ -17,6 +17,10 @@
   position: absolute;
   width: 100%;
   bottom: -12vw;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 2000px) {

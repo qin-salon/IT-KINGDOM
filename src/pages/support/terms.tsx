@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { SupportLayout } from "src/layouts/support";
 
-export default function TermsPage(): JSX.Element {
+export default function TermsPage(): React.JSX.Element {
   return (
     <SupportLayout page="利用規約" styled>
       <h1>利用規約</h1>
@@ -175,9 +175,7 @@ export default function TermsPage(): JSX.Element {
       <h2>第１２条 個人情報の取扱い</h2>
       <p>
         当サービス提供者は、本サービスの利用によって取得する個人情報については、「
-        <Link href="/support/privacy-policy">
-          <a>プライバシーポリシー</a>
-        </Link>
+        <Link href="/support/privacy-policy">プライバシーポリシー</Link>
         」に従い適切に取り扱うものとします。
       </p>
 

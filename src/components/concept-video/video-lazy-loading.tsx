@@ -4,7 +4,7 @@ import styles from "src/components/concept-video/responsive-video.module.scss";
 
 type Props = { src: string } & IframeHTMLAttributes<HTMLIFrameElement>;
 
-export function VideoLazyLoading({ src, ...iframeProps }: Props): JSX.Element {
+export function VideoLazyLoading({ src, ...iframeProps }: Props): React.JSX.Element {
   const el = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {

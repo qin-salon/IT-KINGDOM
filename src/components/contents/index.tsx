@@ -34,7 +34,7 @@ const ITEMS = [
   },
 ];
 
-export function Contents(): JSX.Element {
+export function Contents(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <h1>CONTENTS</h1>

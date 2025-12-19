@@ -4,7 +4,7 @@ import backgroundText from "src/components/vision/background-text.module.scss";
 import frame from "src/components/vision/frame.module.scss";
 import styles from "src/components/vision/index.module.scss";
 
-export function Vision(): JSX.Element {
+export function Vision(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <div className={clsx(styles.icon, styles.front)}>

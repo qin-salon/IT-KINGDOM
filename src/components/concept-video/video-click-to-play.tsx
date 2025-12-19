@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/media-has-caption */
 import Image from "next/image";
 import thumbnailPic from "public/img/video-play.png";
 import type { IframeHTMLAttributes } from "react";
@@ -8,7 +7,7 @@ import styles from "src/components/concept-video/video-click-to-play.module.scss
 
 type Props = { src: string } & IframeHTMLAttributes<HTMLIFrameElement>;
 
-export function VideoClickToPlay({ src, ...iframeProps }: Props): JSX.Element {
+export function VideoClickToPlay({ src, ...iframeProps }: Props): React.JSX.Element {
   const [clicked, setClicked] = useState(false);
 
   return clicked ? (

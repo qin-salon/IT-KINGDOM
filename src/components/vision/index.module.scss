@@ -10,6 +10,10 @@
   user-select: none;
   width: clamp(40px, 8vw, 60px);
   margin: 0 auto 20px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .front {

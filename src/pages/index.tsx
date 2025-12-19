@@ -21,11 +21,11 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     return { props: { subscriberCount: parseInt(count) }, revalidate: 60 * 60 };
   } catch (error) {
     console.error(error);
-    return { props: { subscriberCount: 70000 }, revalidate: 60 * 60 };
+    return { props: { subscriberCount: 122000 }, revalidate: 60 * 60 };
   }
 };
 
-export default function IndexPage(props: Props): JSX.Element {
+export default function IndexPage(props: Props): React.JSX.Element {
   return (
     <MainLayout
       page="しまぶーのIT大学オンラインサロン"

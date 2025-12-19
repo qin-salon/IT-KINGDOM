@@ -22,7 +22,7 @@ const STEPS = [
   },
 ];
 
-export function Entry(): JSX.Element {
+export function Entry(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <Headline title="入国方法" label="HOW TO ENTRY" className={styles.headline} />

@@ -4,7 +4,7 @@ import { Header } from "src/components/header";
 import styles from "src/layouts/main/index.module.scss";
 import type { LayoutProps } from "src/layouts/types";
 
-export function MainLayout({ page, children, description }: LayoutProps): JSX.Element {
+export function MainLayout({ page, children, description }: LayoutProps): React.JSX.Element {
   return (
     <>
       <NextHeadSeo

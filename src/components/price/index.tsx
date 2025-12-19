@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { Headline } from "src/components/headline";
 import styles from "src/components/price/index.module.scss";
 
-export function Price(): JSX.Element {
+export function Price(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <Headline title="料金" label="PRICE" className={styles.headline} />

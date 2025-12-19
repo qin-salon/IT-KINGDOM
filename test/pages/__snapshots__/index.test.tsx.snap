@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`IndexPage matches snapshot 1`] = `
 <DocumentFragment>
@@ -9,28 +9,17 @@ exports[`IndexPage matches snapshot 1`] = `
       <a
         href="/"
       >
-        <span
-          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-        >
-          <span
-            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-          >
-            <img
-              alt=""
-              aria-hidden="true"
-              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2738%27/%3e"
-              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-            />
-          </span>
-          <img
-            alt="IT KINGDOM logo"
-            data-nimg="intrinsic"
-            decoding="async"
-            src="/_next/image?url=%2Fimg%2Flogo.png&w=384&q=75"
-            srcset="/_next/image?url=%2Fimg%2Flogo.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Flogo.png&w=384&q=75 2x"
-            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-          />
-        </span>
+        <img
+          alt="IT KINGDOM logo"
+          data-nimg="1"
+          decoding="async"
+          height="38"
+          loading="eager"
+          src="/_next/image?url=%2Fimg%2Flogo.png&w=384&q=75"
+          srcset="/_next/image?url=%2Fimg%2Flogo.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Flogo.png&w=384&q=75 2x"
+          style="color: transparent;"
+          width="180"
+        />
       </a>
     </h1>
     <nav
@@ -60,137 +49,128 @@ exports[`IndexPage matches snapshot 1`] = `
     class="container"
   >
     <section
-      class="container"
+      class="jsx-3686349518 container"
     >
       <picture
-        class="img"
+        class="jsx-3686349518 img"
       >
         <source
+          class="jsx-3686349518"
           media="(max-width:768px)"
           srcset=" img/hero/sp-400.webp 400w, img/hero/sp-500.webp 500w, img/hero/sp-600.webp 600w, img/hero/sp-768.webp 768w, img/hero/sp.webp"
           type="image/webp"
         />
         <source
+          class="jsx-3686349518"
           srcset=" img/hero/pc-980.webp 980w, img/hero/pc-1200.webp 1200w, img/hero/pc-1680.webp 1680w, img/hero/pc-2000.webp 2000w, img/hero/pc-2560.webp 2560w, img/hero/pc.webp"
           type="image/webp"
         />
         <source
+          class="jsx-3686349518"
           media="(max-width:768px)"
           srcset=" img/hero/sp-400.png 400w, img/hero/sp-500.png 500w, img/hero/sp-600.png 600w, img/hero/sp-768.png 768w, img/hero/sp.png"
           type="image/png"
         />
         <source
+          class="jsx-3686349518"
           srcset=" img/hero/pc-980.png 980w, img/hero/pc-1200.png 1200w, img/hero/pc-1680.png 1680w, img/hero/pc-2000.png 2000w, img/hero/pc-2560.png 2560w, img/hero/pc.png"
           type="image/png"
         />
         <img
           alt="King shimabu and soldiers"
+          class="jsx-3686349518"
           src="img/hero/pc.png"
         />
       </picture>
-      <div>
+      <div
+        class="jsx-3686349518"
+      >
         <h1
-          class="text"
+          class="jsx-3686349518 text"
         >
           <div
-            class="line"
+            class="jsx-3686349518 line"
           >
-            <span>
+            <span
+              class="jsx-3686349518"
+            >
               チャンネル登録者
             </span>
             <span
-              class="number number"
+              class="jsx-3686349518 number number"
             >
               7万人
             </span>
-            <span>
+            <span
+              class="jsx-3686349518"
+            >
               の
             </span>
           </div>
           <div
-            class="line"
+            class="jsx-3686349518 line"
           >
-            <span>
+            <span
+              class="jsx-3686349518"
+            >
               エンジニア
             </span>
             <span
-              class="strong"
+              class="jsx-3686349518 strong"
             >
               YouTuber
             </span>
-            <span>
+            <span
+              class="jsx-3686349518"
+            >
               がおくる
             </span>
           </div>
           <div
-            class="line"
+            class="jsx-3686349518 line"
           >
             <span
-              class="strong"
+              class="jsx-3686349518 strong"
             >
               オンラインサロン
             </span>
           </div>
         </h1>
         <div
-          class="itk"
+          class="jsx-3686349518 itk"
         >
-          <span
-            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 44.7294776119403% 0px 0px 0px;"
-            />
-            <img
-              alt="IT KINGDOM"
-              data-nimg="responsive"
-              decoding="async"
-              sizes="(min-width: 1200px) 1200px"
-              src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=16&q=75 16w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=32&q=75 32w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=48&q=75 48w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=64&q=75 64w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=96&q=75 96w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=128&q=75 128w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=256&q=75 256w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=384&q=75 384w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75 3840w"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="IT KINGDOM"
+            data-nimg="1"
+            decoding="async"
+            height="959"
+            loading="eager"
+            sizes="(min-width: 1200px) 1200px"
+            src="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=32&q=75 32w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=48&q=75 48w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=64&q=75 64w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=96&q=75 96w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=128&q=75 128w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=256&q=75 256w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=384&q=75 384w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fhero%2Fit-kingdom.png&w=3840&q=75 3840w"
+            style="color: transparent; width: 100%; height: auto;"
+            width="2144"
+          />
         </div>
         <a
-          class="button"
+          class="jsx-3686349518 button"
           href="https://qin.salon/signup"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27480%27%20height=%27103%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Entry button"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Entry button"
+            data-nimg="1"
+            decoding="async"
+            height="103"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75 2x"
+            style="color: transparent;"
+            width="480"
+          />
         </a>
       </div>
-      <style
-        jsx="true"
-      >
-        
-        .number::before {
-          content: "7万人";
-        }
-      
-      </style>
     </section>
     <section
       class="container"
@@ -204,49 +184,33 @@ exports[`IndexPage matches snapshot 1`] = `
         <div
           class="thumbnail"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27940%27%20height=%27528.75%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Click to play video"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-            <noscript />
-          </span>
+          <img
+            alt="Click to play video"
+            data-nimg="1"
+            decoding="async"
+            height="528.75"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=1920&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=1080&q=75 1x, /_next/image?url=%2Fimg.jpg&w=1920&q=75 2x"
+            style="color: transparent;"
+            width="940"
+          />
         </div>
       </button>
       <div
         class="smoke"
       >
-        <span
-          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-        >
-          <span
-            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 47.96875% 0px 0px 0px;"
-          />
-          <img
-            alt="Background"
-            data-nimg="responsive"
-            decoding="async"
-            sizes="100vw"
-            src="/_next/image?url=%2Fimg%2Fsmoke.png&w=3840&q=75"
-            srcset="/_next/image?url=%2Fimg%2Fsmoke.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fsmoke.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fsmoke.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fsmoke.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fsmoke.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fsmoke.png&w=3840&q=75 3840w"
-            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-          />
-        </span>
+        <img
+          alt="Background"
+          data-nimg="1"
+          decoding="async"
+          height="1228"
+          loading="eager"
+          src="/_next/image?url=%2Fimg%2Fsmoke.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimg%2Fsmoke.png&w=3840&q=75 1x"
+          style="color: transparent; width: 100%; height: auto;"
+          width="2560"
+        />
       </div>
     </section>
     <section
@@ -255,28 +219,17 @@ exports[`IndexPage matches snapshot 1`] = `
       <div
         class="icon front"
       >
-        <span
-          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-        >
-          <span
-            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-          >
-            <img
-              alt=""
-              aria-hidden="true"
-              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2760%27%20height=%2756%27/%3e"
-              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-            />
-          </span>
-          <img
-            alt="Vision section's icon"
-            data-nimg="intrinsic"
-            decoding="async"
-            src="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=128&q=75"
-            srcset="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=64&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=128&q=75 2x"
-            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-          />
-        </span>
+        <img
+          alt="Vision section's icon"
+          data-nimg="1"
+          decoding="async"
+          height="56"
+          loading="eager"
+          src="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=128&q=75"
+          srcset="/_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=64&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fweapon.png&w=128&q=75 2x"
+          style="color: transparent;"
+          width="60"
+        />
       </div>
       <h1
         class="title front"
@@ -325,54 +278,32 @@ exports[`IndexPage matches snapshot 1`] = `
         <div
           class="goldTopLeft"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27333%27%20height=%27222%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Background"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Background"
+            data-nimg="1"
+            decoding="async"
+            height="222"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75 2x"
+            style="color: transparent;"
+            width="333"
+          />
         </div>
         <div
           class="shimabuUdegumi"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27219%27%20height=%27286%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Shimabu"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=640&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=640&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Shimabu"
+            data-nimg="1"
+            decoding="async"
+            height="286"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=640&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fshimabu_udegumi.png&w=640&q=75 2x"
+            style="color: transparent;"
+            width="219"
+          />
         </div>
       </div>
       <div
@@ -394,80 +325,47 @@ exports[`IndexPage matches snapshot 1`] = `
         <div
           class="goldBottomRight"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27333%27%20height=%27222%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Background"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=750&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=750&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Background"
+            data-nimg="1"
+            decoding="async"
+            height="222"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=750&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-bottom-right.png&w=750&q=75 2x"
+            style="color: transparent;"
+            width="333"
+          />
         </div>
         <div
           class="goldTopLeft"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27333%27%20height=%27222%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Background"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Background"
+            data-nimg="1"
+            decoding="async"
+            height="222"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fgold-top-left.png&w=750&q=75 2x"
+            style="color: transparent;"
+            width="333"
+          />
         </div>
         <div
           class="soldiers"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27385%27%20height=%27255%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Salon members"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=828&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=828&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Salon members"
+            data-nimg="1"
+            decoding="async"
+            height="255"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=828&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fvision%2Fsoldiers.png&w=828&q=75 2x"
+            style="color: transparent;"
+            width="385"
+          />
         </div>
       </div>
       <small
@@ -500,33 +398,22 @@ exports[`IndexPage matches snapshot 1`] = `
       <ul>
         <li
           class="content"
-          style="background-image: url(/img/ink.png);"
+          style="background-image: url("/img/ink.png");"
         >
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-              >
-                <img
-                  alt=""
-                  aria-hidden="true"
-                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27220%27%20height=%27230%27/%3e"
-                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                />
-              </span>
-              <img
-                alt="プロダクト開発"
-                data-nimg="intrinsic"
-                decoding="async"
-                src="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=640&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=640&q=75 2x"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-              />
-            </span>
+            <img
+              alt="プロダクト開発"
+              data-nimg="1"
+              decoding="async"
+              height="230"
+              loading="eager"
+              src="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fprogramming.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="220"
+            />
           </div>
           <h2>
             <span>
@@ -546,28 +433,17 @@ exports[`IndexPage matches snapshot 1`] = `
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-              >
-                <img
-                  alt=""
-                  aria-hidden="true"
-                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27220%27%20height=%27230%27/%3e"
-                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                />
-              </span>
-              <img
-                alt="みんなに質問"
-                data-nimg="intrinsic"
-                decoding="async"
-                src="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=640&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=640&q=75 2x"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-              />
-            </span>
+            <img
+              alt="みんなに質問"
+              data-nimg="1"
+              decoding="async"
+              height="230"
+              loading="eager"
+              src="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fqa.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="220"
+            />
           </div>
           <h2>
             <span>
@@ -583,33 +459,22 @@ exports[`IndexPage matches snapshot 1`] = `
         </li>
         <li
           class="content"
-          style="background-image: url(/img/ink.png);"
+          style="background-image: url("/img/ink.png");"
         >
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-              >
-                <img
-                  alt=""
-                  aria-hidden="true"
-                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27220%27%20height=%27230%27/%3e"
-                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                />
-              </span>
-              <img
-                alt="メモ & アウトプット"
-                data-nimg="intrinsic"
-                decoding="async"
-                src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=640&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=640&q=75 2x"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-              />
-            </span>
+            <img
+              alt="メモ & アウトプット"
+              data-nimg="1"
+              decoding="async"
+              height="230"
+              loading="eager"
+              src="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fblog.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="220"
+            />
           </div>
           <h2>
             <span>
@@ -629,28 +494,17 @@ exports[`IndexPage matches snapshot 1`] = `
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-              >
-                <img
-                  alt=""
-                  aria-hidden="true"
-                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27220%27%20height=%27230%27/%3e"
-                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                />
-              </span>
-              <img
-                alt="限定コンテンツ"
-                data-nimg="intrinsic"
-                decoding="async"
-                src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=640&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=640&q=75 2x"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-              />
-            </span>
+            <img
+              alt="限定コンテンツ"
+              data-nimg="1"
+              decoding="async"
+              height="230"
+              loading="eager"
+              src="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fnews.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="220"
+            />
           </div>
           <h2>
             <span>
@@ -666,33 +520,22 @@ exports[`IndexPage matches snapshot 1`] = `
         </li>
         <li
           class="content"
-          style="background-image: url(/img/ink.png);"
+          style="background-image: url("/img/ink.png");"
         >
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-              >
-                <img
-                  alt=""
-                  aria-hidden="true"
-                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27220%27%20height=%27230%27/%3e"
-                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                />
-              </span>
-              <img
-                alt="楽しめるコミュニティ"
-                data-nimg="intrinsic"
-                decoding="async"
-                src="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=640&q=75"
-                srcset="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=640&q=75 2x"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-              />
-            </span>
+            <img
+              alt="楽しめるコミュニティ"
+              data-nimg="1"
+              decoding="async"
+              height="230"
+              loading="eager"
+              src="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fcontents%2Fcommunity.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="220"
+            />
           </div>
           <h2>
             <span>
@@ -755,28 +598,17 @@ exports[`IndexPage matches snapshot 1`] = `
         <div
           class="step"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27340%27%20height=%27550%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Curriculum"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fstep.png&w=750&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fstep.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fstep.png&w=750&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Curriculum"
+            data-nimg="1"
+            decoding="async"
+            height="550"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fstep.png&w=750&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fstep.png&w=384&q=75 1x, /_next/image?url=%2Fimg%2Fstep.png&w=750&q=75 2x"
+            style="color: transparent;"
+            width="340"
+          />
         </div>
       </div>
       <ul
@@ -844,18 +676,16 @@ exports[`IndexPage matches snapshot 1`] = `
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-            >
-              <img
-                alt="しまぶー"
-                data-nimg="fill"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-              />
-              <noscript />
-            </span>
+            <img
+              alt="しまぶー"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
           </div>
           <h1>
             しまぶー
@@ -873,18 +703,16 @@ exports[`IndexPage matches snapshot 1`] = `
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-            >
-              <img
-                alt="まっつん"
-                data-nimg="fill"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-              />
-              <noscript />
-            </span>
+            <img
+              alt="まっつん"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
           </div>
           <h1>
             まっつん
@@ -902,18 +730,16 @@ exports[`IndexPage matches snapshot 1`] = `
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-            >
-              <img
-                alt="いっぽ"
-                data-nimg="fill"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-              />
-              <noscript />
-            </span>
+            <img
+              alt="いっぽ"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
           </div>
           <h1>
             いっぽ
@@ -931,18 +757,16 @@ exports[`IndexPage matches snapshot 1`] = `
           <div
             class="img"
           >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-            >
-              <img
-                alt="やっさん"
-                data-nimg="fill"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-              />
-              <noscript />
-            </span>
+            <img
+              alt="やっさん"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
           </div>
           <h1>
             やっさん
@@ -964,22 +788,17 @@ exports[`IndexPage matches snapshot 1`] = `
       <div
         class="img"
       >
-        <span
-          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-        >
-          <span
-            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 55.39062500000001% 0px 0px 0px;"
-          />
-          <img
-            alt="Background"
-            data-nimg="responsive"
-            decoding="async"
-            sizes="100vw"
-            src="/_next/image?url=%2Fimg%2Fmessage.png&w=3840&q=75"
-            srcset="/_next/image?url=%2Fimg%2Fmessage.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Fmessage.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Fmessage.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Fmessage.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Fmessage.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Fmessage.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Fmessage.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Fmessage.png&w=3840&q=75 3840w"
-            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-          />
-        </span>
+        <img
+          alt="Background"
+          data-nimg="1"
+          decoding="async"
+          height="1418"
+          loading="eager"
+          src="/_next/image?url=%2Fimg%2Fmessage.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimg%2Fmessage.png&w=3840&q=75 1x"
+          style="color: transparent; width: 100%; height: auto;"
+          width="2560"
+        />
       </div>
       <section
         class="container"
@@ -1075,7 +894,7 @@ exports[`IndexPage matches snapshot 1`] = `
           </span>
         </h1>
         <ul
-          style="background-image: url(img/ink.png);"
+          style="background-image: url("img/ink.png");"
         >
           <li
             class="step"
@@ -1164,28 +983,17 @@ exports[`IndexPage matches snapshot 1`] = `
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27480%27%20height=%27103%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Entry button"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75"
-              srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75 2x"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-          </span>
+          <img
+            alt="Entry button"
+            data-nimg="1"
+            decoding="async"
+            height="103"
+            loading="eager"
+            src="/_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fentry-btn.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2Fentry-btn.png&w=1080&q=75 2x"
+            style="color: transparent;"
+            width="480"
+          />
         </a>
       </section>
     </div>

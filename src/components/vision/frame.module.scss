@@ -55,6 +55,10 @@
   top: 0;
   left: 0;
   width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .goldBottomRight {
@@ -63,6 +67,10 @@
   right: 0;
   height: 100%;
   width: auto;
+  img {
+    width: auto;
+    height: 100%;
+  }
 }
 
 .shimabuUdegumi {
@@ -71,6 +79,10 @@
   bottom: 0;
   width: 220px;
   right: -40px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .soldiers {
@@ -79,6 +91,10 @@
   bottom: 0;
   left: -10px;
   width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 480px) {

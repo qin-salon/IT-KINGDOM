@@ -10,7 +10,7 @@ const ITEMS = [
   { href: CONTACT_URL, label: "お問い合わせ" },
 ];
 
-export function Footer(): JSX.Element {
+export function Footer(): React.JSX.Element {
   return (
     <footer className={clsx("sansSerif", styles.container)}>
       <ul className={styles.links}>
@@ -21,9 +21,7 @@ export function Footer(): JSX.Element {
                 {label}
               </a>
             ) : (
-              <Link href={href}>
-                <a>{label}</a>
-              </Link>
+              <Link href={href}>{label}</Link>
             )}
           </li>
         ))}

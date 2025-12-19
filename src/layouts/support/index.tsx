@@ -7,7 +7,7 @@ import type { LayoutProps } from "src/layouts/types";
 
 type Props = LayoutProps & { styled?: boolean };
 
-export function SupportLayout({ page, description, children, styled }: Props): JSX.Element {
+export function SupportLayout({ page, description, children, styled }: Props): React.JSX.Element {
   return (
     <>
       <Head>

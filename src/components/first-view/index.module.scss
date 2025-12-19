@@ -1,5 +1,12 @@
-$-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 0px 8px, black 2px 2px 16px,
-  black -2px 2px 16px, black 2px -2px 16px, black -2px -2px 16px;
+$-shadow:
+  black 2px 0px 8px,
+  black -2px 0px 8px,
+  black 0px -2px 8px,
+  black -2px 0px 8px,
+  black 2px 2px 16px,
+  black -2px 2px 16px,
+  black 2px -2px 16px,
+  black -2px -2px 16px;
 
 .img {
   user-select: none;
@@ -60,11 +67,19 @@ $-shadow: black 2px 0px 8px, black -2px 0px 8px, black 0px -2px 8px, black -2px 
 .itk {
   user-select: none;
   width: clamp(280px, 100vw, 1200px);
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .button {
   max-width: 89%;
   margin-top: calc(-14vw);
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {

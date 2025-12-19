@@ -45,6 +45,10 @@
     width: 40%;
     display: flex;
     justify-content: center;
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
   > h2 {
     grid-area: title;

@@ -37,7 +37,7 @@ const MEMBERS = [
   },
 ];
 
-export function Members(): JSX.Element {
+export function Members(): React.JSX.Element {
   return (
     <section className={styles.container}>
       <Headline title="運営" label="MEMBERS" className={styles.headline} />
@@ -45,7 +45,7 @@ export function Members(): JSX.Element {
         {MEMBERS.map((member) => (
           <li key={member.name}>
             <div className={styles.img}>
-              <Image src={member.src} alt={member.name} layout="fill" objectFit="cover" />
+              <Image src={member.src} alt={member.name} fill style={{ objectFit: "cover" }} />
             </div>
             <h1>{member.name}</h1>
             <h2>{member.rank}</h2>

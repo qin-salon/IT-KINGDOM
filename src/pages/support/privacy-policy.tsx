@@ -2,7 +2,7 @@ import React from "react";
 import { MAIL_ADDRESS } from "src/constants";
 import { SupportLayout } from "src/layouts/support";
 
-export default function PrivacyPolicyPage(): JSX.Element {
+export default function PrivacyPolicyPage(): React.JSX.Element {
   return (
     <SupportLayout page="プライバシーポリシー" styled>
       <h1>プライバシーポリシー</h1>

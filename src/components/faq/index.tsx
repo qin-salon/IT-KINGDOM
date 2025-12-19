@@ -62,7 +62,7 @@ const FAQs = [
   },
 ];
 
-export function Faq(): JSX.Element {
+export function Faq(): React.JSX.Element {
   return (
     <>
       <h1 className={styles.title}>よくある質問</h1>
