@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
     "start": "next start",
     "lint": "run-p -l -c --aggregate-output lint:*",
     "lint:eslint": "eslint .",
