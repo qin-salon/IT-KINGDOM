@@ -61,12 +61,10 @@ export function FirstView({ subscriberCount }: Props): React.JSX.Element {
             <span className={styles.number} style={{ "--count-text": `"${countText}"` } as React.CSSProperties}>
               {countText}
             </span>
-            <span>の</span>
           </div>
           <div className={styles.line}>
-            <span>エンジニア</span>
-            <span className={styles.strong}>YouTuber</span>
-            <span>がおくる</span>
+            <span className={styles.strong}>しまぶーのIT大学</span>
+            <span>が運営する</span>
           </div>
           <div className={styles.line}>
             <span className={styles.strong}>オンラインサロン</span>

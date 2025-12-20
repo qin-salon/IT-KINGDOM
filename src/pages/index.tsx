@@ -4,7 +4,7 @@ import { Contents } from "src/components/contents";
 import { FirstView } from "src/components/first-view";
 import { Members } from "src/components/members";
 import { MessagePriceEntry } from "src/components/message-price-entry";
-import { StepUp } from "src/components/step";
+// import { StepUp } from "src/components/step";
 import { Vision } from "src/components/vision";
 import { MainLayout } from "src/layouts/main";
 
@@ -35,7 +35,7 @@ export default function IndexPage(props: Props): React.JSX.Element {
       <ConceptVideo />
       <Vision />
       <Contents />
-      <StepUp />
+      {/* <StepUp /> */}
       <Members />
       <MessagePriceEntry />
     </MainLayout>

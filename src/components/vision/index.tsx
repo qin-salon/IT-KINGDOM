@@ -12,13 +12,14 @@ export function Vision(): React.JSX.Element {
       </div>
 
       <h1 className={cn(styles.title, styles.front)}>
-        <strong>最高</strong>の<span>プロダクト</span>を生み出す
+        <strong>最新</strong>の<span>AI・プログラミング</span>を学び
         <br />
-        <strong>最強</strong>の<span>コミュニティ</span>をつくりたい
+        <strong>最強</strong>の<span>IT人材</span>になりましょう
       </h1>
 
       <p className={cn("sansSerif", styles.paragraph, styles.front)}>
-        {`私はこのサロンからたくさんのユーザーに使われるプロダクトを生み出したいと思っています。\nみんなでスキルアップして一緒におもしろいプロダクトを作りましょう。`}
+        {`ITの世界は変化が速く、数ヶ月前の常識がすぐに通用しなくなります。
+AIをはじめとした最新技術を正しく学び、これからの時代に求められるスキルを身につけましょう。`}
       </p>
 
       <div className={frame.first}>
@@ -26,9 +27,9 @@ export function Vision(): React.JSX.Element {
           そのために<strong>私</strong>がやること
         </h2>
         <p className="sansSerif">
-          プロダクトを作るために必要なプログラミングスキルを伝授します。
+          AI時代を生き抜くために必要なスキルを伝授します。
           <br />
-          必要に応じてデザイン・マーケティング・プレゼンテーション・アイディア出しなどの講座も行います。
+          プログラミングだけでなく、ITに関する知識を幅広くお伝えします。
         </p>
         <div className={frame.goldTopLeft}>
           <Image src="/img/vision/gold-top-left.png" alt="Background" width={333} height={222} loading="lazy" />
@@ -43,9 +44,9 @@ export function Vision(): React.JSX.Element {
           <strong>みんな</strong>にやってもらうこと
         </h2>
         <p className="sansSerif">
-          最高のプロダクトが作れるように、各自スキルアップに励む必要があります。
+          「難しいことには価値がある」と考え、学ぶことを楽しんでください。
           <br />
-          学んだことは積極的にアウトプットを行い、コミュニティ全体を強くしていきましょう。
+          新しい技術を「おもしろい」と捉える姿勢が、学習を継続させる秘訣です。
         </p>
         <div className={frame.goldBottomRight}>
           <Image src="/img/vision/gold-bottom-right.png" alt="Background" width={333} height={222} loading="lazy" />
@@ -59,11 +60,11 @@ export function Vision(): React.JSX.Element {
       </div>
 
       <small className={cn("sansSerif", styles.note)}>
-        ※ プロジェクトの動きや中の様子を見たいだけの方もご参加いただけます。
+        ※ プログラミングの情報が多めですが、非エンジニアの方もご参加いただけます。
       </small>
 
       <span className={cn(backgroundText.common, backgroundText.sai)}>最</span>
-      <span className={cn(backgroundText.common, backgroundText.kou)}>高</span>
+      <span className={cn(backgroundText.common, backgroundText.shin)}>新</span>
       <span className={cn(backgroundText.common, backgroundText.kyou)}>強</span>
     </section>
   );

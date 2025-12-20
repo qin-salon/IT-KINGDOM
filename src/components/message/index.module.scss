@@ -32,6 +32,10 @@
     padding: 0 4%;
     font-size: 0.9rem;
     line-height: 2;
+
+    > br {
+      display: none;
+    }
   }
   > p + p {
     margin-top: calc(1vh + 1vw);
@@ -52,8 +56,11 @@
   }
   .text {
     > p {
-      white-space: pre-line;
       text-align: center;
+
+      > br {
+        display: block;
+      }
     }
   }
 }

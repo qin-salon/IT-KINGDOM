@@ -15,7 +15,7 @@ export function Price(): React.JSX.Element {
           </h2>
         </div>
         <p className={cn("sansSerif", styles.note)}>
-          {`外部のサービス利用料はすべて含まれています。
+          {`Slackなどの利用料はすべて含まれています。
             領収書は毎月メールでお届けいたします。`}
         </p>
       </div>
