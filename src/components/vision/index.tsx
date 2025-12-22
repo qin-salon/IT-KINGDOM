@@ -24,7 +24,7 @@ AIをはじめとした最新技術を正しく学び、これからの時代に
 
       <div className={frame.first}>
         <h2>
-          そのために<strong>私</strong>がやること
+          そのために<strong>しまぶー</strong>がやること
         </h2>
         <p className="sansSerif">
           AI時代を生き抜くために必要なスキルを伝授します。
